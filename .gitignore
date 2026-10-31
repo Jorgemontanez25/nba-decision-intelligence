@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual env
+.venv/
+venv/
+env/
+
+# Streamlit / local settings
+.streamlit/secrets.toml
+
+# DuckDB / databases
+*.duckdb.wal
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+history_backfill_v46/
+data_refresh_v45/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Archives
+*.zip
+*.7z
+*.rar
+
+# Misc
+*.tmp
+*.bak
