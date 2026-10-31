@@ -1,54 +1,141 @@
-# NBA Decision Intelligence V4.5
+# NBA Decision Intelligence — Player & Lineup Analysis
 
-Incremental upgrade to your original Streamlit dashboard, not a new application.
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
+![DuckDB](https://img.shields.io/badge/DuckDB-Analytics-gold)
+![Status](https://img.shields.io/badge/Status-Active-success)
+![Sports Analytics](https://img.shields.io/badge/Focus-Sports%20Analytics-orange)
 
-## Files and installation
+A local **NBA analytics platform** built with **Streamlit**, **DuckDB**, and custom data pipelines to support:
 
-Copy `app_decision_v45.py`, `decision_center_v45.py`, `v45_visuals.py`, `v45_daily_refresh.py`, and `roster_2026_27.py` into `nba_platform_v5`. The existing `analysis.py`, `team_branding.py`, `lineup_engine.py`, `collect_shots.py`, and `collector.py` remain required. The supplied `collect_schedule_v7.py` is a reference copy; retain your working version if locally modified.
+- **player career analysis**
+- **historical shooting analysis**
+- **5v5 decision support**
+- **roster exploration**
+- **daily/current-season refresh workflows**
 
-Keep your `nba_current.duckdb` and `roster_snapshots` folder unchanged.
+The goal of this project is to create an interactive basketball decision-support environment that combines **box score history**, **shot-location analysis**, **roster context**, and **lineup recommendations** into one application.
 
-Launch (PowerShell one line):
+---
 
-```powershell
-.\.venv\Scripts\python.exe -m streamlit run .\app_decision_v45.py
-```
+## Project Overview
 
-## Updated UI
+This application was designed as an evolving **NBA Decision Intelligence** tool focused on both:
 
-- ESPN-inspired roster table: portrait, player, position, jersey, games, production and box/shot coverage. It does not connect to an ESPN fantasy account.
-- NBA 2K-inspired player snapshot with actual per-36 box-score rates; no fabricated overall or 2K attribute ratings.
-- Improved full-court 5v5 headshots embedded inside circular picture markers; names below each player. Ranked lineups and flank charts rerender with selection.
-- Current-roster membership is from 2026–27 dated snapshots; career stats are matched by NBA player ID regardless of previous teams. All collected seasons are used automatically. No missing seasons invented.
+1. **Player-level analysis**
+2. **Lineup / matchup-level decision support**
 
-## Daily data refresh, agent-like
+It currently includes:
 
-A standalone scheduled job is safer than calling an NBA API on every Streamlit page view. It updates rosters and final regular-season box scores, saves a backup and a status report. It does **not** automatically backfill shots, pull injuries or play-by-play, or certify 5v5 stints.
+- Unified **Player Analysis** view
+- **Historical shooting** and shot-chart support
+- **5v5 Decision Center** with recommended formations
+- **2026–27 Roster Manager**
+- Data coverage / health visibility
+- Support for multiple historical seasons stored locally in DuckDB
 
-**Before refreshing**, close Streamlit and other processes writing to DuckDB; the job copies the existing DB to a dated backup but cannot guarantee a consistent backup if another process has it open. The NBA Stats endpoint may fail or throttle; failed jobs are reported and do not erase previous data.
+---
 
-Test without network or changes:
+## Main Features
 
-```powershell
-.\.venv\Scripts\python.exe .\v45_daily_refresh.py --dry-run
-```
+### 1) Unified Player Analysis
+Analyze one player across all locally collected seasons.
 
-Manual refresh:
+Includes:
+- player portrait
+- sourced **NBA 2K27 OVR**
+- role tag (e.g. rotation, star, developing)
+- career sample overview
+- multi-season production
+- game logs
+- season trend visibility
 
-```powershell
-.\.venv\Scripts\python.exe .\v45_daily_refresh.py --season 2026-27 --teams ALL --max-games 30
-```
+![Player Analysis](assets/player_analysis.png)
 
-Daily at 06:30 local Windows time, opt in (run in PowerShell while inside the project root; task uses absolute paths):
+---
 
-```powershell
-$wd=(Get-Location).Path; $act=New-ScheduledTaskAction -Execute "$wd\.venv\Scripts\python.exe" -Argument 'v45_daily_refresh.py --season 2026-27 --teams ALL --max-games 30' -WorkingDirectory $wd; $tr=New-ScheduledTaskTrigger -Daily -At 6:30AM; Register-ScheduledTask -TaskName 'NBA-Decision-Intelligence-Daily' -Action $act -Trigger $tr -Description 'Refresh NBA rosters and completed box scores each morning' -Force
-```
+### 2) Historical Shooting
+Shot-location analysis based on collected shot coordinates.
 
-The scheduled task runs on your Windows machine under your account when configured and the machine is available; it is not a background task run by ChatGPT. Avoid simultaneous Streamlit read/write operations during the refresh. `data_refresh_v45/latest.json` appears in the roster tab for monitoring.
+Includes:
+- shot chart
+- density/heatmap support
+- efficiency context
+- season-aware shooting coverage
+- warning states when box scores exist but shot events are missing
 
-## Important: historical backfill
+![Historical Shooting](assets/historical_shooting.png)
 
-The agent's default job only collects the **current season** incrementally. It cannot conjure 2022–23 to 2024–25 data if absent in DuckDB. Use your existing schedule-aware collector separately, season by season, after backing up the database, or add historical backfill later. Shot events require their own collector.
+---
 
-All rankings remain experimental player-box-score heuristics. Not independent five-player matchup certification or automatic live substitution advice.
+### 3) 5v5 Decision Center
+A decision-support page that compares team context and recommended candidate lineups.
+
+Includes:
+- top candidate lineups
+- interactive selected-lineup visualization
+- offense/defense radar comparisons
+- full-court lineup visual
+- player portraits on the court
+
+![5v5 Decision Center](assets/decision_center.png)
+
+---
+
+### 4) 2026–27 Roster Manager
+An ESPN-style roster exploration page for the selected team.
+
+Includes:
+- sortable roster view
+- player portraits
+- minutes / points / rebounds / assists
+- cleaner roster UX for quick review
+
+![Roster Manager](assets/roster_manager.png)
+
+---
+
+## Tech Stack
+
+- **Python**
+- **Streamlit**
+- **DuckDB**
+- **Pandas**
+- **NumPy**
+- **Plotly**
+
+---
+
+## Data Notes
+
+This app depends on locally collected NBA data.
+
+Current architecture uses:
+- **player_games**
+- **team_games**
+- **shot_events**
+- locally stored roster snapshots
+- locally sourced **NBA 2K27 OVR** cache
+
+### Important
+- Box score data and shot-location data are different layers.
+- A season may appear in player history even if full shot coordinates for that season have not yet been collected.
+- Current-season data is intended to be refreshed frequently/daily.
+
+---
+
+## Project Structure
+
+```text
+.
+├── assets/
+├── app_decision_v491.py
+├── decision_center_v481.py
+├── v47_visuals.py
+├── analysis.py
+├── lineup_engine.py
+├── roster_2026_27.py
+├── collect_shots.py
+├── team_branding.py
+├── README.md
+└── requirements.txt
