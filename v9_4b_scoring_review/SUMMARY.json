@@ -1,0 +1,23 @@
+{
+  "game_id": "0022500002",
+  "scoring_events": 123,
+  "score_from_event_deltas": {
+    "LAL": 109,
+    "GSW": 119
+  },
+  "box_team_scores": {
+    "GSW": 119,
+    "LAL": 109
+  },
+  "scoring_events_assigned_provisionally": 123,
+  "unresolved_scoring_events": 0,
+  "substitution_events": 55,
+  "substitution_events_applied": 55,
+  "replay_issues": 0,
+  "bad_periods": [],
+  "plus_minus_matches_provisional": 14,
+  "plus_minus_mismatches": 11,
+  "players_with_uncertain_scoring": 0,
+  "verified_stints": 0,
+  "note": "Read-only diagnostic. Chronological event assignment alone does not prove the solver lineup is unique or official plus/minus correct."
+}

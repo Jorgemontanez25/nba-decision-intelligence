@@ -1,0 +1,169 @@
+{
+  "game_id": "0022500085",
+  "retrieved_at_utc": "2026-10-29T18:08:52.890372+00:00",
+  "mode": "READ_ONLY_SOURCE_ACQUISITION",
+  "endpoints": {
+    "playbyplayv3": {
+      "status": "SUCCESS",
+      "attempts": 1,
+      "raw_file": "playbyplayv3_raw.json",
+      "sha256": "9be631dd3f37d9ccb4b56c6d600ca531fe2814a06cc649fc4881e65f58345204",
+      "dataset_files": [
+        "playbyplayv3_dataset_0.csv",
+        "playbyplayv3_dataset_1.csv"
+      ],
+      "dataset_row_counts": [
+        586,
+        1
+      ],
+      "dataset_columns": [
+        [
+          "gameId",
+          "actionNumber",
+          "clock",
+          "period",
+          "teamId",
+          "teamTricode",
+          "personId",
+          "playerName",
+          "playerNameI",
+          "xLegacy",
+          "yLegacy",
+          "shotDistance",
+          "shotResult",
+          "isFieldGoal",
+          "scoreHome",
+          "scoreAway",
+          "pointsTotal",
+          "location",
+          "description",
+          "actionType",
+          "subType",
+          "videoAvailable",
+          "shotValue",
+          "actionId"
+        ],
+        [
+          "videoAvailable"
+        ]
+      ]
+    },
+    "boxscoretraditionalv3": {
+      "status": "SUCCESS",
+      "attempts": 1,
+      "raw_file": "boxscoretraditionalv3_raw.json",
+      "sha256": "e9d2af2560532bb3461195ef6d8754e165f7ac8886e7b673ae9f0f033f16632a",
+      "dataset_files": [
+        "boxscoretraditionalv3_dataset_0.csv",
+        "boxscoretraditionalv3_dataset_1.csv",
+        "boxscoretraditionalv3_dataset_2.csv"
+      ],
+      "dataset_row_counts": [
+        26,
+        4,
+        2
+      ],
+      "dataset_columns": [
+        [
+          "gameId",
+          "teamId",
+          "teamCity",
+          "teamName",
+          "teamTricode",
+          "teamSlug",
+          "personId",
+          "firstName",
+          "familyName",
+          "nameI",
+          "playerSlug",
+          "position",
+          "comment",
+          "jerseyNum",
+          "minutes",
+          "fieldGoalsMade",
+          "fieldGoalsAttempted",
+          "fieldGoalsPercentage",
+          "threePointersMade",
+          "threePointersAttempted",
+          "threePointersPercentage",
+          "freeThrowsMade",
+          "freeThrowsAttempted",
+          "freeThrowsPercentage",
+          "reboundsOffensive",
+          "reboundsDefensive",
+          "reboundsTotal",
+          "assists",
+          "steals",
+          "blocks",
+          "turnovers",
+          "foulsPersonal",
+          "points",
+          "plusMinusPoints"
+        ],
+        [
+          "gameId",
+          "teamId",
+          "teamCity",
+          "teamName",
+          "teamTricode",
+          "teamSlug",
+          "minutes",
+          "fieldGoalsMade",
+          "fieldGoalsAttempted",
+          "fieldGoalsPercentage",
+          "threePointersMade",
+          "threePointersAttempted",
+          "threePointersPercentage",
+          "freeThrowsMade",
+          "freeThrowsAttempted",
+          "freeThrowsPercentage",
+          "reboundsOffensive",
+          "reboundsDefensive",
+          "reboundsTotal",
+          "assists",
+          "steals",
+          "blocks",
+          "turnovers",
+          "foulsPersonal",
+          "points",
+          "startersBench"
+        ],
+        [
+          "gameId",
+          "teamId",
+          "teamCity",
+          "teamName",
+          "teamTricode",
+          "teamSlug",
+          "minutes",
+          "fieldGoalsMade",
+          "fieldGoalsAttempted",
+          "fieldGoalsPercentage",
+          "threePointersMade",
+          "threePointersAttempted",
+          "threePointersPercentage",
+          "freeThrowsMade",
+          "freeThrowsAttempted",
+          "freeThrowsPercentage",
+          "reboundsOffensive",
+          "reboundsDefensive",
+          "reboundsTotal",
+          "assists",
+          "steals",
+          "blocks",
+          "turnovers",
+          "foulsPersonal",
+          "points",
+          "plusMinusPoints"
+        ]
+      ]
+    }
+  },
+  "caveats": [
+    "Import success does not guarantee NBA endpoints respond.",
+    "GameRotation may be unavailable or incomplete for this game.",
+    "Rotation in/out time units must be validated before transforming them.",
+    "NBA V3 and local data may derive from the same underlying NBA records; matching does not necessarily prove independent substitution effective-time accuracy.",
+    "No game stints or player plus/minus values are certified by this collector."
+  ]
+}

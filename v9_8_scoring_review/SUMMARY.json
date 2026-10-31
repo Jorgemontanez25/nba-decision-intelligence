@@ -1,0 +1,40 @@
+{
+  "version": "9.8",
+  "game_id": "0022500002",
+  "mode": "READ_ONLY_SCORING_ATTRIBUTION_SENSITIVITY",
+  "scoring_events_with_points": 123,
+  "scoring_events_same_clock_as_substitution": 24,
+  "total_home_score": 109,
+  "total_away_score": 119,
+  "lineup_intervals": 34,
+  "players_with_official_pm": 25,
+  "scenario_results": {
+    "recorded": {
+      "matched_players": 25,
+      "mismatched_players": 0,
+      "absolute_pm_error": 0
+    },
+    "before": {
+      "matched_players": 25,
+      "mismatched_players": 0,
+      "absolute_pm_error": 0
+    },
+    "after": {
+      "matched_players": 25,
+      "mismatched_players": 0,
+      "absolute_pm_error": 0
+    }
+  },
+  "unassigned_scenario_events": 0,
+  "issue_count": 0,
+  "issues_by_type": {},
+  "verified_stints": 0,
+  "publication_gate": "BLOCKED_UNVERIFIED_OPENINGS_AND_SCORING_BOUNDARY_EVIDENCE",
+  "notes": [
+    "Neither exact plus/minus nor a best scenario certifies the lineup reconstruction.",
+    "Recorded-order scenario is a sensitivity model; action ordering does not independently establish legal effective substitution time.",
+    "The before/after scenarios represent all substitutions at a timestamp on one side of scoring.",
+    "Requires scoreHome to mean LAL and scoreAway to mean GSW for this specific game.",
+    "Database is never opened or modified."
+  ]
+}

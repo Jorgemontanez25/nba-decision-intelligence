@@ -1,0 +1,10 @@
+﻿game_id,player_id,event_id,period,minutes_remaining,seconds_remaining,shot_made,shot_type,action_type,loc_x,loc_y,shot_distance,season,season_type,team_id
+0022500792,1631095,30,1,8,51,True,3PT Field Goal,Jump Shot,93.0,235.0,25.0,2025-26,Regular Season,1610612745
+0022500792,1631095,262,2,4,30,True,2PT Field Goal,Running Dunk Shot,16.0,18.0,2.0,2025-26,Regular Season,1610612745
+0022500792,1631095,266,2,4,1,True,2PT Field Goal,Turnaround Fadeaway shot,12.0,109.0,10.0,2025-26,Regular Season,1610612745
+0022500792,1631095,276,2,2,58,True,2PT Field Goal,Putback Dunk Shot,5.0,18.0,1.0,2025-26,Regular Season,1610612745
+0022500792,1631095,279,2,2,31,False,3PT Field Goal,Running Pull-Up Jump Shot,152.0,216.0,26.0,2025-26,Regular Season,1610612745
+0022500792,1631095,342,3,9,45,True,2PT Field Goal,Pullup Jump shot,-22.0,82.0,8.0,2025-26,Regular Season,1610612745
+0022500792,1631095,403,3,4,46,False,2PT Field Goal,Running Layup Shot,-18.0,53.0,5.0,2025-26,Regular Season,1610612745
+0022500792,1631095,413,3,4,41,True,3PT Field Goal,Jump Shot,-121.0,221.0,25.0,2025-26,Regular Season,1610612745
+0022500792,1631095,593,4,4,13,False,2PT Field Goal,Fadeaway Jump Shot,150.0,132.0,19.0,2025-26,Regular Season,1610612745

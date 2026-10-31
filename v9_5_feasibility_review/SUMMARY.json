@@ -1,0 +1,27 @@
+{
+  "game_id": "0022500002",
+  "mode": "READ_ONLY_CONDITIONAL_AUDIT",
+  "verified_stints": 0,
+  "limitations": [
+    "All lineup states are provisional; the optimization does not prove unique or official player presence.",
+    "Only same-timestamp scoring-before/after-substitution changes are allowed; other lineup histories are not explored.",
+    "Official plus/minus can follow scoring attribution conventions not encoded by this model.",
+    "This program NEVER changes the original DuckDB or promotes provisional stints."
+  ],
+  "official_players": 25,
+  "stints_input": 313,
+  "scoring_events": 123,
+  "boundary_event_variables": 24,
+  "scoring_events_uncovered": 0,
+  "baseline_pm_mismatched_players": 17,
+  "baseline_abs_pm_error": 54,
+  "baseline_score": {
+    "LAL": 109,
+    "GSW": 119
+  },
+  "solver_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "feasibility": "CONDITIONALLY_FEASIBLE_UNVERIFIED",
+  "alternative_solution_found": true,
+  "uniqueness": "NON_UNIQUE_WITHIN_MODEL",
+  "alternative_boundary_variables": 3
+}

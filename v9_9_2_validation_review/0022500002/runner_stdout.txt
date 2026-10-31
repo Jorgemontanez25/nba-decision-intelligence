@@ -1,0 +1,44 @@
+{
+  "version": "9.8.5",
+  "game_id": "0022500002",
+  "mode": "READ_ONLY_CONDITIONAL_SCORING_ATTRIBUTION",
+  "status": "AUDIT_COMPLETED_UNVERIFIED",
+  "substitutions_parsed": 55,
+  "substitutions_applied": 55,
+  "scoring_events": 123,
+  "boundary_scoring_events": 24,
+  "boundary_events_with_changed_lineups": 24,
+  "events_with_before_after_assignment_difference": 24,
+  "unassigned_events": 0,
+  "issue_count": 0,
+  "final_score": {
+    "LAL": 109,
+    "GSW": 119
+  },
+  "scenario_results": {
+    "recorded": {
+      "matched_players": 14,
+      "total_players": 25,
+      "absolute_pm_error": 26
+    },
+    "before": {
+      "matched_players": 25,
+      "total_players": 25,
+      "absolute_pm_error": 0
+    },
+    "after": {
+      "matched_players": 8,
+      "total_players": 25,
+      "absolute_pm_error": 54
+    }
+  },
+  "verified_stints": 0,
+  "publication_gate": "BLOCKED_CONDITIONAL_OPENINGS_AND_BOUNDARY_ATTRIBUTION",
+  "database_modified": false,
+  "notes": [
+    "Q2-Q4 opening lineups come from conditional timeline, not independently certified",
+    "Official plus/minus is used only for comparison, never scenario selection",
+    "Before/after attribution is a sensitivity test; neither establishes legal substitution effective time",
+    "All event-level player assignments are exported even on early audit failure"
+  ]
+}

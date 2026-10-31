@@ -1,0 +1,9 @@
+period,team,status,identified_players,player_ids,player_names,first_sub_elapsed
+1,MIN,BOX_SCORE_Q1_STARTERS,5,1628978|1630162|1630183|203497|203944,Donte DiVincenzo | Anthony Edwards | Jaden McDaniels | Rudy Gobert | Julius Randle,
+1,POR,BOX_SCORE_Q1_STARTERS,5,1630166|1631101|1641739|1642270|201950,Deni Avdija | Shaedon Sharpe | Toumani Camara | Donovan Clingan | Jrue Holiday,
+2,MIN,USER_SUPPLIED_CONDITIONAL,5,1628978|1629675|1641740|201144|203497,Donte DiVincenzo | Naz Reid | Jaylen Clark | Mike Conley | Rudy Gobert,
+2,POR,USER_SUPPLIED_CONDITIONAL,5,1629680|1630166|1641739|1642270|201950,Matisse Thybulle | Deni Avdija | Toumani Camara | Donovan Clingan | Jrue Holiday,
+3,MIN,USER_SUPPLIED_CONDITIONAL,5,1628978|1630162|1630183|203497|203944,Donte DiVincenzo | Anthony Edwards | Jaden McDaniels | Rudy Gobert | Julius Randle,
+3,POR,USER_SUPPLIED_CONDITIONAL,5,1630166|1631101|1641739|1642270|201950,Deni Avdija | Shaedon Sharpe | Toumani Camara | Donovan Clingan | Jrue Holiday,
+4,MIN,USER_SUPPLIED_CONDITIONAL,5,1630183|1630538|1641740|203497|203944,Jaden McDaniels | Bones Hyland | Jaylen Clark | Rudy Gobert | Julius Randle,
+4,POR,USER_SUPPLIED_CONDITIONAL,5,1630166|1631200|1641739|1642270|201950,Deni Avdija | Kris Murray | Toumani Camara | Donovan Clingan | Jrue Holiday,

@@ -1,0 +1,20 @@
+{
+  "game_id": "0022500002",
+  "label": "LAL-GSW 2025-26",
+  "status": "PASS_INTERNAL_UNVERIFIED",
+  "evidence_origin": "COPIED_EXISTING_READ_ONLY",
+  "regression_status": "REGRESSION_PASSED",
+  "reason": "Internal checks only; no independent lineup certification",
+  "teams": "GSW|LAL",
+  "openings_integrated": 6,
+  "expected_openings": 6,
+  "substitutions_in_source": 55,
+  "substitutions_applied": 55,
+  "groups_blocked": 0,
+  "unresolved_openings": 0,
+  "intervals_total": 313,
+  "intervals_complete": 313,
+  "issue_count": 0,
+  "minutes_players": 20,
+  "max_minutes_diff_seconds": 0.2
+}

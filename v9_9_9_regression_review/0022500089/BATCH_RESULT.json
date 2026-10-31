@@ -1,0 +1,20 @@
+{
+  "game_id": "0022500089",
+  "label": "MIN-POR 2025-10-22",
+  "status": "PASS_INTERNAL_UNVERIFIED",
+  "evidence_origin": "COPIED_EXISTING_READ_ONLY",
+  "regression_status": "REGRESSION_PASSED",
+  "reason": "Internal checks only; no independent lineup certification",
+  "teams": "MIN|POR",
+  "openings_integrated": 6,
+  "expected_openings": 6,
+  "substitutions_in_source": 56,
+  "substitutions_applied": 56,
+  "groups_blocked": 0,
+  "unresolved_openings": 0,
+  "intervals_total": 332,
+  "intervals_complete": 332,
+  "issue_count": 0,
+  "minutes_players": 20,
+  "max_minutes_diff_seconds": 0.3
+}

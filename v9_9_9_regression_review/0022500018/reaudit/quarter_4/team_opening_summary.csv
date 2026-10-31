@@ -1,0 +1,3 @@
+period,team,first_sub_elapsed,required_count,required_ids,forbidden_count,forbidden_ids,initial_combinations,candidates_surviving,candidates_rejected,status,first_rejection
+4,BOS,202.0,5,1628401|1628449|1629014|1630202|1642864,2,1629674|1630573,1,1,0,UNIQUE_CONDITIONAL,
+4,NYK,182.0,4,1626157|1630540|1642278|203903,1,1628973,8,1,7,UNIQUE_CONDITIONAL,INVALID_SUB_GROUP at 244.0 actions=593

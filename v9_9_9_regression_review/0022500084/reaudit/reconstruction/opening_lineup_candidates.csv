@@ -1,0 +1,9 @@
+period,team,status,identified_players,player_ids,player_names,first_sub_elapsed
+1,CHI,BOX_SCORE_Q1_STARTERS,5,1630171|1630200|1630581|1641824|202696,Isaac Okoro | Tre Jones | Josh Giddey | Matas Buzelis | Nikola Vučević,
+1,DET,BOX_SCORE_Q1_STARTERS,5,1629130|1630595|1631105|1641709|202699,Duncan Robinson | Cade Cunningham | Jalen Duren | Ausar Thompson | Tobias Harris,
+2,CHI,USER_SUPPLIED_CONDITIONAL,5,1630172|1630188|1630200|1630245|1641824,Patrick Williams | Jalen Smith | Tre Jones | Ayo Dosunmu | Matas Buzelis,
+2,DET,USER_SUPPLIED_CONDITIONAL,5,1629130|1629750|1631105|1641709|1641842,Duncan Robinson | Javonte Green | Jalen Duren | Ausar Thompson | Ronald Holland II,
+3,CHI,USER_SUPPLIED_CONDITIONAL,5,1630171|1630200|1630581|1641824|202696,Isaac Okoro | Tre Jones | Josh Giddey | Matas Buzelis | Nikola Vučević,
+3,DET,USER_SUPPLIED_CONDITIONAL,5,1629130|1630595|1631105|1641709|202699,Duncan Robinson | Cade Cunningham | Jalen Duren | Ausar Thompson | Tobias Harris,
+4,CHI,USER_SUPPLIED_CONDITIONAL,5,1630188|1630245|1630581|1631207|1641824,Jalen Smith | Ayo Dosunmu | Josh Giddey | Dalen Terry | Matas Buzelis,
+4,DET,USER_SUPPLIED_CONDITIONAL,5,1629130|1629750|1630191|1630595|1641709,Duncan Robinson | Javonte Green | Isaiah Stewart | Cade Cunningham | Ausar Thompson,

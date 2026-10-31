@@ -1,0 +1,3 @@
+period,team,first_sub_elapsed,required_count,required_ids,forbidden_count,forbidden_ids,initial_combinations,candidates_surviving,candidates_rejected,status,first_rejection
+2,MIN,142.0,5,1628978|1629675|1641740|201144|203497,3,1630183|1630545|203944,1,1,0,UNIQUE_CONDITIONAL,
+2,POR,142.0,5,1629680|1630166|1641739|1642270|201950,1,1631200,1,0,1,NO_FEASIBLE_OPENING,UNKNOWN_OR_AMBIGUOUS_INCOMING

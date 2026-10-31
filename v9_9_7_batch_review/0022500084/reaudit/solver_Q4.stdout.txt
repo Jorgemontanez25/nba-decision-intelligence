@@ -1,0 +1,47 @@
+{
+  "version": "9.9.4",
+  "game_id": "0022500084",
+  "period": 4,
+  "mode": "READ_ONLY_OPENING_CONSTRAINT_ENUMERATION",
+  "teams": [
+    {
+      "period": 4,
+      "team": "CHI",
+      "first_sub_elapsed": 63.0,
+      "required_count": 4,
+      "required_ids": "1630188|1630581|1631207|1641824",
+      "forbidden_count": 2,
+      "forbidden_ids": "1630171|1630200",
+      "initial_combinations": 7,
+      "candidates_surviving": 1,
+      "candidates_rejected": 6,
+      "status": "UNIQUE_CONDITIONAL",
+      "first_rejection": "INVALID_SUB_GROUP at 281.0"
+    },
+    {
+      "period": 4,
+      "team": "DET",
+      "first_sub_elapsed": 165.0,
+      "required_count": 4,
+      "required_ids": "1629750|1630191|1630595|1641709",
+      "forbidden_count": 1,
+      "forbidden_ids": "1627747",
+      "initial_combinations": 10,
+      "candidates_surviving": 1,
+      "candidates_rejected": 9,
+      "status": "UNIQUE_CONDITIONAL",
+      "first_rejection": "INVALID_SUB_GROUP at 412.0"
+    }
+  ],
+  "issue_count": 0,
+  "verified_stints": 0,
+  "publication_gate": "BLOCKED_CONDITIONAL_OPENINGS",
+  "database_modified": false,
+  "limitations": [
+    "Event actor presence before first substitutions is necessary but not always sufficient.",
+    "An action timestamp does not independently determine substitution effective-time.",
+    "Unique feasible candidate is not independent certification.",
+    "No official minutes or plus/minus fitted.",
+    "If there are no feasible candidates, input evidence or assumptions need review."
+  ]
+}

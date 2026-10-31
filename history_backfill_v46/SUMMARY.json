@@ -1,0 +1,36 @@
+{
+  "mode": "EXECUTE",
+  "db": "C:\\Users\\jmontanez\\Documents\\nba_platform_v5\\nba_current.duckdb",
+  "coverage_before": {
+    "player_games": [
+      {
+        "season": "2025-26",
+        "games": 1230,
+        "rows": 32179
+      },
+      {
+        "season": "2026-27",
+        "games": 30,
+        "rows": 986
+      }
+    ],
+    "shot_events": [
+      {
+        "season": "2025-26",
+        "games": 1230,
+        "rows": 219160
+      }
+    ]
+  },
+  "requested": [
+    "2024-25"
+  ],
+  "jobs": [
+    {
+      "season": "2024-25",
+      "returncode": 0,
+      "report": "history_backfill_v46\\coverage_2024-25.csv"
+    }
+  ],
+  "backup": "C:\\Users\\jmontanez\\Documents\\nba_platform_v5\\nba_current_pre_backfill_20261030_113848.duckdb"
+}

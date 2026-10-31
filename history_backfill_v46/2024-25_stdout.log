@@ -1,0 +1,16 @@
+Loading NBA schedule for 2024-25 ...
+Loading completed NBA team game logs ...
+Final games in selected schedule: 1230; already imported (season-wide): 0; eligible missing imports this run: 10; final games missing team logs: 0
+Imported 0022400061: 25 player rows
+Imported 0022400062: 28 player rows
+Imported 0022400063: 30 player rows
+Imported 0022400064: 29 player rows
+Imported 0022400065: 30 player rows
+Imported 0022400066: 30 player rows
+Imported 0022400067: 26 player rows
+Imported 0022400068: 30 player rows
+Imported 0022400069: 28 player rows
+Imported 0022400070: 27 player rows
+Coverage: 10/1230 final scheduled games for the selected filters.
+New imports: 10; failed attempts: -10; report: history_backfill_v46\coverage_2024-25.csv
+Only games with status=3 count as completed. Not-final games are never treated as missing.

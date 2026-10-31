@@ -1,0 +1,40 @@
+{
+  "game": "0022500002",
+  "source_rows": 495,
+  "substitution_timestamps": 30,
+  "unresolved_identity_flags": 0,
+  "review_flags": 1,
+  "periods": [
+    {
+      "period": 1,
+      "status": "OPTIMAL",
+      "evidence_events": 89,
+      "clock_points": 88,
+      "min_activity_conflicts": 1
+    },
+    {
+      "period": 2,
+      "status": "OPTIMAL",
+      "evidence_events": 88,
+      "clock_points": 83,
+      "min_activity_conflicts": 0
+    },
+    {
+      "period": 3,
+      "status": "OPTIMAL",
+      "evidence_events": 77,
+      "clock_points": 73,
+      "min_activity_conflicts": 0
+    },
+    {
+      "period": 4,
+      "status": "OPTIMAL",
+      "evidence_events": 70,
+      "clock_points": 73,
+      "min_activity_conflicts": 0
+    }
+  ],
+  "provisional_stints": 313,
+  "verified_stints": 0,
+  "notes": "No official minute/score comparison; NEVER use provisional output as verified matchup statistics."
+}

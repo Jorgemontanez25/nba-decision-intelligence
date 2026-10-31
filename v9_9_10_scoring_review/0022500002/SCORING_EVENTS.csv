@@ -1,0 +1,124 @@
+period,elapsed,action_number,team,description,score_home,score_away,home_delta,away_delta,at_substitution_timestamp,recorded_convention,recorded_assigned,before_assigned,after_assigned
+1,21.0,7,LAL,Doncic 14' Fadeaway Jumper (2 PTS),2,0,2,0,False,NON_BOUNDARY,True,True,True
+1,60.0,12,GSW,Podziemski 3' Driving Floating Jump Shot (2 PTS) (Kuminga 1 AST),2,2,0,2,False,NON_BOUNDARY,True,True,True
+1,81.0,14,LAL,Reaves 3' Driving Finger Roll Layup (2 PTS),4,2,2,0,False,NON_BOUNDARY,True,True,True
+1,112.0,20,GSW,Butler III 24' 3PT Jump Shot (3 PTS) (Podziemski 1 AST),4,5,0,3,False,NON_BOUNDARY,True,True,True
+1,156.0,31,GSW,Butler III Free Throw 1 of 2 (4 PTS),4,6,0,1,False,NON_BOUNDARY,True,True,True
+1,156.0,32,GSW,Butler III Free Throw 2 of 2 (5 PTS),4,7,0,1,False,NON_BOUNDARY,True,True,True
+1,173.0,33,LAL,Doncic 26' 3PT Jump Shot (5 PTS) (Reaves 1 AST),7,7,3,0,False,NON_BOUNDARY,True,True,True
+1,204.0,37,LAL,Ayton 5' Turnaround Hook Shot (2 PTS) (Doncic 1 AST),9,7,2,0,False,NON_BOUNDARY,True,True,True
+1,209.0,39,GSW,Butler III 2' Alley Oop Dunk (7 PTS) (Kuminga 2 AST),9,9,0,2,False,NON_BOUNDARY,True,True,True
+1,227.0,44,GSW,Curry 27' 3PT Jump Shot (3 PTS) (Green 1 AST),9,12,0,3,False,NON_BOUNDARY,True,True,True
+1,245.0,46,LAL,Ayton 3' Layup (4 PTS) (Vincent 1 AST),11,12,2,0,False,NON_BOUNDARY,True,True,True
+1,431.0,103,LAL,Doncic Free Throw 1 of 2 (6 PTS),12,12,1,0,False,NON_BOUNDARY,True,True,True
+1,448.0,106,GSW,Kuminga 27' 3PT Jump Shot (3 PTS) (Curry 1 AST),12,15,0,3,False,NON_BOUNDARY,True,True,True
+1,457.0,110,GSW,Hield 3' Layup (2 PTS),12,17,0,2,False,NON_BOUNDARY,True,True,True
+1,473.0,111,LAL,Doncic 13' Pullup Jump Shot (8 PTS),14,17,2,0,False,NON_BOUNDARY,True,True,True
+1,514.0,128,GSW,Butler III Free Throw 1 of 2 (8 PTS),14,18,0,1,False,NON_BOUNDARY,True,True,True
+1,514.0,129,GSW,Butler III Free Throw 2 of 2 (9 PTS),14,19,0,1,False,NON_BOUNDARY,True,True,True
+1,543.0,132,GSW,Hield 27' 3PT Pullup Jump Shot (5 PTS),14,22,0,3,False,NON_BOUNDARY,True,True,True
+1,558.0,138,LAL,Doncic Free Throw 1 of 2 (9 PTS),15,22,1,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+1,558.0,139,LAL,Doncic Free Throw 2 of 2 (10 PTS),16,22,1,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+1,630.0,155,LAL,Reaves Free Throw 1 of 2 (3 PTS),17,22,1,0,False,NON_BOUNDARY,True,True,True
+1,630.0,156,LAL,Reaves Free Throw 2 of 2 (4 PTS),18,22,1,0,False,NON_BOUNDARY,True,True,True
+1,651.0,157,GSW,Horford 24' 3PT Jump Shot (3 PTS) (Butler III 1 AST),18,25,0,3,False,NON_BOUNDARY,True,True,True
+1,682.8,164,LAL,Reaves 2' Driving Finger Roll Layup (6 PTS),20,25,2,0,False,NON_BOUNDARY,True,True,True
+1,692.3,167,LAL,Hayes 3' Running Alley Oop Layup Shot (2 PTS) (Reaves 2 AST),22,25,2,0,False,NON_BOUNDARY,True,True,True
+1,716.8,179,GSW,Butler III Free Throw 1 of 3 (10 PTS),22,26,0,1,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+1,716.8,180,GSW,Butler III Free Throw 2 of 3 (11 PTS),22,27,0,1,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+1,716.8,181,GSW,Butler III Free Throw 3 of 3 (12 PTS),22,28,0,1,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+2,18.0,195,LAL,Vincent 26' 3PT Jump Shot (3 PTS) (Reaves 3 AST),25,28,3,0,False,NON_BOUNDARY,True,True,True
+2,69.0,207,GSW,Podziemski 17' Jump Shot (4 PTS) (Post 1 AST),25,30,0,2,False,NON_BOUNDARY,True,True,True
+2,116.0,217,GSW,Butler III Free Throw Technical (13 PTS),25,31,0,1,False,NON_BOUNDARY,True,True,True
+2,127.0,218,GSW,Green 4' Driving Dunk (2 PTS),25,33,0,2,False,NON_BOUNDARY,True,True,True
+2,147.0,219,LAL,Reaves 12' Pullup Jump Shot (8 PTS),27,33,2,0,False,NON_BOUNDARY,True,True,True
+2,169.0,220,GSW,Butler III 14' Pullup Jump Shot (15 PTS) (Green 2 AST),27,35,0,2,False,NON_BOUNDARY,True,True,True
+2,182.0,222,LAL,Reaves 12' Pullup Jump Shot (10 PTS),29,35,2,0,False,NON_BOUNDARY,True,True,True
+2,251.0,245,LAL,Doncic 15' Turnaround Jump Shot (12 PTS),31,35,2,0,False,NON_BOUNDARY,True,True,True
+2,264.0,248,GSW,Curry Free Throw 1 of 2 (4 PTS),31,36,0,1,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+2,264.0,255,GSW,Curry Free Throw 2 of 2 (5 PTS),31,37,0,1,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+2,319.0,272,LAL,Doncic Free Throw 1 of 2 (13 PTS),32,37,1,0,False,NON_BOUNDARY,True,True,True
+2,319.0,273,LAL,Doncic Free Throw 2 of 2 (14 PTS),33,37,1,0,False,NON_BOUNDARY,True,True,True
+2,355.0,278,GSW,Payton II 2' Running Alley Oop Layup Shot (2 PTS) (Richard 1 AST),33,39,0,2,False,NON_BOUNDARY,True,True,True
+2,366.0,280,LAL,Smart 18' Driving Floating Jump Shot (2 PTS),35,39,2,0,False,NON_BOUNDARY,True,True,True
+2,387.0,292,GSW,Curry Free Throw Flagrant 1 of 2 (6 PTS),35,40,0,1,False,NON_BOUNDARY,True,True,True
+2,387.0,293,GSW,Curry Free Throw Flagrant 2 of 2 (7 PTS),35,41,0,1,False,NON_BOUNDARY,True,True,True
+2,397.0,296,GSW,Kuminga Free Throw 1 of 2 (4 PTS),35,42,0,1,False,NON_BOUNDARY,True,True,True
+2,421.0,301,GSW,Curry 28' 3PT Running Jump Shot (10 PTS) (Kuminga 3 AST),35,45,0,3,False,NON_BOUNDARY,True,True,True
+2,437.0,304,LAL,Reaves 3' Cutting Layup Shot (12 PTS) (Doncic 2 AST),37,45,2,0,False,NON_BOUNDARY,True,True,True
+2,462.0,309,LAL,Smart 3' Driving Finger Roll Layup (4 PTS) (Reaves 4 AST),39,45,2,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+2,477.0,314,GSW,Curry 4' Cutting Layup Shot (12 PTS) (Butler III 2 AST),39,47,0,2,False,NON_BOUNDARY,True,True,True
+2,496.0,316,LAL,Doncic 12' Fadeaway Jumper (16 PTS) (Hachimura 1 AST),41,47,2,0,False,NON_BOUNDARY,True,True,True
+2,541.0,321,GSW,Curry 4' Driving Floating Bank Jump Shot (14 PTS) (Kuminga 4 AST),41,49,0,2,False,NON_BOUNDARY,True,True,True
+2,554.0,325,LAL,Smart Free Throw 1 of 2 (5 PTS),42,49,1,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+2,608.0,350,LAL,Doncic 6' Driving Floating Jump Shot (18 PTS),44,49,2,0,False,NON_BOUNDARY,True,True,True
+2,608.0,353,LAL,Doncic Free Throw 1 of 1 (19 PTS),45,49,1,0,False,NON_BOUNDARY,True,True,True
+2,632.0,356,LAL,Hachimura 25' 3PT Jump Shot (3 PTS) (Doncic 3 AST),48,49,3,0,False,NON_BOUNDARY,True,True,True
+2,652.0,360,GSW,Green Free Throw 1 of 2 (3 PTS),48,50,0,1,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+2,664.4,365,LAL,Hachimura 25' 3PT Jump Shot (6 PTS) (Doncic 4 AST),51,50,3,0,False,NON_BOUNDARY,True,True,True
+2,687.0,371,GSW,Podziemski 26' 3PT Step Back Jump Shot (7 PTS) (Kuminga 5 AST),51,53,0,3,False,NON_BOUNDARY,True,True,True
+2,700.5,373,LAL,Doncic 30' 3PT Step Back Jump Shot (22 PTS),54,53,3,0,False,NON_BOUNDARY,True,True,True
+2,719.0,378,GSW,Butler III Free Throw 1 of 2 (16 PTS),54,54,0,1,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+2,719.0,381,GSW,Butler III Free Throw 2 of 2 (17 PTS),54,55,0,1,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+3,13.0,388,GSW,Kuminga 26' 3PT Jump Shot (7 PTS) (Green 3 AST),54,58,0,3,False,NON_BOUNDARY,True,True,True
+3,29.0,390,LAL,Doncic 13' Driving Floating Jump Shot (24 PTS) (Reaves 5 AST),56,58,2,0,False,NON_BOUNDARY,True,True,True
+3,45.0,396,GSW,Kuminga 1' Cutting Layup Shot (9 PTS) (Green 4 AST),56,60,0,2,False,NON_BOUNDARY,True,True,True
+3,62.0,400,GSW,Butler III 1' Running Layup (19 PTS) (Curry 2 AST),56,62,0,2,False,NON_BOUNDARY,True,True,True
+3,73.0,402,LAL,Doncic 4' Driving Floating Bank Jump Shot (26 PTS) (Reaves 6 AST),58,62,2,0,False,NON_BOUNDARY,True,True,True
+3,97.0,408,GSW,Kuminga 24' 3PT Jump Shot (12 PTS) (Green 5 AST),58,65,0,3,False,NON_BOUNDARY,True,True,True
+3,129.0,412,GSW,Butler III 9' Pullup Jump Shot (21 PTS),58,67,0,2,False,NON_BOUNDARY,True,True,True
+3,155.0,417,GSW,Butler III Free Throw 1 of 2 (22 PTS),58,68,0,1,False,NON_BOUNDARY,True,True,True
+3,155.0,418,GSW,Butler III Free Throw 2 of 2 (23 PTS),58,69,0,1,False,NON_BOUNDARY,True,True,True
+3,190.0,423,GSW,Curry Free Throw 1 of 2 (15 PTS),58,70,0,1,False,NON_BOUNDARY,True,True,True
+3,190.0,424,GSW,Curry Free Throw 2 of 2 (16 PTS),58,71,0,1,False,NON_BOUNDARY,True,True,True
+3,283.0,439,GSW,Curry 3' Cutting Layup Shot (18 PTS) (Green 6 AST),58,73,0,2,False,NON_BOUNDARY,True,True,True
+3,303.0,443,LAL,Doncic 15' Fadeaway Jumper (28 PTS),60,73,2,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+3,303.0,450,LAL,Doncic Free Throw 1 of 1 (29 PTS),61,73,1,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+3,319.0,451,GSW,Payton II 4' Cutting Dunk Shot (4 PTS) (Green 7 AST),61,75,0,2,False,NON_BOUNDARY,True,True,True
+3,356.0,455,GSW,Kuminga 24' 3PT Jump Shot (15 PTS) (Curry 3 AST),61,78,0,3,False,NON_BOUNDARY,True,True,True
+3,372.0,463,LAL,Doncic 3' Driving Layup (31 PTS),63,78,2,0,False,NON_BOUNDARY,True,True,True
+3,391.0,470,LAL,Smart Free Throw 1 of 2 (6 PTS),64,78,1,0,False,NON_BOUNDARY,True,True,True
+3,391.0,472,LAL,Smart Free Throw 2 of 2 (7 PTS),65,78,1,0,False,NON_BOUNDARY,True,True,True
+3,450.0,478,LAL,Ayton 14' Turnaround Jump Shot (6 PTS) (Reaves 7 AST),67,78,2,0,False,NON_BOUNDARY,True,True,True
+3,481.0,485,LAL,Reaves Free Throw 1 of 2 (13 PTS),68,78,1,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+3,492.0,492,GSW,Hield 27' 3PT Jump Shot (8 PTS) (Horford 1 AST),68,81,0,3,False,NON_BOUNDARY,True,True,True
+3,507.0,494,LAL,Doncic 10' Fadeaway Jumper (33 PTS),70,81,2,0,False,NON_BOUNDARY,True,True,True
+3,532.0,495,GSW,Kuminga 4' Driving Floating Jump Shot (17 PTS),70,83,0,2,False,NON_BOUNDARY,True,True,True
+3,577.0,505,GSW,Butler III Free Throw 1 of 2 (24 PTS),70,84,0,1,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+3,577.0,508,GSW,Butler III Free Throw 2 of 2 (25 PTS),70,85,0,1,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+3,588.0,509,LAL,LaRavia 26' 3PT Jump Shot (3 PTS) (Hayes 1 AST),73,85,3,0,False,NON_BOUNDARY,True,True,True
+3,603.0,511,GSW,Hield 27' 3PT Jump Shot (11 PTS) (Podziemski 2 AST),73,88,0,3,False,NON_BOUNDARY,True,True,True
+3,620.0,514,LAL,Doncic 3' Driving Floating Bank Jump Shot (35 PTS),75,88,2,0,False,NON_BOUNDARY,True,True,True
+3,660.0,518,LAL,Hayes 4' Alley Oop Dunk (4 PTS) (Doncic 5 AST),77,88,2,0,False,NON_BOUNDARY,True,True,True
+3,683.0,522,GSW,Richard 5' Turnaround Hook Shot (2 PTS),77,90,0,2,False,NON_BOUNDARY,True,True,True
+3,692.3,525,LAL,LaRavia 3' Putback Layup (5 PTS),79,90,2,0,False,NON_BOUNDARY,True,True,True
+4,25.0,538,LAL,Smart 2' Driving Floating Jump Shot (9 PTS) (Doncic 6 AST),81,90,2,0,False,NON_BOUNDARY,True,True,True
+4,33.0,539,GSW,Hield 26' 3PT Jump Shot (14 PTS) (Green 8 AST),81,93,0,3,False,NON_BOUNDARY,True,True,True
+4,132.0,557,GSW,Green 1' Running Layup (5 PTS),81,95,0,2,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+4,155.0,568,LAL,Reaves 2' Driving Layup (15 PTS),83,95,2,0,False,NON_BOUNDARY,True,True,True
+4,155.0,571,LAL,Reaves Free Throw 1 of 1 (16 PTS),84,95,1,0,False,NON_BOUNDARY,True,True,True
+4,179.0,572,GSW,Hield 24' 3PT Step Back Jump Shot (17 PTS) (Green 9 AST),84,98,0,3,False,NON_BOUNDARY,True,True,True
+4,231.0,582,GSW,Butler III 4' Turnaround Bank Hook Shot (27 PTS),84,100,0,2,False,NON_BOUNDARY,True,True,True
+4,284.0,603,LAL,Doncic 6' Fadeaway Bank Shot (37 PTS) (Hachimura 2 AST),86,100,2,0,False,NON_BOUNDARY,True,True,True
+4,321.0,608,GSW,Horford 2' Layup (5 PTS) (Kuminga 6 AST),86,102,0,2,False,NON_BOUNDARY,True,True,True
+4,336.0,610,LAL,Ayton 7' Floating Jump Shot (8 PTS) (Doncic 7 AST),88,102,2,0,False,NON_BOUNDARY,True,True,True
+4,364.0,614,LAL,Doncic 4' Driving Floating Jump Shot (39 PTS) (Reaves 8 AST),90,102,2,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+4,380.0,619,GSW,Richard 25' 3PT Jump Shot (5 PTS) (Curry 4 AST),90,105,0,3,False,NON_BOUNDARY,True,True,True
+4,398.0,621,LAL,Hachimura 29' 3PT Jump Shot (9 PTS) (Doncic 8 AST),93,105,3,0,False,NON_BOUNDARY,True,True,True
+4,430.0,626,LAL,Doncic 3' Pullup Jump Shot (41 PTS),95,105,2,0,False,NON_BOUNDARY,True,True,True
+4,454.0,629,LAL,Ayton 4' Running Layup (10 PTS) (Reaves 9 AST),97,105,2,0,False,NON_BOUNDARY,True,True,True
+4,481.0,633,LAL,Reaves 3' Driving Reverse Layup (18 PTS),99,105,2,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+4,506.0,641,GSW,Green 3PT Jump Shot (8 PTS) (Butler III 3 AST),99,108,0,3,False,NON_BOUNDARY,True,True,True
+4,524.0,648,LAL,Reaves Free Throw 2 of 2 (19 PTS),100,108,1,0,False,NON_BOUNDARY,True,True,True
+4,571.0,655,GSW,Butler III 2' Driving Reverse Layup (29 PTS),100,110,0,2,False,NON_BOUNDARY,True,True,True
+4,583.0,658,LAL,Reaves Free Throw 1 of 2 (20 PTS),101,110,1,0,False,NON_BOUNDARY,True,True,True
+4,583.0,659,LAL,Reaves Free Throw 2 of 2 (21 PTS),102,110,1,0,False,NON_BOUNDARY,True,True,True
+4,597.0,662,GSW,Butler III Free Throw 1 of 2 (30 PTS),102,111,0,1,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+4,597.0,665,GSW,Butler III Free Throw 2 of 2 (31 PTS),102,112,0,1,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+4,608.0,666,LAL,Reaves 27' 3PT Pullup Jump Shot (24 PTS) (Doncic 9 AST),105,112,3,0,False,NON_BOUNDARY,True,True,True
+4,625.0,667,GSW,Payton II 4' Cutting Finger Roll Layup Shot (6 PTS) (Butler III 4 AST),105,114,0,2,False,NON_BOUNDARY,True,True,True
+4,638.0,669,LAL,Doncic 5' Driving Floating Jump Shot (43 PTS) (Hachimura 3 AST),107,114,2,0,False,NON_BOUNDARY,True,True,True
+4,668.8,675,GSW,Curry 36' 3PT Jump Shot (21 PTS) (Payton II 1 AST),107,117,0,3,False,NON_BOUNDARY,True,True,True
+4,676.5,677,LAL,Reaves 1' Driving Layup (26 PTS),109,117,2,0,False,NON_BOUNDARY,True,True,True
+4,680.9,680,GSW,Curry Free Throw 1 of 2 (22 PTS),109,118,0,1,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+4,680.9,681,GSW,Curry Free Throw 2 of 2 (23 PTS),109,119,0,1,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True

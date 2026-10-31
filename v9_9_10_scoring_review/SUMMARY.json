@@ -1,0 +1,12 @@
+{
+  "version": "9.9.10",
+  "requested": 5,
+  "processed": 5,
+  "completed": 5,
+  "results_file": "GAME_RESULTS.csv",
+  "scenario_selected": null,
+  "scoring_boundary_attribution": "NOT_CERTIFIED",
+  "verified_stints": 0,
+  "production_certified": false,
+  "database_modified": false
+}

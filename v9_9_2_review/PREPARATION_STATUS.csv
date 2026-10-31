@@ -1,0 +1,2 @@
+﻿game_id,core_source_status,pbp_rows,box_rows,rotation_status,rotation_error,timeline_status,timeline_rows,team_pair,v9_9_compatibility,ready_for_v9_9,official_dir,timeline,reason
+0022500002,READY,495,25,OPTIONAL_UNAVAILABLE (FAILED),JSONDecodeError: Expecting value: line 1 column 1 (char 0),LINKED_CONDITIONAL_UNVERIFIED,34,GSW|LAL,LAL_GSW_SCHEMA_ONLY,True,C:\Users\jmontanez\Documents\nba_platform_v5\v9_9_1_prepared\evidence\0022500002,C:\Users\jmontanez\Documents\nba_platform_v5\v9_7_3_full_game_review\lineup_timeline_CONDITIONAL_UNVERIFIED.csv,

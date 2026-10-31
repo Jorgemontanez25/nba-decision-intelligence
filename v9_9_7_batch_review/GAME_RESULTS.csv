@@ -1,0 +1,4 @@
+game_id,label,status,teams,evidence_reused,openings_integrated,expected_openings,substitutions_in_source,substitutions_applied,groups_blocked,unresolved_openings,intervals_total,intervals_complete,issue_count,minutes_players,max_minutes_diff_seconds,reason
+0022500084,DET at CHI 2025-10-22,PASS_INTERNAL_UNVERIFIED,CHI|DET,False,6,6,62,62,0,0,324,324,0,20,0.2,Internal replay and minutes tolerances passed; not certified
+0022500085,NOP at MEM 2025-10-22,PASS_INTERNAL_UNVERIFIED,MEM|NOP,False,6,6,72,72,0,0,339,339,0,21,0.4,Internal replay and minutes tolerances passed; not certified
+0022500089,MIN at POR 2025-10-22,OPENINGS_BLOCKED,MIN|POR,False,5,6,,,,,,,,,,Ambiguous or missing opening candidates; see reaudit/quarter_opening_audit.csv

@@ -1,0 +1,11 @@
+check,flagged_rows
+team_rows_not_two,0
+duplicate_team_keys,0
+duplicate_player_keys,0
+missing_player_rows,0
+orphan_player_teams,0
+team_player_score_mismatch,0
+invalid_player_stats,0
+minutes_outliers,0
+missing_identity,0
+shot_attempt_coverage,582

@@ -1,0 +1,34 @@
+{
+  "version": "9.6",
+  "game_id": "0022500002",
+  "mode": "READ_ONLY_FIXED_STINT_GLOBAL_ATTRIBUTION_AUDIT",
+  "verified_stints": 0,
+  "database_modified": false,
+  "limitations": [
+    "V9.2c lineups are fixed, provisional inputs, NOT solved globally.",
+    "Boundary choices cannot establish legal NBA substitution effective-times.",
+    "Even exact player plus/minus is insufficient to prove unique lineups.",
+    "No provisional data is promoted to production."
+  ],
+  "source_actions": 495,
+  "official_players": 25,
+  "provisional_stints": 313,
+  "scoring_events": 123,
+  "boundary_variables": 24,
+  "uncovered_scoring_events": 0,
+  "scorer_presence_warnings": 0,
+  "final_score": {
+    "LAL": 109,
+    "GSW": 119
+  },
+  "baseline_pm_mismatches": 17,
+  "baseline_absolute_pm_error": 54,
+  "exact_solver_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "verdict": "EXACT_PM_FEASIBLE_FIXED_STINTS_UNVERIFIED",
+  "exact_residual_L1": 0,
+  "nonunique_within_model": true,
+  "uniqueness_checks_completed": 8,
+  "best_pm_mismatches": 0,
+  "best_absolute_pm_error": 0,
+  "publication_gate": "BLOCKED_UNVERIFIED_STINTS"
+}

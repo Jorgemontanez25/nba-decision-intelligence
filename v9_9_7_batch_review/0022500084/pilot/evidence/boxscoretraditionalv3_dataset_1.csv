@@ -1,0 +1,5 @@
+﻿gameId,teamId,teamCity,teamName,teamTricode,teamSlug,minutes,fieldGoalsMade,fieldGoalsAttempted,fieldGoalsPercentage,threePointersMade,threePointersAttempted,threePointersPercentage,freeThrowsMade,freeThrowsAttempted,freeThrowsPercentage,reboundsOffensive,reboundsDefensive,reboundsTotal,assists,steals,blocks,turnovers,foulsPersonal,points,startersBench
+0022500084,1610612741,Chicago,Bulls,CHI,bulls,149:18,28,52,0.538,6,12,0.5,18,22,0.818,8,23,31,26,4,4,14,18,80,Starters
+0022500084,1610612741,Chicago,Bulls,CHI,bulls,149:18,11,35,0.314,5,18,0.278,8,10,0.8,4,15,19,3,2,4,3,5,35,Bench
+0022500084,1610612765,Detroit,Pistons,DET,pistons,153:49,25,63,0.397,2,14,0.143,9,16,0.563,8,23,31,22,4,3,6,18,61,Starters
+0022500084,1610612765,Detroit,Pistons,DET,pistons,153:49,18,34,0.529,5,10,0.5,9,10,0.9,5,10,15,7,4,7,4,11,50,Bench

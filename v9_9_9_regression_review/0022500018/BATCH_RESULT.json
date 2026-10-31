@@ -1,0 +1,20 @@
+{
+  "game_id": "0022500018",
+  "label": "BOS-NYK 2025-10-24",
+  "status": "PASS_INTERNAL_UNVERIFIED",
+  "evidence_origin": "COPIED_EXISTING_READ_ONLY",
+  "regression_status": "REGRESSION_PASSED",
+  "reason": "Internal checks only; no independent lineup certification",
+  "teams": "BOS|NYK",
+  "openings_integrated": 6,
+  "expected_openings": 6,
+  "substitutions_in_source": 58,
+  "substitutions_applied": 58,
+  "groups_blocked": 0,
+  "unresolved_openings": 0,
+  "intervals_total": 332,
+  "intervals_complete": 332,
+  "issue_count": 0,
+  "minutes_players": 22,
+  "max_minutes_diff_seconds": 0.5
+}

@@ -1,0 +1,17 @@
+{
+  "version": "9.9.9",
+  "mode": "READ_ONLY_UNIFIED_CONDITIONAL_BATCH",
+  "created_utc": "2026-10-29T19:21:16.592674+00:00",
+  "requested": 5,
+  "processed": 5,
+  "partial": false,
+  "internal_passes": 5,
+  "not_passing": 0,
+  "minutes_tolerance_seconds": 1.0,
+  "regression_failures": 0,
+  "scoring_boundary_attribution": "NOT_CERTIFIED_NOT_EVALUATED",
+  "verified_stints": 0,
+  "production_certified": false,
+  "database_modified": false,
+  "warning": "Internal replay and official minutes consistency do NOT independently certify lineups or scoring boundaries."
+}

@@ -1,0 +1,27 @@
+{
+  "version": "9.9.3",
+  "game_id": "0022500018",
+  "teams": [
+    "BOS",
+    "NYK"
+  ],
+  "source_actions": 503,
+  "substitutions_in_source": 58,
+  "substitutions_parsed": 58,
+  "substitutions_applied": 51,
+  "substitution_groups_valid": 27,
+  "substitution_groups_blocked": 5,
+  "intervals_total": 332,
+  "intervals_with_both_lineups": 243,
+  "unresolved_openings": 1,
+  "issue_count": 6,
+  "verified_stints": 0,
+  "publication_gate": "BLOCKED_UNVERIFIED_RECONSTRUCTION",
+  "database_modified": false,
+  "notes": [
+    "Q2+ openings are inference candidates, not established facts.",
+    "No plus/minus fitting or certification.",
+    "Unknown openings remain missing rather than invented.",
+    "This output is not production-ready."
+  ]
+}

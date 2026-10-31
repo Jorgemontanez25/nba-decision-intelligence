@@ -1,0 +1,3 @@
+period,team,first_sub_elapsed,required_count,required_ids,forbidden_count,forbidden_ids,initial_combinations,candidates_surviving,candidates_rejected,status,first_rejection
+2,CHI,115.0,5,1630172|1630188|1630200|1630245|1641824,1,1630581,1,1,0,UNIQUE_CONDITIONAL,
+2,DET,94.0,4,1629130|1629750|1641709|1641842,1,1630595,10,1,9,UNIQUE_CONDITIONAL,INVALID_SUB_GROUP at 233.0 actions=229

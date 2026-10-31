@@ -1,0 +1,65 @@
+# NBA Decision Intelligence — repository exclusions
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+secrets.toml
+*credentials*.json
+*token*.json
+
+# Local databases and transient DuckDB files
+*.duckdb
+*.duckdb.wal
+*.duckdb.tmp
+*.duckdb.*
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated NBA datasets and collection artifacts
+history_backfill_v46/
+data_refresh_v45/
+data_refresh_*/
+history_backfill_*/
+*_review/
+*_pilot/
+*_reaudit/
+v9_*_review/
+*.parquet
+*.arrow
+*.feather
+
+# Runtime output, logs, and diagnostics
+*.log
+logs/
+*.tmp
+*.bak
+*.zip
+*.7z
+*.rar
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Streamlit/runtime state
+.streamlit/cache/
+
+# NOTE: Keep README.md, requirements.txt, assets/, Python source,
+# and small intentionally reviewed sample data under version control.
+# Review git status before committing to ensure no confidential files remain.

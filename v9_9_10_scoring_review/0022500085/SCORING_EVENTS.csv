@@ -1,0 +1,144 @@
+period,elapsed,action_number,team,description,score_home,score_away,home_delta,away_delta,at_substitution_timestamp,recorded_convention,recorded_assigned,before_assigned,after_assigned
+1,17.0,9,NOP,Poole 10' Driving Floating Jump Shot (2 PTS),0,2,0,2,False,NON_BOUNDARY,True,True,True
+1,39.0,10,MEM,Morant 20' Step Back Jump Shot (2 PTS),2,2,2,0,False,NON_BOUNDARY,True,True,True
+1,87.0,20,NOP,Poole 28' 3PT Jump Shot (5 PTS) (Missi 1 AST),2,5,0,3,False,NON_BOUNDARY,True,True,True
+1,153.0,42,NOP,Poole 31' 3PT Jump Shot (8 PTS) (Williamson 1 AST),2,8,0,3,False,NON_BOUNDARY,True,True,True
+1,165.0,44,MEM,Morant 11' Driving Floating Jump Shot (4 PTS),4,8,2,0,False,NON_BOUNDARY,True,True,True
+1,192.0,50,NOP,Jones 3PT Step Back Jump Shot (3 PTS) (Murphy III 1 AST),4,11,0,3,False,NON_BOUNDARY,True,True,True
+1,226.0,58,NOP,Murphy III 16' Pullup Jump Shot (2 PTS) (Poole 1 AST),4,13,0,2,False,NON_BOUNDARY,True,True,True
+1,257.0,64,MEM,Prosper 2' Cutting Dunk Shot (2 PTS) (Wells 1 AST),6,13,2,0,False,NON_BOUNDARY,True,True,True
+1,293.0,72,NOP,Jones 24' 3PT Jump Shot (6 PTS) (Murphy III 2 AST),6,16,0,3,False,NON_BOUNDARY,True,True,True
+1,305.0,74,MEM,Wells 26' 3PT Pullup Jump Shot (3 PTS),9,16,3,0,False,NON_BOUNDARY,True,True,True
+1,354.0,88,NOP,Missi Tip Layup Shot (2 PTS),9,18,0,2,False,NON_BOUNDARY,True,True,True
+1,372.0,91,NOP,Murphy III 3' Running Layup (4 PTS) (Poole 2 AST),9,20,0,2,False,NON_BOUNDARY,True,True,True
+1,392.0,95,NOP,Poole 12' Driving Floating Jump Shot (10 PTS),9,22,0,2,False,NON_BOUNDARY,True,True,True
+1,423.0,98,NOP,Murphy III 1' Driving Layup (6 PTS),9,24,0,2,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+1,472.0,111,MEM,Jackson Jr. 5' Driving Finger Roll Layup (2 PTS) (Small 1 AST),11,24,2,0,False,NON_BOUNDARY,True,True,True
+1,490.0,117,MEM,Jackson Jr. Free Throw 1 of 2 (3 PTS),12,24,1,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+1,490.0,122,MEM,Jackson Jr. Free Throw 2 of 2 (4 PTS),13,24,1,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+1,510.0,123,NOP,Fears 9' Fadeaway Jumper (2 PTS),13,26,0,2,False,NON_BOUNDARY,True,True,True
+1,525.0,124,MEM,Jackson Jr. 8' Driving Floating Jump Shot (6 PTS) (Aldama 1 AST),15,26,2,0,False,NON_BOUNDARY,True,True,True
+1,525.0,128,MEM,Jackson Jr. Free Throw 1 of 1 (7 PTS),16,26,1,0,False,NON_BOUNDARY,True,True,True
+1,580.0,148,MEM,Coward 5' Running Layup (2 PTS),18,26,2,0,False,NON_BOUNDARY,True,True,True
+1,580.0,152,MEM,Coward Free Throw 1 of 1 (3 PTS),19,26,1,0,False,NON_BOUNDARY,True,True,True
+1,591.0,153,NOP,Dickinson 13' Floating Jump Shot (2 PTS) (Fears 1 AST),19,28,0,2,False,NON_BOUNDARY,True,True,True
+1,634.0,168,MEM,Prosper 2' Driving Dunk (4 PTS) (Morant 1 AST),21,28,2,0,False,NON_BOUNDARY,True,True,True
+1,671.1,172,MEM,Morant 25' 3PT Pullup Jump Shot (7 PTS),24,28,3,0,False,NON_BOUNDARY,True,True,True
+1,687.2,175,MEM,Wells 26' 3PT Running Jump Shot (6 PTS) (Morant 2 AST),27,28,3,0,False,NON_BOUNDARY,True,True,True
+1,705.9,179,NOP,Williamson Free Throw 1 of 2 (1 PTS),27,29,0,1,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+1,705.9,186,NOP,Williamson Free Throw 2 of 2 (2 PTS),27,30,0,1,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+2,17.0,197,NOP,Fears 2' Driving Layup (4 PTS),27,32,0,2,False,NON_BOUNDARY,True,True,True
+2,45.0,203,MEM,Morant 5' Driving Finger Roll Layup (9 PTS),29,32,2,0,False,NON_BOUNDARY,True,True,True
+2,59.0,208,NOP,Williamson Free Throw 1 of 2 (3 PTS),29,33,0,1,False,NON_BOUNDARY,True,True,True
+2,59.0,210,NOP,Williamson Free Throw 2 of 2 (4 PTS),29,34,0,1,False,NON_BOUNDARY,True,True,True
+2,95.0,213,NOP,Hawkins 25' 3PT Jump Shot (3 PTS) (Fears 2 AST),29,37,0,3,False,NON_BOUNDARY,True,True,True
+2,119.0,215,MEM,Prosper 9' Pullup Jump Shot (6 PTS),31,37,2,0,False,NON_BOUNDARY,True,True,True
+2,140.0,220,MEM,Morant Free Throw 1 of 2 (10 PTS),32,37,1,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+2,140.0,223,MEM,Morant Free Throw 2 of 2 (11 PTS),33,37,1,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+2,158.0,224,NOP,Missi 2' Driving Finger Roll Layup (4 PTS) (Hawkins 1 AST),33,39,0,2,False,NON_BOUNDARY,True,True,True
+2,173.0,230,NOP,Fears Free Throw 1 of 2 (5 PTS),33,40,0,1,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+2,173.0,239,NOP,Fears Free Throw 2 of 2 (6 PTS),33,41,0,1,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+2,187.0,242,MEM,Wells 3PT Jump Shot (9 PTS) (Small 2 AST),36,41,3,0,False,NON_BOUNDARY,True,True,True
+2,231.0,259,NOP,Poole 25' 3PT Step Back Jump Shot (13 PTS),36,44,0,3,False,NON_BOUNDARY,True,True,True
+2,284.0,273,MEM,Coward Free Throw 1 of 3 (4 PTS),37,44,1,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+2,284.0,274,MEM,Coward Free Throw 2 of 3 (5 PTS),38,44,1,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+2,284.0,279,MEM,Coward Free Throw 3 of 3 (6 PTS),39,44,1,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+2,303.0,282,MEM,Coward 1' Running Layup (8 PTS) (Konchar 1 AST),41,44,2,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+2,323.0,289,NOP,Bey Putback Layup (2 PTS),41,46,0,2,False,NON_BOUNDARY,True,True,True
+2,345.0,297,NOP,Bey Free Throw 1 of 2 (3 PTS),41,47,0,1,False,NON_BOUNDARY,True,True,True
+2,345.0,298,NOP,Bey Free Throw 2 of 2 (4 PTS),41,48,0,1,False,NON_BOUNDARY,True,True,True
+2,367.0,304,MEM,Coward 2' Running Dunk (10 PTS) (Caldwell-Pope 1 AST),43,48,2,0,False,NON_BOUNDARY,True,True,True
+2,384.0,314,NOP,Bey 6' Turnaround Hook Shot (6 PTS),43,50,0,2,False,NON_BOUNDARY,True,True,True
+2,393.0,315,MEM,Landale 27' 3PT Jump Shot (3 PTS) (Small 3 AST),46,50,3,0,False,NON_BOUNDARY,True,True,True
+2,405.0,323,NOP,Queen Free Throw 2 of 2 (1 PTS),46,51,0,1,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+2,421.0,324,MEM,Jackson Jr. 1' Layup (9 PTS),48,51,2,0,False,NON_BOUNDARY,True,True,True
+2,432.0,327,NOP,Poole Free Throw 1 of 2 (14 PTS),48,52,0,1,False,NON_BOUNDARY,True,True,True
+2,432.0,328,NOP,Poole Free Throw 2 of 2 (15 PTS),48,53,0,1,False,NON_BOUNDARY,True,True,True
+2,462.0,341,NOP,Murphy III 24' 3PT Step Back Jump Shot (9 PTS) (Williamson 2 AST),48,56,0,3,False,NON_BOUNDARY,True,True,True
+2,485.0,343,MEM,Aldama 4' Floating Jump Shot (2 PTS),50,56,2,0,False,NON_BOUNDARY,True,True,True
+2,522.0,356,NOP,Jones 8' Driving Floating Jump Shot (8 PTS),50,58,0,2,False,NON_BOUNDARY,True,True,True
+2,562.0,366,MEM,Landale Free Throw 1 of 2 (4 PTS),51,58,1,0,False,NON_BOUNDARY,True,True,True
+2,562.0,367,MEM,Landale Free Throw 2 of 2 (5 PTS),52,58,1,0,False,NON_BOUNDARY,True,True,True
+2,576.0,368,NOP,Williamson 4' Driving Layup (6 PTS),52,60,0,2,False,NON_BOUNDARY,True,True,True
+2,590.0,371,MEM,Prosper Free Throw 1 of 2 (7 PTS),53,60,1,0,False,NON_BOUNDARY,True,True,True
+2,590.0,372,MEM,Prosper Free Throw 2 of 2 (8 PTS),54,60,1,0,False,NON_BOUNDARY,True,True,True
+2,627.0,379,NOP,Williamson 6' Driving Layup (8 PTS) (Bey 1 AST),54,62,0,2,False,NON_BOUNDARY,True,True,True
+2,647.0,385,NOP,Williamson Free Throw 1 of 2 (9 PTS),54,63,0,1,False,NON_BOUNDARY,True,True,True
+2,656.0,390,MEM,Caldwell-Pope Free Throw 1 of 2 (1 PTS),55,63,1,0,False,NON_BOUNDARY,True,True,True
+2,656.0,391,MEM,Caldwell-Pope Free Throw 2 of 2 (2 PTS),56,63,1,0,False,NON_BOUNDARY,True,True,True
+2,675.1,396,NOP,Williamson Tip Layup Shot (11 PTS),56,65,0,2,False,NON_BOUNDARY,True,True,True
+2,686.9,399,NOP,Jones 2' Running Finger Roll Layup (10 PTS),56,67,0,2,False,NON_BOUNDARY,True,True,True
+3,70.0,424,NOP,Williamson 4' Running Finger Roll Layup (13 PTS),56,69,0,2,False,NON_BOUNDARY,True,True,True
+3,82.0,425,MEM,Morant 15' Pullup Jump Shot (13 PTS),58,69,2,0,False,NON_BOUNDARY,True,True,True
+3,98.0,426,NOP,Williamson 5' Turnaround Hook Shot (15 PTS),58,71,0,2,False,NON_BOUNDARY,True,True,True
+3,120.0,432,NOP,Williamson Free Throw 2 of 2 (16 PTS),58,72,0,1,False,NON_BOUNDARY,True,True,True
+3,151.0,443,MEM,Wells Free Throw 2 of 3 (10 PTS),59,72,1,0,False,NON_BOUNDARY,True,True,True
+3,151.0,445,MEM,Wells Free Throw 3 of 3 (11 PTS),60,72,1,0,False,NON_BOUNDARY,True,True,True
+3,188.0,451,MEM,Jackson Jr. 9' Hook Shot (11 PTS) (Wells 2 AST),62,72,2,0,False,NON_BOUNDARY,True,True,True
+3,209.0,455,MEM,Morant 10' Driving Floating Jump Shot (15 PTS),64,72,2,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+3,241.0,471,NOP,Missi Free Throw 2 of 2 (5 PTS),64,73,0,1,False,NON_BOUNDARY,True,True,True
+3,252.0,473,MEM,Landale 4' Turnaround Hook Shot (7 PTS) (Morant 3 AST),66,73,2,0,False,NON_BOUNDARY,True,True,True
+3,259.0,475,NOP,Jones 24' 3PT Jump Shot (13 PTS) (Williamson 3 AST),66,76,0,3,False,NON_BOUNDARY,True,True,True
+3,272.0,477,MEM,Morant 2' Driving Finger Roll Layup (17 PTS),68,76,2,0,False,NON_BOUNDARY,True,True,True
+3,284.0,478,NOP,Williamson 8' Turnaround Hook Shot (18 PTS),68,78,0,2,False,NON_BOUNDARY,True,True,True
+3,303.0,479,MEM,Morant 25' 3PT Step Back Jump Shot (20 PTS),71,78,3,0,False,NON_BOUNDARY,True,True,True
+3,332.0,493,MEM,Caldwell-Pope 25' 3PT Jump Shot (5 PTS) (Jackson Jr. 1 AST),74,78,3,0,False,NON_BOUNDARY,True,True,True
+3,362.0,505,MEM,Caldwell-Pope Free Throw 1 of 2 (6 PTS),75,78,1,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+3,362.0,508,MEM,Caldwell-Pope Free Throw 2 of 2 (7 PTS),76,78,1,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+3,382.0,512,MEM,Aldama 3' Driving Finger Roll Layup (4 PTS) (Caldwell-Pope 2 AST),78,78,2,0,False,NON_BOUNDARY,True,True,True
+3,382.0,516,MEM,Aldama Free Throw 1 of 1 (5 PTS),79,78,1,0,False,NON_BOUNDARY,True,True,True
+3,416.0,520,MEM,Caldwell-Pope 25' 3PT Pullup Jump Shot (10 PTS),82,78,3,0,False,NON_BOUNDARY,True,True,True
+3,453.0,523,MEM,Jackson Jr. 8' Turnaround Bank Shot (13 PTS) (Coward 1 AST),84,78,2,0,False,NON_BOUNDARY,True,True,True
+3,500.0,539,MEM,Jackson Jr. 11' Turnaround Jump Shot (15 PTS),86,78,2,0,False,NON_BOUNDARY,True,True,True
+3,500.0,542,MEM,Jackson Jr. Free Throw 1 of 1 (16 PTS),87,78,1,0,False,NON_BOUNDARY,True,True,True
+3,509.0,545,NOP,Hawkins Free Throw 1 of 2 (4 PTS),87,79,0,1,False,NON_BOUNDARY,True,True,True
+3,509.0,546,NOP,Hawkins Free Throw 2 of 2 (5 PTS),87,80,0,1,False,NON_BOUNDARY,True,True,True
+3,509.0,548,MEM,Caldwell-Pope Free Throw Technical (11 PTS),88,80,1,0,False,NON_BOUNDARY,True,True,True
+3,522.0,549,MEM,Jackson Jr. 10' Floating Jump Shot (18 PTS) (Caldwell-Pope 3 AST),90,80,2,0,False,NON_BOUNDARY,True,True,True
+3,582.0,567,NOP,Fears 3' Driving Finger Roll Layup (8 PTS),90,82,0,2,False,NON_BOUNDARY,True,True,True
+3,615.0,572,NOP,Queen 3' Driving Reverse Layup (3 PTS),90,84,0,2,False,NON_BOUNDARY,True,True,True
+3,661.1,579,NOP,Fears 4' Running Finger Roll Layup (10 PTS) (Bey 2 AST),90,86,0,2,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+3,661.1,594,NOP,Fears Free Throw 1 of 1 (11 PTS),90,87,0,1,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+3,672.9,595,MEM,Spencer 24' 3PT Jump Shot (3 PTS) (Aldama 2 AST),93,87,3,0,False,NON_BOUNDARY,True,True,True
+3,691.3,601,MEM,Morant 2' Driving Reverse Layup (22 PTS),95,87,2,0,False,NON_BOUNDARY,True,True,True
+3,711.9,604,MEM,Morant 2' Running Reverse Layup (24 PTS),97,87,2,0,False,NON_BOUNDARY,True,True,True
+3,717.8,605,NOP,Fears 4' Driving Finger Roll Layup (13 PTS),97,89,0,2,False,NON_BOUNDARY,True,True,True
+4,22.0,614,MEM,Landale 4' Putback Layup (9 PTS),99,89,2,0,False,NON_BOUNDARY,True,True,True
+4,46.0,616,NOP,Fears 3' Driving Finger Roll Layup (15 PTS),99,91,0,2,False,NON_BOUNDARY,True,True,True
+4,91.0,625,NOP,Jones Free Throw 1 of 2 (14 PTS),99,92,0,1,False,NON_BOUNDARY,True,True,True
+4,91.0,626,NOP,Jones Free Throw 2 of 2 (15 PTS),99,93,0,1,False,NON_BOUNDARY,True,True,True
+4,122.0,629,NOP,Fears 12' Pullup Jump Shot (17 PTS) (Jones 1 AST),99,95,0,2,False,NON_BOUNDARY,True,True,True
+4,139.0,631,MEM,Wells 3PT Jump Shot (14 PTS) (Spencer 1 AST),102,95,3,0,False,NON_BOUNDARY,True,True,True
+4,150.0,633,NOP,Hawkins 26' 3PT Jump Shot (8 PTS) (Williamson 4 AST),102,98,0,3,False,NON_BOUNDARY,True,True,True
+4,171.0,641,MEM,Landale Free Throw 2 of 2 (10 PTS),103,98,1,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+4,191.0,642,NOP,Jones 3' Driving Finger Roll Layup (17 PTS) (Williamson 5 AST),103,100,0,2,False,NON_BOUNDARY,True,True,True
+4,208.0,652,MEM,Spencer Free Throw 2 of 2 (4 PTS),104,100,1,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+4,222.0,655,MEM,Coward 1' Running Alley Oop Dunk Shot (12 PTS) (Wells 3 AST),106,100,2,0,False,NON_BOUNDARY,True,True,True
+4,262.0,670,MEM,Spencer 28' 3PT Pullup Jump Shot (7 PTS),109,100,3,0,False,NON_BOUNDARY,True,True,True
+4,290.0,671,NOP,Murphy III 3' Reverse Layup (11 PTS) (Bey 3 AST),109,102,0,2,False,NON_BOUNDARY,True,True,True
+4,297.0,673,MEM,Coward 4' Driving Finger Roll Layup (14 PTS) (Spencer 2 AST),111,102,2,0,False,NON_BOUNDARY,True,True,True
+4,313.0,675,NOP,Bey 7' Turnaround Jump Shot (8 PTS),111,104,0,2,False,NON_BOUNDARY,True,True,True
+4,360.0,693,NOP,Murphy III Free Throw 1 of 2 (12 PTS),111,105,0,1,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+4,360.0,694,NOP,Murphy III Free Throw 2 of 2 (13 PTS),111,106,0,1,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+4,397.0,698,NOP,Bey 1' Cutting Dunk Shot (10 PTS) (Jones 2 AST),111,108,0,2,False,NON_BOUNDARY,True,True,True
+4,418.0,703,NOP,Bey 26' 3PT Running Jump Shot (13 PTS) (Murphy III 3 AST),111,111,0,3,False,NON_BOUNDARY,True,True,True
+4,457.0,721,NOP,Poole 3' Reverse Layup (17 PTS) (Jones 3 AST),111,113,0,2,False,NON_BOUNDARY,True,True,True
+4,464.0,723,MEM,Morant 1' Driving Finger Roll Layup (26 PTS),113,113,2,0,False,NON_BOUNDARY,True,True,True
+4,506.0,733,MEM,Caldwell-Pope Free Throw 1 of 2 (12 PTS),114,113,1,0,False,NON_BOUNDARY,True,True,True
+4,506.0,734,MEM,Caldwell-Pope Free Throw 2 of 2 (13 PTS),115,113,1,0,False,NON_BOUNDARY,True,True,True
+4,559.0,744,NOP,Williamson 3' Driving Reverse Layup (20 PTS),115,115,0,2,False,NON_BOUNDARY,True,True,True
+4,574.0,749,MEM,Morant Free Throw 2 of 2 (27 PTS),116,115,1,0,False,NON_BOUNDARY,True,True,True
+4,598.0,753,MEM,Morant 3' Running Layup (29 PTS),118,115,2,0,False,NON_BOUNDARY,True,True,True
+4,611.0,754,NOP,Williamson 6' Turnaround Hook Shot (22 PTS),118,117,0,2,False,NON_BOUNDARY,True,True,True
+4,628.0,759,MEM,Morant Free Throw 1 of 2 (30 PTS),119,117,1,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+4,628.0,760,MEM,Morant Free Throw 2 of 2 (31 PTS),120,117,1,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+4,637.0,763,NOP,Williamson Free Throw 1 of 2 (23 PTS),120,118,0,1,False,NON_BOUNDARY,True,True,True
+4,686.8,771,MEM,Morant 7' Driving Floating Bank Jump Shot (33 PTS) (Wells 4 AST),122,118,2,0,False,NON_BOUNDARY,True,True,True
+4,695.3,778,NOP,Williamson Tip Layup Shot (25 PTS),122,120,0,2,False,NON_BOUNDARY,True,True,True
+4,703.3,782,MEM,Prosper Free Throw 1 of 2 (9 PTS),123,120,1,0,False,NON_BOUNDARY,True,True,True
+4,703.3,783,MEM,Prosper Free Throw 2 of 2 (10 PTS),124,120,1,0,False,NON_BOUNDARY,True,True,True
+4,712.0,786,NOP,Williamson Tip Layup Shot (27 PTS),124,122,0,2,False,NON_BOUNDARY,True,True,True
+4,714.4,789,MEM,Caldwell-Pope Free Throw 1 of 2 (14 PTS),125,122,1,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+4,714.4,790,MEM,Caldwell-Pope Free Throw 2 of 2 (15 PTS),126,122,1,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+4,718.6,798,MEM,Morant Free Throw 1 of 2 (34 PTS),127,122,1,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+4,718.6,803,MEM,Morant Free Throw 2 of 2 (35 PTS),128,122,1,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True

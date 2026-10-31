@@ -1,0 +1,7 @@
+period,sec,sequence,event_type,team_abbr,player_out,player_in,home_score,away_score
+1,0,1,score,,,,0,0
+1,120,2,score,,,,5,3
+1,180,3,sub,LAL,11,16,,
+1,240,4,score,,,,9,6
+1,300,5,sub,BOS,21,26,,
+1,720,6,score,,,,27,23

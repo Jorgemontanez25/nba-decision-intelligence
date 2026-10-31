@@ -1,0 +1,101 @@
+period,elapsed,action_number,team,description,score_home,score_away,home_delta,away_delta,at_substitution_timestamp,recorded_convention,recorded_assigned,before_assigned,after_assigned
+1,20.0,7,BOS,Hauser 25' 3PT Jump Shot (3 PTS) (Pritchard 1 AST),0,3,0,3,False,NON_BOUNDARY,True,True,True
+1,58.0,12,BOS,Queta 1' Cutting Layup Shot (2 PTS) (Pritchard 2 AST),0,5,0,2,False,NON_BOUNDARY,True,True,True
+1,58.0,16,BOS,Queta Free Throw 1 of 1 (3 PTS),0,6,0,1,False,NON_BOUNDARY,True,True,True
+1,73.0,17,NYK,Towns 26' 3PT Step Back Jump Shot (3 PTS) (McBride 1 AST),3,6,3,0,False,NON_BOUNDARY,True,True,True
+1,88.0,21,NYK,Bridges 1' Running Layup (2 PTS) (McBride 2 AST),5,6,2,0,False,NON_BOUNDARY,True,True,True
+1,167.0,38,NYK,Brunson 2' Driving Floating Bank Jump Shot (2 PTS),7,6,2,0,False,NON_BOUNDARY,True,True,True
+1,175.0,39,BOS,Brown 2' Driving Layup (2 PTS),7,8,0,2,False,NON_BOUNDARY,True,True,True
+1,205.0,48,BOS,White 4' Driving Floating Jump Shot (2 PTS) (Queta 1 AST),7,10,0,2,False,NON_BOUNDARY,True,True,True
+1,274.0,67,BOS,Brown 14' Fadeaway Jumper (4 PTS),7,12,0,2,False,NON_BOUNDARY,True,True,True
+1,326.0,76,BOS,Queta Cutting Dunk Shot (5 PTS) (White 1 AST),7,14,0,2,False,NON_BOUNDARY,True,True,True
+1,349.0,78,NYK,Towns 26' 3PT Jump Shot (6 PTS) (Anunoby 1 AST),10,14,3,0,False,NON_BOUNDARY,True,True,True
+1,388.0,87,NYK,Towns 27' 3PT Running Jump Shot (9 PTS) (McBride 3 AST),13,14,3,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+1,463.0,119,BOS,Gonzalez 1' Driving Layup (2 PTS),13,16,0,2,False,NON_BOUNDARY,True,True,True
+1,489.0,122,BOS,Simons 18' Step Back Jump Shot (2 PTS),13,18,0,2,False,NON_BOUNDARY,True,True,True
+1,514.0,128,NYK,Brunson Free Throw 1 of 2 (3 PTS),14,18,1,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+1,514.0,131,NYK,Brunson Free Throw 2 of 2 (4 PTS),15,18,1,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+1,566.0,139,BOS,Tillman 4' Floating Jump Shot (2 PTS),15,20,0,2,False,NON_BOUNDARY,True,True,True
+1,599.0,144,NYK,Shamet 26' 3PT Jump Shot (3 PTS) (Yabusele 1 AST),18,20,3,0,False,NON_BOUNDARY,True,True,True
+1,622.0,151,BOS,Tillman 25' 3PT Jump Shot (5 PTS) (Simons 1 AST),18,23,0,3,False,NON_BOUNDARY,True,True,True
+1,651.0,154,NYK,Hart 1' Cutting Layup Shot (2 PTS) (Towns 1 AST),20,23,2,0,False,NON_BOUNDARY,True,True,True
+1,670.8,156,BOS,Brown 26' 3PT Pullup Jump Shot (7 PTS),20,26,0,3,False,NON_BOUNDARY,True,True,True
+1,670.8,159,BOS,Brown Free Throw 1 of 1 (8 PTS),20,27,0,1,False,NON_BOUNDARY,True,True,True
+1,691.0,160,NYK,Brunson 13' Turnaround Fadeaway (6 PTS),22,27,2,0,False,NON_BOUNDARY,True,True,True
+1,702.8,161,BOS,Simons 25' 3PT Jump Shot (5 PTS) (Brown 1 AST),22,30,0,3,False,NON_BOUNDARY,True,True,True
+2,16.0,176,NYK,Anunoby Cutting Dunk Shot (2 PTS) (Towns 2 AST),24,30,2,0,False,NON_BOUNDARY,True,True,True
+2,69.0,185,NYK,Anunoby 25' 3PT Jump Shot (5 PTS) (Kolek 1 AST),27,30,3,0,False,NON_BOUNDARY,True,True,True
+2,93.0,191,NYK,Clarkson 26' 3PT Running Jump Shot (3 PTS) (Towns 3 AST),30,30,3,0,False,NON_BOUNDARY,True,True,True
+2,156.0,201,NYK,Bridges 24' 3PT Jump Shot (5 PTS) (Kolek 2 AST),33,30,3,0,False,NON_BOUNDARY,True,True,True
+2,211.0,214,BOS,Hauser 25' 3PT Jump Shot (6 PTS) (Pritchard 3 AST),33,33,0,3,False,NON_BOUNDARY,True,True,True
+2,252.0,221,BOS,White 3PT Jump Shot (5 PTS) (Simons 2 AST),33,36,0,3,False,NON_BOUNDARY,True,True,True
+2,271.0,225,NYK,Anunoby Free Throw 1 of 2 (6 PTS),34,36,1,0,False,NON_BOUNDARY,True,True,True
+2,271.0,226,NYK,Anunoby Free Throw 2 of 2 (7 PTS),35,36,1,0,False,NON_BOUNDARY,True,True,True
+2,313.0,238,NYK,Kolek 3' Driving Finger Roll Layup (2 PTS),37,36,2,0,False,NON_BOUNDARY,True,True,True
+2,369.0,253,NYK,Yabusele 27' 3PT Jump Shot (3 PTS) (Kolek 3 AST),40,36,3,0,False,NON_BOUNDARY,True,True,True
+2,414.0,267,NYK,Bridges 1' Driving Finger Roll Layup (7 PTS) (Brunson 1 AST),42,36,2,0,False,NON_BOUNDARY,True,True,True
+2,426.0,273,NYK,McBride Free Throw 1 of 2 (1 PTS),43,36,1,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+2,426.0,276,NYK,McBride Free Throw 2 of 2 (2 PTS),44,36,1,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+2,449.0,279,NYK,Clarkson 26' 3PT Running Jump Shot (6 PTS) (Brunson 2 AST),47,36,3,0,False,NON_BOUNDARY,True,True,True
+2,491.0,286,NYK,Brunson 1' Driving Finger Roll Layup (8 PTS),49,36,2,0,False,NON_BOUNDARY,True,True,True
+2,491.0,289,NYK,Brunson Free Throw 1 of 1 (9 PTS),50,36,1,0,False,NON_BOUNDARY,True,True,True
+2,504.0,291,BOS,Pritchard Free Throw Technical (1 PTS),50,37,0,1,False,NON_BOUNDARY,True,True,True
+2,511.0,295,BOS,Pritchard Free Throw 1 of 2 (2 PTS),50,38,0,1,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+2,511.0,302,BOS,Pritchard Free Throw 2 of 2 (3 PTS),50,39,0,1,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+2,534.0,307,NYK,Towns Free Throw 1 of 2 (10 PTS),51,39,1,0,False,NON_BOUNDARY,True,True,True
+2,534.0,308,NYK,Towns Free Throw 2 of 2 (11 PTS),52,39,1,0,False,NON_BOUNDARY,True,True,True
+2,549.0,309,BOS,Hauser 25' 3PT Jump Shot (9 PTS) (Pritchard 4 AST),52,42,0,3,False,NON_BOUNDARY,True,True,True
+2,579.0,313,BOS,Tillman 2' Layup (7 PTS) (Brown 2 AST),52,44,0,2,False,NON_BOUNDARY,True,True,True
+2,590.0,317,NYK,Brunson Free Throw 1 of 2 (10 PTS),53,44,1,0,False,NON_BOUNDARY,True,True,True
+2,590.0,318,NYK,Brunson Free Throw 2 of 2 (11 PTS),54,44,1,0,False,NON_BOUNDARY,True,True,True
+2,615.0,327,NYK,Towns Free Throw 1 of 2 (12 PTS),55,44,1,0,False,NON_BOUNDARY,True,True,True
+2,615.0,328,NYK,Towns Free Throw 2 of 2 (13 PTS),56,44,1,0,False,NON_BOUNDARY,True,True,True
+2,636.0,331,NYK,Bridges 1' Running Alley Oop Layup Shot (9 PTS) (Brunson 3 AST),58,44,2,0,False,NON_BOUNDARY,True,True,True
+2,656.0,335,NYK,Towns 2' Driving Finger Roll Layup (15 PTS) (Hart 1 AST),60,44,2,0,False,NON_BOUNDARY,True,True,True
+2,656.0,339,NYK,Towns Free Throw 1 of 1 (16 PTS),61,44,1,0,False,NON_BOUNDARY,True,True,True
+2,695.6,344,NYK,Anunoby 26' 3PT Jump Shot (10 PTS) (Hart 2 AST),64,44,3,0,False,NON_BOUNDARY,True,True,True
+3,50.0,374,BOS,Hauser 26' 3PT Jump Shot (12 PTS) (Brown 3 AST),64,47,0,3,False,NON_BOUNDARY,True,True,True
+3,82.0,378,BOS,Queta 5' Hook Shot (7 PTS) (Pritchard 5 AST),64,49,0,2,False,NON_BOUNDARY,True,True,True
+3,147.0,386,BOS,Hauser 32' 3PT Jump Shot (15 PTS) (White 2 AST),64,52,0,3,False,NON_BOUNDARY,True,True,True
+3,167.0,389,NYK,McBride 24' 3PT Step Back Jump Shot (5 PTS) (Bridges 1 AST),67,52,3,0,False,NON_BOUNDARY,True,True,True
+3,196.0,394,NYK,Brunson 27' 3PT Pullup Jump Shot (14 PTS),70,52,3,0,False,NON_BOUNDARY,True,True,True
+3,219.0,395,BOS,Pritchard 11' Step Back Jump Shot (5 PTS),70,54,0,2,False,NON_BOUNDARY,True,True,True
+3,241.0,398,NYK,Brunson 24' 3PT Jump Shot (17 PTS) (Bridges 2 AST),73,54,3,0,False,NON_BOUNDARY,True,True,True
+3,267.0,400,BOS,Brown 16' Fadeaway Jumper (10 PTS),73,56,0,2,False,NON_BOUNDARY,True,True,True
+3,295.0,406,NYK,Bridges 27' 3PT Jump Shot (12 PTS) (McBride 4 AST),76,56,3,0,False,NON_BOUNDARY,True,True,True
+3,332.0,413,NYK,Towns Free Throw 1 of 2 (17 PTS),77,56,1,0,False,NON_BOUNDARY,True,True,True
+3,332.0,414,NYK,Towns Free Throw 2 of 2 (18 PTS),78,56,1,0,False,NON_BOUNDARY,True,True,True
+3,359.0,416,NYK,Brunson 15' Pullup Jump Shot (19 PTS),80,56,2,0,False,NON_BOUNDARY,True,True,True
+3,417.0,427,BOS,Simons 2' Driving Layup (7 PTS),80,58,0,2,False,NON_BOUNDARY,True,True,True
+3,451.0,437,NYK,McBride 1' Driving Finger Roll Layup (7 PTS),82,58,2,0,False,NON_BOUNDARY,True,True,True
+3,460.0,438,BOS,Brown 26' 3PT Jump Shot (13 PTS) (Simons 3 AST),82,61,0,3,False,NON_BOUNDARY,True,True,True
+3,503.0,455,BOS,Brown 3' Driving Layup (15 PTS) (White 3 AST),82,63,0,2,False,NON_BOUNDARY,True,True,True
+3,600.0,476,BOS,Gonzalez 1' Driving Layup (4 PTS),82,65,0,2,False,NON_BOUNDARY,True,True,True
+4,18.0,527,BOS,Pritchard 26' 3PT Jump Shot (8 PTS) (Simons 4 AST),82,68,0,3,False,NON_BOUNDARY,True,True,True
+4,68.0,537,BOS,Gonzalez Tip Layup Shot (6 PTS),82,70,0,2,False,NON_BOUNDARY,True,True,True
+4,101.0,551,NYK,Towns Free Throw 1 of 2 (19 PTS),83,70,1,0,False,NON_BOUNDARY,True,True,True
+4,101.0,552,NYK,Towns Free Throw 2 of 2 (20 PTS),84,70,1,0,False,NON_BOUNDARY,True,True,True
+4,119.0,553,BOS,Simons 13' Fadeaway Jumper (9 PTS),84,72,0,2,False,NON_BOUNDARY,True,True,True
+4,136.0,554,NYK,Towns 27' 3PT Jump Shot (23 PTS) (Kolek 4 AST),87,72,3,0,False,NON_BOUNDARY,True,True,True
+4,153.0,558,BOS,White Free Throw 1 of 2 (6 PTS),87,73,0,1,False,NON_BOUNDARY,True,True,True
+4,153.0,559,BOS,White Free Throw 2 of 2 (7 PTS),87,74,0,1,False,NON_BOUNDARY,True,True,True
+4,171.0,565,BOS,Simons Free Throw 2 of 2 (10 PTS),87,75,0,1,False,NON_BOUNDARY,True,True,True
+4,277.0,599,NYK,Brunson 5' Driving Floating Jump Shot (21 PTS),89,75,2,0,False,NON_BOUNDARY,True,True,True
+4,290.0,602,BOS,Hauser 26' 3PT Pullup Jump Shot (18 PTS) (White 4 AST),89,78,0,3,False,NON_BOUNDARY,True,True,True
+4,306.0,607,NYK,Brunson Free Throw 1 of 2 (22 PTS),90,78,1,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+4,306.0,610,NYK,Brunson Free Throw 2 of 2 (23 PTS),91,78,1,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+4,360.0,617,BOS,White 3PT Jump Shot (10 PTS) (Gonzalez 1 AST),91,81,0,3,False,NON_BOUNDARY,True,True,True
+4,392.0,630,NYK,Brunson 2' Driving Finger Roll Layup (25 PTS) (Hart 3 AST),93,81,2,0,False,NON_BOUNDARY,True,True,True
+4,407.0,632,BOS,Brown 4' Driving Floating Jump Shot (17 PTS),93,83,0,2,False,NON_BOUNDARY,True,True,True
+4,451.0,644,NYK,Brunson 6' Driving Floating Jump Shot (27 PTS),95,83,2,0,False,NON_BOUNDARY,True,True,True
+4,498.0,653,BOS,Brown Free Throw 1 of 2 (18 PTS),95,84,0,1,False,NON_BOUNDARY,True,True,True
+4,527.0,663,BOS,Queta Free Throw 1 of 2 (8 PTS),95,85,0,1,False,NON_BOUNDARY,True,True,True
+4,550.0,667,NYK,McBride 3PT Jump Shot (10 PTS) (Brunson 4 AST),98,85,3,0,False,NON_BOUNDARY,True,True,True
+4,568.0,669,BOS,Brown 2' Driving Layup (20 PTS),98,87,0,2,False,NON_BOUNDARY,True,True,True
+4,593.0,670,NYK,Towns 1' Dunk (25 PTS) (Brunson 5 AST),100,87,2,0,False,NON_BOUNDARY,True,True,True
+4,600.0,672,BOS,White 2' Driving Dunk (12 PTS),100,89,0,2,False,NON_BOUNDARY,True,True,True
+4,606.0,679,NYK,Towns Free Throw 2 of 2 (26 PTS),101,89,1,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+4,615.0,680,BOS,Brown 28' 3PT Pullup Jump Shot (23 PTS),101,92,0,3,False,NON_BOUNDARY,True,True,True
+4,636.0,681,NYK,Brunson 28' 3PT Pullup Jump Shot (30 PTS),104,92,3,0,False,NON_BOUNDARY,True,True,True
+4,646.0,682,BOS,White 27' 3PT Jump Shot (15 PTS) (Pritchard 6 AST),104,95,0,3,False,NON_BOUNDARY,True,True,True
+4,679.7,693,NYK,Brunson Free Throw 1 of 2 (31 PTS),105,95,1,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True

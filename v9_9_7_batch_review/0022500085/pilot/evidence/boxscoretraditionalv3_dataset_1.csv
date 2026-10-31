@@ -1,0 +1,5 @@
+﻿gameId,teamId,teamCity,teamName,teamTricode,teamSlug,minutes,fieldGoalsMade,fieldGoalsAttempted,fieldGoalsPercentage,threePointersMade,threePointersAttempted,threePointersPercentage,freeThrowsMade,freeThrowsAttempted,freeThrowsPercentage,reboundsOffensive,reboundsDefensive,reboundsTotal,assists,steals,blocks,turnovers,foulsPersonal,points,startersBench
+0022500085,1610612763,Memphis,Grizzlies,MEM,grizzlies,138:54,29,57,0.509,9,28,0.321,25,30,0.833,4,18,22,11,2,8,13,20,92,Starters
+0022500085,1610612763,Memphis,Grizzlies,MEM,grizzlies,138:54,12,23,0.522,2,9,0.222,10,13,0.769,2,15,17,9,3,4,4,9,36,Bench
+0022500085,1610612740,New Orleans,Pelicans,NOP,pelicans,155:52,29,68,0.426,7,18,0.389,14,20,0.7,13,19,32,14,9,2,9,20,79,Starters
+0022500085,1610612740,New Orleans,Pelicans,NOP,pelicans,155:52,16,30,0.533,3,9,0.333,8,11,0.727,4,11,15,6,1,2,5,10,43,Bench

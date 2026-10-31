@@ -1,0 +1,6 @@
+game_id,label,status,evidence_origin,teams,openings_integrated,expected_openings,substitutions_in_source,substitutions_applied,groups_blocked,unresolved_openings,intervals_total,intervals_complete,issue_count,minutes_players,max_minutes_diff_seconds,regression_status,reason
+0022500002,LAL-GSW 2025-26,PASS_INTERNAL_UNVERIFIED,COPIED_EXISTING_READ_ONLY,GSW|LAL,6,6,55,55,0,0,313,313,0,20,0.2,REGRESSION_PASSED,Internal checks only; no independent lineup certification
+0022500018,BOS-NYK 2025-10-24,PASS_INTERNAL_UNVERIFIED,COPIED_EXISTING_READ_ONLY,BOS|NYK,6,6,58,58,0,0,332,332,0,22,0.5,REGRESSION_PASSED,Internal checks only; no independent lineup certification
+0022500084,DET-CHI 2025-10-22,PASS_INTERNAL_UNVERIFIED,COPIED_EXISTING_READ_ONLY,CHI|DET,6,6,62,62,0,0,324,324,0,20,0.2,REGRESSION_PASSED,Internal checks only; no independent lineup certification
+0022500085,NOP-MEM 2025-10-22,PASS_INTERNAL_UNVERIFIED,COPIED_EXISTING_READ_ONLY,MEM|NOP,6,6,72,72,0,0,339,339,0,21,0.4,REGRESSION_PASSED,Internal checks only; no independent lineup certification
+0022500089,MIN-POR 2025-10-22,PASS_INTERNAL_UNVERIFIED,COPIED_EXISTING_READ_ONLY,MIN|POR,6,6,56,56,0,0,332,332,0,20,0.3,REGRESSION_PASSED,Internal checks only; no independent lineup certification

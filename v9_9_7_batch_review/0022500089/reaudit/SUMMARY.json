@@ -1,0 +1,24 @@
+{
+  "version": "9.9.6.1",
+  "game_id": "0022500089",
+  "teams": [
+    "MIN",
+    "POR"
+  ],
+  "periods": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "openings_integrated": 5,
+  "expected_openings": 6,
+  "blocked_reasons": [
+    "Q2 POR: unique feasible candidate not established"
+  ],
+  "production_certified": false,
+  "verified_stints": 0,
+  "database_modified": false,
+  "publication_gate": "BLOCKED_UNVERIFIED_CONDITIONAL_OPENINGS_AND_BOUNDARY_ATTRIBUTION",
+  "status": "BLOCKED_AMBIGUOUS_OR_MISSING_OPENINGS"
+}

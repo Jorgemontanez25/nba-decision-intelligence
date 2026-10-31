@@ -1,0 +1,127 @@
+period,elapsed,action_number,team,description,score_home,score_away,home_delta,away_delta,at_substitution_timestamp,recorded_convention,recorded_assigned,before_assigned,after_assigned
+1,21.0,7,CHI,Vucevic 5' Cutting Layup Shot (2 PTS) (Jones 1 AST),2,0,2,0,False,NON_BOUNDARY,True,True,True
+1,36.0,9,DET,Duren 1' Alley Oop Dunk (2 PTS) (Cunningham 1 AST),2,2,0,2,False,NON_BOUNDARY,True,True,True
+1,54.0,11,CHI,Buzelis 1' Cutting Finger Roll Layup Shot (2 PTS) (Okoro 1 AST),4,2,2,0,False,NON_BOUNDARY,True,True,True
+1,74.0,16,CHI,Vucevic 7' Driving Floating Jump Shot (4 PTS) (Jones 2 AST),6,2,2,0,False,NON_BOUNDARY,True,True,True
+1,88.0,18,DET,Duren 1' Alley Oop Dunk (4 PTS) (Cunningham 2 AST),6,4,0,2,False,NON_BOUNDARY,True,True,True
+1,105.0,22,DET,Cunningham 7' Running Layup (2 PTS),6,6,0,2,False,NON_BOUNDARY,True,True,True
+1,124.0,29,CHI,Vucevic Free Throw 1 of 2 (5 PTS),7,6,1,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+1,124.0,32,CHI,Vucevic Free Throw 2 of 2 (6 PTS),8,6,1,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+1,222.0,47,DET,Cunningham 12' Pullup Jump Shot (4 PTS) (Stewart 1 AST),8,8,0,2,False,NON_BOUNDARY,True,True,True
+1,231.0,50,CHI,Buzelis Free Throw 1 of 2 (3 PTS),9,8,1,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+1,231.0,54,CHI,Buzelis Free Throw 2 of 2 (4 PTS),10,8,1,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+1,251.0,55,DET,Harris 9' Turnaround Fadeaway (2 PTS),10,10,0,2,False,NON_BOUNDARY,True,True,True
+1,279.0,61,DET,Stewart 1' Cutting Layup Shot (2 PTS) (Cunningham 3 AST),10,12,0,2,False,NON_BOUNDARY,True,True,True
+1,292.0,64,CHI,Giddey 10' Driving Floating Jump Shot (2 PTS) (Vucevic 1 AST),12,12,2,0,False,NON_BOUNDARY,True,True,True
+1,336.0,71,CHI,Giddey 26' 3PT Jump Shot (5 PTS) (Okoro 2 AST),15,12,3,0,False,NON_BOUNDARY,True,True,True
+1,371.0,83,CHI,Giddey Free Throw 2 of 2 (6 PTS),16,12,1,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+1,399.0,86,CHI,Huerter 3PT Jump Shot (3 PTS) (Giddey 1 AST),19,12,3,0,False,NON_BOUNDARY,True,True,True
+1,431.0,90,CHI,Vucevic 26' 3PT Jump Shot (9 PTS) (Giddey 2 AST),22,12,3,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+1,481.0,101,DET,Stewart 1' Alley Oop Layup (4 PTS) (LeVert 1 AST),22,14,0,2,False,NON_BOUNDARY,True,True,True
+1,489.0,103,CHI,Vucevic 26' 3PT Jump Shot (12 PTS) (Giddey 3 AST),25,14,3,0,False,NON_BOUNDARY,True,True,True
+1,515.0,110,CHI,Huerter 1' Running Layup (5 PTS) (Giddey 4 AST),27,14,2,0,False,NON_BOUNDARY,True,True,True
+1,538.0,122,CHI,Dosunmu 1' Running Layup (2 PTS) (Jones 3 AST),29,14,2,0,False,NON_BOUNDARY,True,True,True
+1,586.0,136,DET,Cunningham Free Throw 1 of 2 (5 PTS),29,15,0,1,False,NON_BOUNDARY,True,True,True
+1,586.0,137,DET,Cunningham Free Throw 2 of 2 (6 PTS),29,16,0,1,False,NON_BOUNDARY,True,True,True
+1,600.0,146,CHI,Smith Free Throw 1 of 2 (1 PTS),30,16,1,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+1,600.0,149,CHI,Smith Free Throw 2 of 2 (2 PTS),31,16,1,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+1,633.0,152,CHI,Dosunmu 8' Driving Floating Jump Shot (4 PTS),33,16,2,0,False,NON_BOUNDARY,True,True,True
+1,646.0,153,DET,Reed 26' 3PT Jump Shot (3 PTS) (Thompson 1 AST),33,19,0,3,False,NON_BOUNDARY,True,True,True
+1,682.5,162,CHI,Jones 6' Jump Shot (2 PTS),35,19,2,0,False,NON_BOUNDARY,True,True,True
+2,24.0,178,DET,Thompson 20' Pullup Jump Shot (2 PTS) (Holland II 1 AST),35,21,0,2,False,NON_BOUNDARY,True,True,True
+2,35.0,180,CHI,Buzelis 1' Cutting Dunk Shot (6 PTS) (Smith 1 AST),37,21,2,0,False,NON_BOUNDARY,True,True,True
+2,58.0,185,CHI,Dosunmu 26' 3PT Jump Shot (7 PTS) (Jones 4 AST),40,21,3,0,False,NON_BOUNDARY,True,True,True
+2,105.0,194,DET,Thompson 1' Cutting Dunk Shot (4 PTS) (Cunningham 4 AST),40,23,0,2,False,NON_BOUNDARY,True,True,True
+2,149.0,206,DET,Holland II Running Dunk (2 PTS) (Cunningham 5 AST),40,25,0,2,False,NON_BOUNDARY,True,True,True
+2,195.0,221,CHI,Buzelis 22' Running Jump Shot (8 PTS) (Giddey 5 AST),42,25,2,0,False,NON_BOUNDARY,True,True,True
+2,254.0,237,CHI,Giddey 8' Jump Shot (8 PTS),44,25,2,0,False,NON_BOUNDARY,True,True,True
+2,263.0,240,DET,Thompson Free Throw 1 of 2 (5 PTS),44,26,0,1,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+2,297.0,247,DET,Cunningham 6' Driving Layup (8 PTS) (Thompson 2 AST),44,28,0,2,False,NON_BOUNDARY,True,True,True
+2,331.0,254,CHI,Huerter 26' 3PT Jump Shot (8 PTS) (Giddey 6 AST),47,28,3,0,False,NON_BOUNDARY,True,True,True
+2,350.0,265,CHI,Giddey 2' Layup (10 PTS),49,28,2,0,False,NON_BOUNDARY,True,True,True
+2,365.0,267,DET,LeVert 26' 3PT Jump Shot (3 PTS) (Cunningham 6 AST),49,31,0,3,False,NON_BOUNDARY,True,True,True
+2,379.0,269,CHI,Dosunmu 1' Cutting Layup Shot (9 PTS) (Vucevic 2 AST),51,31,2,0,False,NON_BOUNDARY,True,True,True
+2,404.0,276,CHI,Vucevic 26' 3PT Jump Shot (15 PTS) (Dosunmu 1 AST),54,31,3,0,False,NON_BOUNDARY,True,True,True
+2,413.0,280,DET,Cunningham Free Throw 1 of 2 (9 PTS),54,32,0,1,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+2,413.0,285,DET,Cunningham Free Throw 2 of 2 (10 PTS),54,33,0,1,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+2,452.0,292,DET,Stewart 1' Cutting Dunk Shot (6 PTS) (Harris 1 AST),54,35,0,2,False,NON_BOUNDARY,True,True,True
+2,470.0,294,CHI,Jones 3' Driving Layup (4 PTS),56,35,2,0,False,NON_BOUNDARY,True,True,True
+2,482.0,295,DET,Harris 26' 3PT Jump Shot (5 PTS) (Cunningham 7 AST),56,38,0,3,False,NON_BOUNDARY,True,True,True
+2,499.0,305,CHI,Giddey Free Throw 1 of 2 (11 PTS),57,38,1,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+2,499.0,308,CHI,Giddey Free Throw 2 of 2 (12 PTS),58,38,1,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+2,523.0,309,DET,Holland II 1' Driving Layup (4 PTS),58,40,0,2,False,NON_BOUNDARY,True,True,True
+2,553.0,313,DET,Thompson 1' Driving Finger Roll Layup (7 PTS),58,42,0,2,False,NON_BOUNDARY,True,True,True
+2,573.0,320,CHI,Dosunmu 1' Driving Layup (11 PTS) (Buzelis 1 AST),60,42,2,0,False,NON_BOUNDARY,True,True,True
+2,587.0,322,DET,Harris 1' Layup (7 PTS) (Stewart 2 AST),60,44,0,2,False,NON_BOUNDARY,True,True,True
+2,587.0,326,DET,Harris Free Throw 1 of 1 (8 PTS),60,45,0,1,False,NON_BOUNDARY,True,True,True
+2,611.0,332,CHI,Buzelis Free Throw 1 of 2 (9 PTS),61,45,1,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+2,611.0,335,CHI,Buzelis Free Throw 2 of 2 (10 PTS),62,45,1,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+2,631.0,342,DET,Holland II Free Throw 1 of 2 (5 PTS),62,46,0,1,False,NON_BOUNDARY,True,True,True
+2,631.0,343,DET,Holland II Free Throw 2 of 2 (6 PTS),62,47,0,1,False,NON_BOUNDARY,True,True,True
+2,663.3,354,CHI,Huerter Free Throw 1 of 2 (9 PTS),63,47,1,0,False,NON_BOUNDARY,True,True,True
+2,663.3,355,CHI,Huerter Free Throw 2 of 2 (10 PTS),64,47,1,0,False,NON_BOUNDARY,True,True,True
+2,675.8,356,DET,Stewart 1' Cutting Layup Shot (8 PTS) (Holland II 2 AST),64,49,0,2,False,NON_BOUNDARY,True,True,True
+3,13.0,378,DET,Duren 2' Alley Oop Dunk (6 PTS) (Cunningham 8 AST),64,51,0,2,False,NON_BOUNDARY,True,True,True
+3,37.0,383,DET,Robinson 1' Running Layup (2 PTS) (Harris 2 AST),64,53,0,2,False,NON_BOUNDARY,True,True,True
+3,66.0,387,DET,Duren 1' Driving Layup (8 PTS) (Thompson 3 AST),64,55,0,2,False,NON_BOUNDARY,True,True,True
+3,84.0,389,CHI,Jones 2' Driving Floating Bank Jump Shot (6 PTS) (Okoro 3 AST),66,55,2,0,False,NON_BOUNDARY,True,True,True
+3,129.0,395,CHI,Jones 3PT Jump Shot (9 PTS) (Giddey 7 AST),69,55,3,0,False,NON_BOUNDARY,True,True,True
+3,151.0,399,CHI,Vucevic 25' 3PT Jump Shot (18 PTS) (Giddey 8 AST),72,55,3,0,False,NON_BOUNDARY,True,True,True
+3,211.0,425,CHI,Vucevic 1' Running Alley Oop Layup Shot (20 PTS) (Giddey 9 AST),74,55,2,0,False,NON_BOUNDARY,True,True,True
+3,247.0,434,CHI,Buzelis Free Throw Flagrant 1 of 3 (11 PTS),75,55,1,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+3,247.0,435,CHI,Buzelis Free Throw Flagrant 2 of 3 (12 PTS),76,55,1,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+3,247.0,436,CHI,Buzelis Free Throw Flagrant 3 of 3 (13 PTS),77,55,1,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+3,275.0,447,DET,Duren Putback Layup (10 PTS),77,57,0,2,False,NON_BOUNDARY,True,True,True
+3,288.0,452,DET,Holland II Free Throw 1 of 2 (7 PTS),77,58,0,1,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+3,288.0,455,DET,Holland II Free Throw 2 of 2 (8 PTS),77,59,0,1,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+3,339.0,466,DET,Duren 1' Running Dunk (12 PTS) (Holland II 3 AST),77,61,0,2,False,NON_BOUNDARY,True,True,True
+3,365.0,484,CHI,Williams Free Throw 2 of 2 (1 PTS),78,61,1,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+3,380.0,485,DET,LeVert 2' Driving Layup (5 PTS) (Harris 3 AST),78,63,0,2,False,NON_BOUNDARY,True,True,True
+3,393.0,488,CHI,Huerter Free Throw 1 of 2 (11 PTS),79,63,1,0,False,NON_BOUNDARY,True,True,True
+3,393.0,489,CHI,Huerter Free Throw 2 of 2 (12 PTS),80,63,1,0,False,NON_BOUNDARY,True,True,True
+3,426.0,496,DET,LeVert 7' Turnaround Fadeaway (7 PTS) (Cunningham 9 AST),80,65,0,2,False,NON_BOUNDARY,True,True,True
+3,465.0,502,CHI,Giddey 7' Driving Floating Jump Shot (14 PTS),82,65,2,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+3,465.0,509,CHI,Giddey Free Throw 1 of 1 (15 PTS),83,65,1,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+3,480.0,510,DET,Stewart 25' 3PT Jump Shot (11 PTS) (Thompson 4 AST),83,68,0,3,False,NON_BOUNDARY,True,True,True
+3,498.0,514,DET,Holland II 3' Running Layup (10 PTS),83,70,0,2,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+3,510.0,520,CHI,Huerter Free Throw 1 of 2 (13 PTS),84,70,1,0,False,NON_BOUNDARY,True,True,True
+3,526.0,523,DET,Stewart Cutting Dunk Shot (13 PTS) (LeVert 2 AST),84,72,0,2,False,NON_BOUNDARY,True,True,True
+3,538.0,525,CHI,Jones 3' Driving Floating Bank Jump Shot (11 PTS),86,72,2,0,False,NON_BOUNDARY,True,True,True
+3,592.0,532,CHI,Williams 28' 3PT Jump Shot (4 PTS) (Dosunmu 2 AST),89,72,3,0,False,NON_BOUNDARY,True,True,True
+3,620.0,537,CHI,Dosunmu 24' 3PT Jump Shot (14 PTS) (Jones 5 AST),92,72,3,0,False,NON_BOUNDARY,True,True,True
+3,652.0,546,DET,Holland II 1' Driving Dunk (12 PTS) (Harris 4 AST),92,74,0,2,False,NON_BOUNDARY,True,True,True
+3,670.5,551,DET,Stewart 1' Cutting Dunk Shot (15 PTS) (Thompson 5 AST),92,76,0,2,False,NON_BOUNDARY,True,True,True
+3,693.0,558,DET,Holland II Free Throw 1 of 2 (13 PTS),92,77,0,1,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+3,693.0,561,DET,Holland II Free Throw 2 of 2 (14 PTS),92,78,0,1,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+3,714.7,562,CHI,Buzelis 1' Driving Finger Roll Layup (15 PTS),94,78,2,0,False,NON_BOUNDARY,True,True,True
+3,719.7,567,DET,LeVert Free Throw 2 of 2 (8 PTS),94,79,0,1,False,NON_BOUNDARY,True,True,True
+4,22.0,580,DET,Thompson 13' Pullup Jump Shot (9 PTS),94,81,0,2,False,NON_BOUNDARY,True,True,True
+4,63.0,590,DET,Cunningham Free Throw 1 of 2 (11 PTS),94,82,0,1,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+4,63.0,595,DET,Cunningham Free Throw 2 of 2 (12 PTS),94,83,0,1,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+4,107.0,610,CHI,Jones Free Throw 1 of 2 (12 PTS),95,83,1,0,False,NON_BOUNDARY,True,True,True
+4,128.0,613,DET,Stewart 26' 3PT Jump Shot (18 PTS) (Thompson 6 AST),95,86,0,3,False,NON_BOUNDARY,True,True,True
+4,154.0,617,CHI,Buzelis 1' Cutting Dunk Shot (17 PTS) (Okoro 4 AST),97,86,2,0,False,NON_BOUNDARY,True,True,True
+4,179.0,633,DET,Stewart Free Throw 1 of 2 (19 PTS),97,87,0,1,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+4,179.0,638,DET,Stewart Free Throw 2 of 2 (20 PTS),97,88,0,1,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+4,226.0,653,DET,Cunningham 4' Turnaround Jump Shot (14 PTS),97,90,0,2,False,NON_BOUNDARY,True,True,True
+4,281.0,676,DET,Duren Free Throw 2 of 2 (13 PTS),97,91,0,1,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+4,301.0,682,CHI,Huerter 4' Driving Floating Bank Jump Shot (15 PTS),99,91,2,0,False,NON_BOUNDARY,True,True,True
+4,355.0,692,CHI,Buzelis 4' Finger Roll Layup (19 PTS),101,91,2,0,False,NON_BOUNDARY,True,True,True
+4,372.0,693,DET,Harris 2' Driving Layup (10 PTS),101,93,0,2,False,NON_BOUNDARY,True,True,True
+4,396.0,697,DET,Duren 1' Driving Hook Shot (15 PTS),101,95,0,2,False,NON_BOUNDARY,True,True,True
+4,412.0,698,CHI,Vucevic 11' Floating Jump Shot (22 PTS) (Jones 6 AST),103,95,2,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+4,425.0,711,DET,Cunningham 25' 3PT Jump Shot (17 PTS),103,98,0,3,False,NON_BOUNDARY,True,True,True
+4,466.0,716,CHI,Vucevic 12' Jump Shot (24 PTS) (Giddey 10 AST),105,98,2,0,False,NON_BOUNDARY,True,True,True
+4,490.0,719,DET,Thompson 2' Reverse Layup (11 PTS) (Cunningham 10 AST),105,100,0,2,False,NON_BOUNDARY,True,True,True
+4,524.0,727,DET,Holland II 2' Running Layup (16 PTS),105,102,0,2,False,NON_BOUNDARY,True,True,True
+4,546.0,731,DET,Holland II 24' 3PT Running Jump Shot (19 PTS) (Thompson 7 AST),105,105,0,3,False,NON_BOUNDARY,True,True,True
+4,562.0,733,CHI,Vucevic 8' Jump Shot (26 PTS) (Jones 7 AST),107,105,2,0,False,NON_BOUNDARY,True,True,True
+4,578.0,735,DET,Cunningham 10' Fadeaway Jumper (19 PTS),107,107,0,2,False,NON_BOUNDARY,True,True,True
+4,595.0,736,CHI,Buzelis 1' Alley Oop Dunk (21 PTS) (Jones 8 AST),109,107,2,0,False,NON_BOUNDARY,True,True,True
+4,613.0,738,DET,Cunningham 3' Driving Layup (21 PTS),109,109,0,2,False,NON_BOUNDARY,True,True,True
+4,629.0,739,CHI,Vucevic 2' Hook Shot (28 PTS) (Giddey 11 AST),111,109,2,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+4,685.6,753,CHI,Giddey Free Throw 1 of 2 (16 PTS),112,109,1,0,False,NON_BOUNDARY,True,True,True
+4,700.1,757,DET,Cunningham 2' Driving Layup (23 PTS) (Duren 1 AST),112,111,0,2,False,NON_BOUNDARY,True,True,True
+4,706.2,767,CHI,Giddey Free Throw 1 of 2 (17 PTS),113,111,1,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+4,706.2,770,CHI,Giddey Free Throw 2 of 2 (18 PTS),114,111,1,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True
+4,716.9,784,CHI,Giddey Free Throw 2 of 2 (19 PTS),115,111,1,0,True,FIRST_SUB_ACTION_APPLIES_ATOMIC_GROUP,True,True,True

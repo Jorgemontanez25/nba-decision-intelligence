@@ -1,0 +1,2 @@
+﻿game_id,source_status,pbp_rows,box_rows,rotation_status,timeline_status,ready_for_v9_9,official_dir,timeline,error
+0022500002,ROTATION_INCOMPLETE,495,25,FAILED,MISSING_NOT_RECONSTRUCTED,False,C:\Users\jmontanez\Documents\nba_platform_v5\v9_9_1_prepared\evidence\0022500002,C:\Users\jmontanez\Documents\nba_platform_v5\0022500002\lineup_timeline_CONDITIONAL_UNVERIFIED.csv,GameRotation not successful

@@ -1,0 +1,3 @@
+period,team,first_sub_elapsed,required_count,required_ids,forbidden_count,forbidden_ids,initial_combinations,candidates_surviving,candidates_rejected,status,first_rejection
+2,GSW,233.0,3,1641764|202710|203110,1,201939,36,1,35,UNIQUE_CONDITIONAL,INVALID_SUB_GROUP at 264.0 actions=249|250|251
+2,LAL,189.0,4,1629020|1629216|1630559|1631222,2,1629029|1629060,6,1,5,UNIQUE_CONDITIONAL,INVALID_SUB_GROUP at 202.0 actions=235

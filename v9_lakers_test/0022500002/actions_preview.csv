@@ -1,0 +1,496 @@
+﻿action_number,period,clock,elapsed,team_id,person_id,type,sub_type,description,score_home,score_away
+2,1,PT12M00.00S,0.0,0,0,period,start,Start of 1st Period (10:18 PM EST),0,0
+4,1,PT12M00.00S,0.0,1610612747,1629028,Jump Ball,,Jump Ball Ayton vs. Green: Tip to Vincent,,
+7,1,PT11M39.00S,21.0,1610612747,1629029,Made Shot,Fadeaway Jump Shot,Doncic 14' Fadeaway Jumper (2 PTS),2,0
+8,1,PT11M27.00S,33.0,1610612744,203110,Missed Shot,Jump Shot,MISS Green 27' 3PT Jump Shot,,
+9,1,PT11M24.00S,36.0,1610612747,1630559,Rebound,Unknown,Reaves REBOUND (Off:0 Def:1),,
+10,1,PT11M08.00S,52.0,1610612747,1629029,Turnover,Lost Ball,Doncic Lost Ball Turnover (P1.T1),,
+10,1,PT11M08.00S,52.0,1610612744,203110,,,Green STEAL (1 STL),,
+12,1,PT11M00.00S,60.0,1610612744,1641764,Made Shot,Driving Floating Jump Shot,Podziemski 3' Driving Floating Jump Shot (2 PTS) (Kuminga 1 AST),2,2
+14,1,PT10M39.00S,81.0,1610612747,1630559,Made Shot,Driving Finger Roll Layup Shot,Reaves 3' Driving Finger Roll Layup (2 PTS),4,2
+15,1,PT10M38.00S,82.0,0,1610612747,Violation,Delay Of Game,LAKERS Violation: Delay of game Violation,,
+16,1,PT10M24.00S,96.0,1610612744,203110,Missed Shot,Turnaround Hook Shot,MISS Green 7' Turnaround Hook Shot,,
+17,1,PT10M23.00S,97.0,1610612747,1629029,Rebound,Unknown,Doncic REBOUND (Off:0 Def:1),,
+18,1,PT10M18.00S,102.0,1610612747,1629029,Missed Shot,Step Back Jump shot,MISS Doncic 26' 3PT Step Back Jump Shot,,
+19,1,PT10M15.00S,105.0,1610612744,1641764,Rebound,Unknown,Podziemski REBOUND (Off:0 Def:1),,
+20,1,PT10M08.00S,112.0,1610612744,202710,Made Shot,Jump Shot,Butler III 24' 3PT Jump Shot (3 PTS) (Podziemski 1 AST),4,5
+22,1,PT09M48.00S,132.0,1610612747,1630559,Turnover,Bad Pass,Reaves Bad Pass Turnover (P1.T2),,
+22,1,PT09M48.00S,132.0,1610612744,201939,,,Curry STEAL (1 STL),,
+24,1,PT09M44.00S,136.0,1610612744,1630228,Missed Shot,Running Layup Shot,MISS Kuminga 2' Running Layup,,
+25,1,PT09M42.00S,138.0,0,1610612747,Rebound,Unknown,LAKERS Rebound,,
+27,1,PT09M27.00S,153.0,1610612747,1630559,Turnover,Bad Pass,Reaves Bad Pass Turnover (P2.T3),,
+27,1,PT09M27.00S,153.0,1610612744,201939,,,Curry STEAL (2 STL),,
+29,1,PT09M24.00S,156.0,1610612747,1630559,Foul,Shooting,Reaves S.FOUL (P1.T1) (T.Ford),,
+31,1,PT09M24.00S,156.0,1610612744,202710,Free Throw,Free Throw 1 of 2,Butler III Free Throw 1 of 2 (4 PTS),4,6
+32,1,PT09M24.00S,156.0,1610612744,202710,Free Throw,Free Throw 2 of 2,Butler III Free Throw 2 of 2 (5 PTS),4,7
+33,1,PT09M07.00S,173.0,1610612747,1629029,Made Shot,Jump Shot,Doncic 26' 3PT Jump Shot (5 PTS) (Reaves 1 AST),7,7
+35,1,PT08M49.00S,191.0,1610612744,203110,Missed Shot,Jump Shot,MISS Green 28' 3PT Jump Shot,,
+36,1,PT08M45.00S,195.0,1610612747,1629029,Rebound,Unknown,Doncic REBOUND (Off:0 Def:2),,
+37,1,PT08M36.00S,204.0,1610612747,1629028,Made Shot,Turnaround Hook Shot,Ayton 5' Turnaround Hook Shot (2 PTS) (Doncic 1 AST),9,7
+39,1,PT08M31.00S,209.0,1610612744,202710,Made Shot,Alley Oop Dunk Shot,Butler III 2' Alley Oop Dunk (7 PTS) (Kuminga 2 AST),9,9
+41,1,PT08M27.00S,213.0,1610612747,1629060,Foul,Offensive,Hachimura OFF.Foul (P1) (P.Ransom),,
+43,1,PT08M27.00S,213.0,1610612747,1629060,Turnover,Offensive Foul Turnover,Hachimura Offensive Foul Turnover (P1.T4),,
+44,1,PT08M13.00S,227.0,1610612744,201939,Made Shot,Jump Shot,Curry 27' 3PT Jump Shot (3 PTS) (Green 1 AST),9,12
+46,1,PT07M55.00S,245.0,1610612747,1629028,Made Shot,Layup Shot,Ayton 3' Layup (4 PTS) (Vincent 1 AST),11,12
+48,1,PT07M45.00S,255.0,1610612744,201939,Missed Shot,Jump Shot,MISS Curry 26' 3PT Jump Shot,,
+49,1,PT07M43.00S,257.0,1610612747,1629060,Rebound,Unknown,Hachimura REBOUND (Off:0 Def:1),,
+50,1,PT07M36.00S,264.0,1610612747,1629029,Missed Shot,Step Back Jump shot,MISS Doncic 27' 3PT Step Back Jump Shot,,
+51,1,PT07M34.00S,266.0,1610612744,203110,Rebound,Unknown,Green REBOUND (Off:0 Def:1),,
+52,1,PT07M26.00S,274.0,1610612744,1630228,Missed Shot,Pullup Jump shot,MISS Kuminga 16' Pullup Jump Shot,,
+53,1,PT07M24.00S,276.0,1610612747,1629029,Rebound,Unknown,Doncic REBOUND (Off:0 Def:3),,
+54,1,PT07M03.00S,297.0,0,1610612747,Turnover,Shot Clock Turnover,LAKERS Turnover: Shot Clock (T#5),,
+55,1,PT07M03.00S,297.0,1610612747,1629216,Substitution,,SUB: Smart FOR Vincent,,
+56,1,PT07M03.00S,297.0,1610612744,202710,Substitution,,SUB: Hield FOR Butler III,,
+57,1,PT07M03.00S,297.0,1610612744,1641764,Substitution,,SUB: Payton II FOR Podziemski,,
+61,1,PT06M42.00S,318.0,1610612744,203110,Turnover,Out of Bounds - Bad Pass Turnover,Green Out of Bounds - Bad Pass Turnover Turnover (P1.T1),,
+62,1,PT06M42.00S,318.0,0,1610612747,Timeout,Regular,LAKERS Timeout: Regular (Full 1 Short 0),,
+63,1,PT06M28.00S,332.0,1610612747,203935,Missed Shot,Jump Shot,MISS Smart 27' 3PT Jump Shot,,
+64,1,PT06M25.00S,335.0,1610612744,203110,Rebound,Unknown,Green REBOUND (Off:0 Def:2),,
+65,1,PT06M17.00S,343.0,1610612744,1627741,Missed Shot,Jump Shot,MISS Hield 28' 3PT Jump Shot,,
+66,1,PT06M14.00S,346.0,1610612747,1629029,Rebound,Unknown,Doncic REBOUND (Off:0 Def:4),,
+67,1,PT06M12.00S,348.0,1610612747,1630559,Missed Shot,Running Layup Shot,MISS Reaves 3' Running Layup,,
+67,1,PT06M12.00S,348.0,1610612744,1627780,,,Payton II BLOCK (1 BLK),,
+69,1,PT06M12.00S,348.0,0,1610612747,Rebound,Unknown,LAKERS Rebound,,
+71,1,PT06M09.00S,351.0,1610612747,1629029,Turnover,Bad Pass,Doncic Bad Pass Turnover (P2.T6),,
+71,1,PT06M09.00S,351.0,1610612744,201939,,,Curry STEAL (3 STL),,
+73,1,PT06M04.00S,356.0,1610612744,1627741,Turnover,Out of Bounds - Bad Pass Turnover,Hield Out of Bounds - Bad Pass Turnover Turnover (P1.T2),,
+74,1,PT05M46.00S,374.0,1610612747,1630559,Missed Shot,Jump Shot,MISS Reaves 27' 3PT Jump Shot,,
+75,1,PT05M43.00S,377.0,1610612744,203110,Rebound,Unknown,Green REBOUND (Off:0 Def:3),,
+76,1,PT05M40.00S,380.0,1610612747,1629028,Foul,Personal,Ayton P.FOUL (P1.T2) (J.DeRosa),,
+78,1,PT05M40.00S,380.0,1610612744,203110,Substitution,,SUB: Horford FOR Green,,
+80,1,PT05M33.00S,387.0,1610612744,1627780,Missed Shot,Cutting Layup Shot,MISS Payton II 3' Cutting Layup Shot,,
+81,1,PT05M31.00S,389.0,1610612744,1627780,Rebound,Unknown,Payton II REBOUND (Off:1 Def:0),,
+82,1,PT05M30.00S,390.0,1610612744,1627780,Missed Shot,Putback Layup Shot,MISS Payton II 3' Putback Layup,,
+82,1,PT05M30.00S,390.0,1610612747,1629028,,,Ayton BLOCK (1 BLK),,
+84,1,PT05M30.00S,390.0,1610612747,1629029,Rebound,Unknown,Doncic REBOUND (Off:0 Def:5),,
+85,1,PT05M23.00S,397.0,1610612747,1629029,Missed Shot,Running Layup Shot,MISS Doncic 3' Running Layup,,
+86,1,PT05M22.00S,398.0,1610612747,1629028,Rebound,Unknown,Ayton REBOUND (Off:1 Def:0),,
+87,1,PT05M22.00S,398.0,1610612744,203110,Foul,Technical,Green T.FOUL (P0.T0) (J.DeRosa),,
+88,1,PT05M22.00S,398.0,1610612747,1630559,Free Throw,Free Throw Technical,MISS Reaves Free Throw Technical,,
+89,1,PT05M22.00S,398.0,0,1610612747,Rebound,Normal Rebound,LAKERS Rebound,,
+90,1,PT05M14.00S,406.0,1610612747,1629029,Missed Shot,Step Back Jump shot,MISS Doncic 28' 3PT Step Back Jump Shot,,
+91,1,PT05M12.00S,408.0,1610612744,1630228,Rebound,Unknown,Kuminga REBOUND (Off:0 Def:1),,
+92,1,PT05M08.00S,412.0,1610612744,1630228,Turnover,Bad Pass,Kuminga Bad Pass Turnover (P1.T3),,
+92,1,PT05M08.00S,412.0,1610612747,203935,,,Smart STEAL (1 STL),,
+94,1,PT05M05.00S,415.0,1610612747,203935,Missed Shot,Jump Shot,MISS Smart 3PT Jump Shot,,
+95,1,PT05M03.00S,417.0,1610612744,201143,Rebound,Unknown,Horford REBOUND (Off:0 Def:1),,
+96,1,PT05M00.00S,420.0,1610612744,1627780,Foul,Offensive Charge,Payton II Offensive Charge Foul (P1) (P.Ransom),,
+98,1,PT05M00.00S,420.0,1610612744,1627780,Turnover,Offensive Foul Turnover,Payton II Offensive Foul Turnover (P1.T4),,
+99,1,PT05M00.00S,420.0,1610612747,1630559,Substitution,,SUB: LaRavia FOR Reaves,,
+101,1,PT04M49.00S,431.0,1610612744,1627780,Foul,Shooting,Payton II S.FOUL (P2.T1) (P.Ransom),,
+103,1,PT04M49.00S,431.0,1610612747,1629029,Free Throw,Free Throw 1 of 2,Doncic Free Throw 1 of 2 (6 PTS),12,12
+104,1,PT04M49.00S,431.0,1610612747,1629029,Free Throw,Free Throw 2 of 2,MISS Doncic Free Throw 2 of 2,,
+105,1,PT04M47.00S,433.0,1610612744,1630228,Rebound,Unknown,Kuminga REBOUND (Off:0 Def:2),,
+106,1,PT04M32.00S,448.0,1610612744,1630228,Made Shot,Jump Shot,Kuminga 27' 3PT Jump Shot (3 PTS) (Curry 1 AST),12,15
+108,1,PT04M24.00S,456.0,1610612747,1629028,Turnover,Bad Pass,Ayton Bad Pass Turnover (P1.T7),,
+108,1,PT04M24.00S,456.0,1610612744,1627741,,,Hield STEAL (1 STL),,
+110,1,PT04M23.00S,457.0,1610612744,1627741,Made Shot,Layup Shot,Hield 3' Layup (2 PTS),12,17
+111,1,PT04M07.00S,473.0,1610612747,1629029,Made Shot,Pullup Jump shot,Doncic 13' Pullup Jump Shot (8 PTS),14,17
+113,1,PT03M57.00S,483.0,1610612744,201939,Missed Shot,Step Back Jump shot,MISS Curry 27' 3PT Step Back Jump Shot,,
+114,1,PT03M54.00S,486.0,0,1610612747,Rebound,Unknown,LAKERS Rebound,,
+116,1,PT03M54.00S,486.0,1610612747,1629028,Substitution,,SUB: Hayes FOR Ayton,,
+117,1,PT03M54.00S,486.0,1610612747,1629060,Substitution,,SUB: Vanderbilt FOR Hachimura,,
+118,1,PT03M54.00S,486.0,1610612744,1630228,Substitution,,SUB: Podziemski FOR Kuminga,,
+119,1,PT03M54.00S,486.0,1610612744,201939,Substitution,,SUB: Butler III FOR Curry,,
+124,1,PT03M41.00S,499.0,1610612747,1629020,Missed Shot,Alley Oop Layup shot,MISS Vanderbilt 2' Alley Oop Layup,,
+125,1,PT03M40.00S,500.0,1610612744,201143,Rebound,Unknown,Horford REBOUND (Off:0 Def:2),,
+126,1,PT03M26.00S,514.0,1610612747,1631222,Foul,Shooting,LaRavia S.FOUL (P1.T3) (J.DeRosa),,
+128,1,PT03M26.00S,514.0,1610612744,202710,Free Throw,Free Throw 1 of 2,Butler III Free Throw 1 of 2 (8 PTS),14,18
+129,1,PT03M26.00S,514.0,1610612744,202710,Free Throw,Free Throw 2 of 2,Butler III Free Throw 2 of 2 (9 PTS),14,19
+130,1,PT03M12.00S,528.0,1610612747,1629029,Missed Shot,Step Back Jump shot,MISS Doncic 27' 3PT Step Back Jump Shot,,
+131,1,PT03M09.00S,531.0,1610612744,201143,Rebound,Unknown,Horford REBOUND (Off:0 Def:3),,
+132,1,PT02M57.00S,543.0,1610612744,1627741,Made Shot,Pullup Jump shot,Hield 27' 3PT Pullup Jump Shot (5 PTS),14,22
+133,1,PT02M42.00S,558.0,1610612744,1627780,Foul,Shooting,Payton II S.FOUL (P3.T2) (P.Ransom),,
+135,1,PT02M42.00S,558.0,0,1610612744,Timeout,Regular,Warriors Timeout: Regular (Reg.1 Short 0),,
+136,1,PT02M42.00S,558.0,1610612744,1627780,Substitution,,SUB: Santos FOR Payton II,,
+138,1,PT02M42.00S,558.0,1610612747,1629029,Free Throw,Free Throw 1 of 2,Doncic Free Throw 1 of 2 (9 PTS),15,22
+139,1,PT02M42.00S,558.0,1610612747,1629029,Free Throw,Free Throw 2 of 2,Doncic Free Throw 2 of 2 (10 PTS),16,22
+140,1,PT02M21.00S,579.0,1610612744,1641764,Missed Shot,Fadeaway Jump Shot,MISS Podziemski 15' Fadeaway Jumper,,
+141,1,PT02M18.00S,582.0,1610612747,1629637,Rebound,Unknown,Hayes REBOUND (Off:0 Def:1),,
+142,1,PT02M13.00S,587.0,1610612744,202710,Foul,Personal,Butler III P.FOUL (P1.T3) (T.Ford),,
+144,1,PT02M13.00S,587.0,1610612744,1627741,Substitution,,SUB: Richard FOR Hield,,
+146,1,PT02M01.00S,599.0,1610612747,203935,Turnover,Bad Pass,Smart Bad Pass Turnover (P1.T8),,
+146,1,PT02M01.00S,599.0,1610612744,202710,,,Butler III STEAL (1 STL),,
+149,1,PT01M54.00S,606.0,1610612747,1629029,Substitution,,SUB: Reaves FOR Doncic,,
+151,1,PT01M38.00S,622.0,1610612744,202710,Missed Shot,Turnaround Fadeaway shot,MISS Butler III 14' Turnaround Fadeaway Shot,,
+152,1,PT01M37.00S,623.0,1610612747,1629637,Rebound,Unknown,Hayes REBOUND (Off:0 Def:2),,
+153,1,PT01M30.00S,630.0,1610612744,1642954,Foul,Shooting,Richard S.FOUL (P1.T4) (T.Ford),,
+155,1,PT01M30.00S,630.0,1610612747,1630559,Free Throw,Free Throw 1 of 2,Reaves Free Throw 1 of 2 (3 PTS),17,22
+156,1,PT01M30.00S,630.0,1610612747,1630559,Free Throw,Free Throw 2 of 2,Reaves Free Throw 2 of 2 (4 PTS),18,22
+157,1,PT01M09.00S,651.0,1610612744,201143,Made Shot,Jump Shot,Horford 24' 3PT Jump Shot (3 PTS) (Butler III 1 AST),18,25
+159,1,PT00M58.70S,661.3,1610612747,1630559,Turnover,Lost Ball,Reaves Lost Ball Turnover (P3.T9),,
+159,1,PT00M58.70S,661.3,1610612744,1642954,,,Richard STEAL (1 STL),,
+161,1,PT00M56.00S,664.0,1610612744,1641764,Foul,Offensive Charge,Podziemski Offensive Charge Foul (P1) (T.Ford),,
+163,1,PT00M56.00S,664.0,1610612744,1641764,Turnover,Offensive Foul Turnover,Podziemski Offensive Foul Turnover (P1.T5),,
+164,1,PT00M37.20S,682.8,1610612747,1630559,Made Shot,Driving Finger Roll Layup Shot,Reaves 2' Driving Finger Roll Layup (6 PTS),20,25
+165,1,PT00M32.30S,687.7,1610612744,1630611,Turnover,Bad Pass,Santos Bad Pass Turnover (P1.T6),,
+165,1,PT00M32.30S,687.7,1610612747,1629020,,,Vanderbilt STEAL (1 STL),,
+167,1,PT00M27.70S,692.3,1610612747,1629637,Made Shot,Running Alley Oop Layup Shot,Hayes 3' Running Alley Oop Layup Shot (2 PTS) (Reaves 2 AST),22,25
+169,1,PT00M03.20S,716.8,1610612747,203935,Foul,Shooting,Smart S.FOUL (P1.T4) (J.DeRosa),,
+171,1,PT00M03.20S,716.8,0,1610612747,Timeout,Regular,LAKERS Timeout: Regular (Full 2 Short 0),,
+172,1,PT00M03.20S,716.8,0,169,Instant Replay,Coach Challenge Ruling Stands,Instant Replay1st Period (10:46 PM EST),22,25
+173,1,PT00M03.20S,716.8,1610612744,1641764,Substitution,,SUB: Kuminga FOR Podziemski,,
+174,1,PT00M03.20S,716.8,1610612744,1630611,Substitution,,SUB: Green FOR Santos,,
+175,1,PT00M03.20S,716.8,1610612744,201143,Substitution,,SUB: Payton II FOR Horford,,
+179,1,PT00M03.20S,716.8,1610612744,202710,Free Throw,Free Throw 1 of 3,Butler III Free Throw 1 of 3 (10 PTS),22,26
+180,1,PT00M03.20S,716.8,1610612744,202710,Free Throw,Free Throw 2 of 3,Butler III Free Throw 2 of 3 (11 PTS),22,27
+181,1,PT00M03.20S,716.8,1610612744,202710,Free Throw,Free Throw 3 of 3,Butler III Free Throw 3 of 3 (12 PTS),22,28
+182,1,PT00M00.50S,719.5,1610612747,1630559,Missed Shot,Pullup Jump shot,MISS Reaves 26' 3PT Pullup Jump Shot,,
+183,1,PT00M00.10S,719.9,0,1610612747,Rebound,Unknown,LAKERS Rebound,,
+184,1,PT00M00.00S,720.0,0,0,period,end,End of 1st Period (10:49 PM EST),22,28
+193,2,PT12M00.00S,720.0,0,0,period,start,Start of 2nd Period (10:52 PM EST),22,28
+194,2,PT11M52.00S,728.0,1610612744,202710,Turnover,Traveling,Butler III Traveling Turnover (P1.T7),,
+195,2,PT11M42.00S,738.0,1610612747,1629216,Made Shot,Jump Shot,Vincent 26' 3PT Jump Shot (3 PTS) (Reaves 3 AST),25,28
+197,2,PT11M25.00S,755.0,1610612744,202710,Missed Shot,Turnaround Fadeaway shot,MISS Butler III 15' Turnaround Fadeaway Shot,,
+198,2,PT11M23.00S,757.0,1610612747,1630559,Rebound,Unknown,Reaves REBOUND (Off:0 Def:2),,
+199,2,PT11M18.00S,762.0,1610612747,1630559,Missed Shot,Running Pull-Up Jump Shot,MISS Reaves 26' 3PT Running Pull-Up Jump Shot,,
+200,2,PT11M15.00S,765.0,1610612747,1631222,Rebound,Unknown,LaRavia REBOUND (Off:1 Def:0),,
+201,2,PT11M08.00S,772.0,1610612744,202710,Foul,Shooting,Butler III S.FOUL (P2.T1) (J.DeRosa),,
+203,2,PT11M08.00S,772.0,1610612747,1631222,Free Throw,Free Throw 1 of 2,MISS LaRavia Free Throw 1 of 2,,
+204,2,PT11M08.00S,772.0,0,1610612747,Rebound,Normal Rebound,LAKERS Rebound,,
+205,2,PT11M08.00S,772.0,1610612747,1631222,Free Throw,Free Throw 2 of 2,MISS LaRavia Free Throw 2 of 2,,
+206,2,PT11M06.00S,774.0,1610612744,203110,Rebound,Unknown,Green REBOUND (Off:0 Def:4),,
+207,2,PT10M51.00S,789.0,1610612744,1641764,Made Shot,Jump Shot,Podziemski 17' Jump Shot (4 PTS) (Post 1 AST),25,30
+209,2,PT10M32.00S,808.0,1610612747,1629216,Missed Shot,Pullup Jump shot,MISS Vincent 26' 3PT Pullup Jump Shot,,
+210,2,PT10M30.00S,810.0,1610612747,1630559,Rebound,Unknown,Reaves REBOUND (Off:1 Def:2),,
+211,2,PT10M21.00S,819.0,1610612747,1629020,Missed Shot,Jump Shot,MISS Vanderbilt 3PT Jump Shot,,
+212,2,PT10M20.00S,820.0,1610612744,203110,Rebound,Unknown,Green REBOUND (Off:0 Def:5),,
+213,2,PT10M16.00S,824.0,1610612744,202710,Missed Shot,Running Layup Shot,MISS Butler III 3' Running Layup,,
+214,2,PT10M15.00S,825.0,1610612747,1629020,Rebound,Unknown,Vanderbilt REBOUND (Off:0 Def:1),,
+215,2,PT10M04.00S,836.0,1610612747,1629020,Turnover,Out of Bounds Lost Ball Turnover,Vanderbilt Out of Bounds Lost Ball Turnover (P1.T10),,
+216,2,PT10M04.00S,836.0,1610612747,1629020,Foul,Technical,Vanderbilt T.FOUL (P0.T0) (T.Ford),,
+217,2,PT10M04.00S,836.0,1610612744,202710,Free Throw,Free Throw Technical,Butler III Free Throw Technical (13 PTS),25,31
+218,2,PT09M53.00S,847.0,1610612744,203110,Made Shot,Driving Dunk Shot,Green 4' Driving Dunk (2 PTS),25,33
+219,2,PT09M33.00S,867.0,1610612747,1630559,Made Shot,Pullup Jump shot,Reaves 12' Pullup Jump Shot (8 PTS),27,33
+220,2,PT09M11.00S,889.0,1610612744,202710,Made Shot,Pullup Jump shot,Butler III 14' Pullup Jump Shot (15 PTS) (Green 2 AST),27,35
+222,2,PT08M58.00S,902.0,1610612747,1630559,Made Shot,Pullup Jump shot,Reaves 12' Pullup Jump Shot (10 PTS),29,35
+223,2,PT08M51.00S,909.0,1610612744,203110,Foul,Offensive,Green OFF.Foul (P1) (P.Ransom),,
+226,2,PT08M51.00S,909.0,1610612744,203110,Turnover,Offensive Foul Turnover,Green Offensive Foul Turnover (P2.T8),,
+227,2,PT08M51.00S,909.0,1610612747,1629020,Substitution,,SUB: Hachimura FOR Vanderbilt,,
+228,2,PT08M51.00S,909.0,1610612747,1631222,Substitution,,SUB: Doncic FOR LaRavia,,
+232,2,PT08M38.00S,922.0,1610612747,1629637,Foul,Offensive,Hayes OFF.Foul (P1) (T.Ford),,
+234,2,PT08M38.00S,922.0,1610612747,1629637,Turnover,Offensive Foul Turnover,Hayes Offensive Foul Turnover (P1.T11),,
+235,2,PT08M38.00S,922.0,1610612747,1629637,Substitution,,SUB: Ayton FOR Hayes,,
+237,2,PT08M25.00S,935.0,1610612747,1630559,Foul,Personal,Reaves P.FOUL (P2.T1) (J.DeRosa),,
+239,2,PT08M13.00S,947.0,1610612744,1641764,Missed Shot,Jump Shot,MISS Podziemski 24' 3PT Jump Shot,,
+240,2,PT08M10.00S,950.0,1610612744,203110,Rebound,Unknown,Green REBOUND (Off:1 Def:5),,
+242,2,PT08M07.00S,953.0,1610612744,1627741,Turnover,Step Out of Bounds Turnover,Hield Step Out of Bounds Turnover (P2.T9),,
+243,2,PT08M07.00S,953.0,1610612744,1641764,Substitution,,SUB: Curry FOR Podziemski,,
+245,2,PT07M49.00S,971.0,1610612747,1629029,Made Shot,Turnaround Jump Shot,Doncic 15' Turnaround Jump Shot (12 PTS),31,35
+246,2,PT07M36.00S,984.0,1610612747,1629028,Foul,Shooting,Ayton S.FOUL (P2.T2) (P.Ransom),,
+248,2,PT07M36.00S,984.0,1610612744,201939,Free Throw,Free Throw 1 of 2,Curry Free Throw 1 of 2 (4 PTS),31,36
+249,2,PT07M36.00S,984.0,1610612744,1627741,Substitution,,SUB: Horford FOR Hield,,
+250,2,PT07M36.00S,984.0,1610612744,202710,Substitution,,SUB: Richard FOR Butler III,,
+251,2,PT07M36.00S,984.0,1610612744,1642366,Substitution,,SUB: Kuminga FOR Post,,
+255,2,PT07M36.00S,984.0,1610612744,201939,Free Throw,Free Throw 2 of 2,Curry Free Throw 2 of 2 (5 PTS),31,37
+256,2,PT07M14.00S,1006.0,1610612747,1629060,Missed Shot,Jump Shot,MISS Hachimura 26' 3PT Jump Shot,,
+257,2,PT07M11.00S,1009.0,1610612744,201143,Rebound,Unknown,Horford REBOUND (Off:0 Def:4),,
+258,2,PT06M57.00S,1023.0,0,1610612747,Timeout,Regular,LAKERS Timeout: Regular (Full 3 Short 0),,
+259,2,PT06M57.00S,1023.0,1610612747,1630559,Substitution,,SUB: Smart FOR Reaves,,
+260,2,PT06M57.00S,1023.0,1610612744,203110,Substitution,,SUB: Payton II FOR Green,,
+263,2,PT06M57.00S,1023.0,1610612747,1629216,Jump Ball,,Jump Ball Vincent vs. Kuminga: Tip to Horford,,
+266,2,PT06M53.00S,1027.0,1610612744,201143,Missed Shot,Jump Shot,MISS Horford 26' 3PT Jump Shot,,
+267,2,PT06M51.00S,1029.0,1610612744,1630228,Rebound,Unknown,Kuminga REBOUND (Off:1 Def:2),,
+268,2,PT06M48.00S,1032.0,1610612744,1630228,Turnover,Lost Ball,Kuminga Lost Ball Turnover (P2.T10),,
+268,2,PT06M48.00S,1032.0,1610612747,1629216,,,Vincent STEAL (1 STL),,
+270,2,PT06M41.00S,1039.0,1610612744,201143,Foul,Shooting,Horford S.FOUL (P1.T2) (T.Ford),,
+272,2,PT06M41.00S,1039.0,1610612747,1629029,Free Throw,Free Throw 1 of 2,Doncic Free Throw 1 of 2 (13 PTS),32,37
+273,2,PT06M41.00S,1039.0,1610612747,1629029,Free Throw,Free Throw 2 of 2,Doncic Free Throw 2 of 2 (14 PTS),33,37
+274,2,PT06M24.00S,1056.0,1610612744,201939,Missed Shot,Driving Reverse Layup Shot,MISS Curry 3' Driving Reverse Layup,,
+275,2,PT06M23.00S,1057.0,1610612747,1629028,Rebound,Unknown,Ayton REBOUND (Off:1 Def:1),,
+276,2,PT06M10.00S,1070.0,1610612747,1629028,Turnover,Lost Ball,Ayton Lost Ball Turnover (P2.T12),,
+276,2,PT06M10.00S,1070.0,1610612744,1627780,,,Payton II STEAL (1 STL),,
+278,2,PT06M05.00S,1075.0,1610612744,1627780,Made Shot,Running Alley Oop Layup Shot,Payton II 2' Running Alley Oop Layup Shot (2 PTS) (Richard 1 AST),33,39
+280,2,PT05M54.00S,1086.0,1610612747,203935,Made Shot,Driving Floating Jump Shot,Smart 18' Driving Floating Jump Shot (2 PTS),35,39
+281,2,PT05M44.00S,1096.0,1610612744,201939,Foul,Offensive,Curry OFF.Foul (P1) (J.DeRosa),,
+283,2,PT05M44.00S,1096.0,1610612744,201939,Turnover,Offensive Foul Turnover,Curry Offensive Foul Turnover (P1.T11),,
+284,2,PT05M44.00S,1096.0,1610612747,1629216,Substitution,,SUB: Reaves FOR Vincent,,
+286,2,PT05M33.00S,1107.0,1610612747,203935,Foul,Flagrant Type 1,Smart FLAGRANT.FOUL.TYPE1 (P2.T3) (P.Ransom),,
+288,2,PT05M33.00S,1107.0,1610612747,203935,Turnover,Offensive Foul Turnover,Smart Offensive Foul Turnover (P2.T13),,
+291,2,PT05M33.00S,1107.0,0,286,Instant Replay,Overturn Ruling,Instant Replay2nd Period (11:11 PM EST),35,39
+292,2,PT05M33.00S,1107.0,1610612744,201939,Free Throw,Free Throw Flagrant 1 of 2,Curry Free Throw Flagrant 1 of 2 (6 PTS),35,40
+293,2,PT05M33.00S,1107.0,1610612744,201939,Free Throw,Free Throw Flagrant 2 of 2,Curry Free Throw Flagrant 2 of 2 (7 PTS),35,41
+294,2,PT05M23.00S,1117.0,1610612747,1630559,Foul,Shooting,Reaves S.FOUL (P3.T4) (J.DeRosa),,
+296,2,PT05M23.00S,1117.0,1610612744,1630228,Free Throw,Free Throw 1 of 2,Kuminga Free Throw 1 of 2 (4 PTS),35,42
+297,2,PT05M23.00S,1117.0,1610612744,1630228,Free Throw,Free Throw 2 of 2,MISS Kuminga Free Throw 2 of 2,,
+298,2,PT05M21.00S,1119.0,1610612747,1629028,Rebound,Unknown,Ayton REBOUND (Off:1 Def:2),,
+299,2,PT05M05.00S,1135.0,1610612747,1629029,Missed Shot,Pullup Jump shot,MISS Doncic 9' Pullup Jump Shot,,
+300,2,PT05M03.00S,1137.0,1610612744,201143,Rebound,Unknown,Horford REBOUND (Off:0 Def:5),,
+301,2,PT04M59.00S,1141.0,1610612744,201939,Made Shot,Running Jump Shot,Curry 28' 3PT Running Jump Shot (10 PTS) (Kuminga 3 AST),35,45
+304,2,PT04M43.00S,1157.0,1610612747,1630559,Made Shot,Cutting Layup Shot,Reaves 3' Cutting Layup Shot (12 PTS) (Doncic 2 AST),37,45
+306,2,PT04M26.00S,1174.0,1610612744,201143,Missed Shot,Cutting Layup Shot,MISS Horford 2' Cutting Layup Shot,,
+306,2,PT04M26.00S,1174.0,1610612747,1629029,,,Doncic BLOCK (1 BLK),,
+308,2,PT04M25.00S,1175.0,1610612747,1629028,Rebound,Unknown,Ayton REBOUND (Off:1 Def:3),,
+309,2,PT04M18.00S,1182.0,1610612747,203935,Made Shot,Driving Finger Roll Layup Shot,Smart 3' Driving Finger Roll Layup (4 PTS) (Reaves 4 AST),39,45
+311,2,PT04M18.00S,1182.0,0,1610612744,Timeout,Regular,Warriors Timeout: Regular (Reg.2 Short 0),,
+312,2,PT04M18.00S,1182.0,1610612744,1627780,Substitution,,SUB: Butler III FOR Payton II,,
+314,2,PT04M03.00S,1197.0,1610612744,201939,Made Shot,Cutting Layup Shot,Curry 4' Cutting Layup Shot (12 PTS) (Butler III 2 AST),39,47
+316,2,PT03M44.00S,1216.0,1610612747,1629029,Made Shot,Fadeaway Jump Shot,Doncic 12' Fadeaway Jumper (16 PTS) (Hachimura 1 AST),41,47
+318,2,PT03M30.00S,1230.0,1610612744,1630228,Missed Shot,Jump Shot,MISS Kuminga 25' 3PT Jump Shot,,
+319,2,PT03M28.00S,1232.0,1610612747,1629029,Rebound,Unknown,Doncic REBOUND (Off:0 Def:6),,
+320,2,PT03M18.00S,1242.0,1610612747,1629028,Turnover,Traveling,Ayton Traveling Turnover (P3.T14),,
+321,2,PT02M59.00S,1261.0,1610612744,201939,Made Shot,Driving Floating Bank Jump Shot,Curry 4' Driving Floating Bank Jump Shot (14 PTS) (Kuminga 4 AST),41,49
+323,2,PT02M46.00S,1274.0,1610612744,201143,Foul,Shooting,Horford S.FOUL (P2.T3) (J.DeRosa),,
+325,2,PT02M46.00S,1274.0,1610612747,203935,Free Throw,Free Throw 1 of 2,Smart Free Throw 1 of 2 (5 PTS),42,49
+326,2,PT02M46.00S,1274.0,1610612744,1642954,Substitution,,SUB: Green FOR Richard,,
+327,2,PT02M46.00S,1274.0,1610612744,201143,Substitution,,SUB: Podziemski FOR Horford,,
+330,2,PT02M46.00S,1274.0,1610612747,1630559,Substitution,,SUB: Vincent FOR Reaves,,
+332,2,PT02M46.00S,1274.0,1610612747,203935,Free Throw,Free Throw 2 of 2,MISS Smart Free Throw 2 of 2,,
+333,2,PT02M44.00S,1276.0,1610612744,1630228,Rebound,Unknown,Kuminga REBOUND (Off:1 Def:3),,
+334,2,PT02M33.00S,1287.0,1610612744,203110,Turnover,Bad Pass,Green Bad Pass Turnover (P3.T12),,
+334,2,PT02M33.00S,1287.0,1610612747,1629029,,,Doncic STEAL (1 STL),,
+336,2,PT02M23.00S,1297.0,1610612744,203110,Foul,Shooting,Green S.FOUL (P2.T4) (T.Ford),,
+338,2,PT02M23.00S,1297.0,1610612747,1629028,Free Throw,Free Throw 1 of 2,MISS Ayton Free Throw 1 of 2,,
+339,2,PT02M23.00S,1297.0,0,1610612747,Rebound,Normal Rebound,LAKERS Rebound,,
+340,2,PT02M23.00S,1297.0,1610612747,1629028,Free Throw,Free Throw 2 of 2,MISS Ayton Free Throw 2 of 2,,
+341,2,PT02M21.00S,1299.0,1610612744,202710,Rebound,Unknown,Butler III REBOUND (Off:0 Def:1),,
+342,2,PT02M13.00S,1307.0,1610612744,201939,Missed Shot,Pullup Jump shot,MISS Curry 28' 3PT Pullup Jump Shot,,
+343,2,PT02M09.00S,1311.0,1610612747,1629028,Rebound,Unknown,Ayton REBOUND (Off:1 Def:4),,
+344,2,PT02M07.00S,1313.0,1610612747,203935,Foul,Offensive,Smart OFF.Foul (P3) (T.Ford),,
+346,2,PT02M07.00S,1313.0,1610612747,203935,Turnover,Offensive Foul Turnover,Smart Offensive Foul Turnover (P3.T15),,
+347,2,PT02M01.00S,1319.0,1610612744,203110,Foul,Offensive,Green OFF.Foul (P3) (P.Ransom),,
+349,2,PT02M01.00S,1319.0,1610612744,203110,Turnover,Offensive Foul Turnover,Green Offensive Foul Turnover (P4.T13),,
+350,2,PT01M52.00S,1328.0,1610612747,1629029,Made Shot,Driving Floating Jump Shot,Doncic 6' Driving Floating Jump Shot (18 PTS),44,49
+351,2,PT01M52.00S,1328.0,1610612744,1630228,Foul,Shooting,Kuminga S.FOUL (P1.PN) (T.Ford),,
+353,2,PT01M52.00S,1328.0,1610612747,1629029,Free Throw,Free Throw 1 of 1,Doncic Free Throw 1 of 1 (19 PTS),45,49
+354,2,PT01M37.00S,1343.0,1610612744,1630228,Missed Shot,Jump Shot,MISS Kuminga 26' 3PT Jump Shot,,
+355,2,PT01M36.00S,1344.0,1610612747,1629060,Rebound,Unknown,Hachimura REBOUND (Off:0 Def:2),,
+356,2,PT01M28.00S,1352.0,1610612747,1629060,Made Shot,Jump Shot,Hachimura 25' 3PT Jump Shot (3 PTS) (Doncic 3 AST),48,49
+358,2,PT01M08.00S,1372.0,1610612747,203935,Foul,Personal,Smart P.FOUL (P4.PN) (J.DeRosa),,
+360,2,PT01M08.00S,1372.0,1610612744,203110,Free Throw,Free Throw 1 of 2,Green Free Throw 1 of 2 (3 PTS),48,50
+361,2,PT01M08.00S,1372.0,1610612747,203935,Substitution,,SUB: LaRavia FOR Smart,,
+363,2,PT01M08.00S,1372.0,1610612744,203110,Free Throw,Free Throw 2 of 2,MISS Green Free Throw 2 of 2,,
+364,2,PT01M06.00S,1374.0,1610612747,1629029,Rebound,Unknown,Doncic REBOUND (Off:0 Def:7),,
+365,2,PT00M55.60S,1384.4,1610612747,1629060,Made Shot,Jump Shot,Hachimura 25' 3PT Jump Shot (6 PTS) (Doncic 4 AST),51,50
+367,2,PT00M46.20S,1393.8,1610612744,201939,Missed Shot,Driving Layup Shot,MISS Curry 3' Driving Layup,,
+368,2,PT00M45.60S,1394.4,1610612744,1630228,Rebound,Unknown,Kuminga REBOUND (Off:2 Def:3),,
+369,2,PT00M44.60S,1395.4,1610612744,1630228,Missed Shot,Tip Dunk Shot,MISS Kuminga Tip Dunk Shot,,
+370,2,PT00M42.50S,1397.5,1610612744,1641764,Rebound,Unknown,Podziemski REBOUND (Off:1 Def:1),,
+371,2,PT00M33.00S,1407.0,1610612744,1641764,Made Shot,Step Back Jump shot,Podziemski 26' 3PT Step Back Jump Shot (7 PTS) (Kuminga 5 AST),51,53
+373,2,PT00M19.50S,1420.5,1610612747,1629029,Made Shot,Step Back Jump shot,Doncic 30' 3PT Step Back Jump Shot (22 PTS),54,53
+374,2,PT00M02.00S,1438.0,1610612744,201939,Missed Shot,Step Back Jump shot,MISS Curry 28' 3PT Step Back Jump Shot,,
+375,2,PT00M01.00S,1439.0,1610612744,202710,Rebound,Unknown,Butler III REBOUND (Off:1 Def:1),,
+376,2,PT00M01.00S,1439.0,1610612747,1629216,Foul,Shooting,Vincent S.FOUL (P1.PN) (P.Ransom),,
+378,2,PT00M01.00S,1439.0,1610612744,202710,Free Throw,Free Throw 1 of 2,Butler III Free Throw 1 of 2 (16 PTS),54,54
+379,2,PT00M01.00S,1439.0,1610612744,203110,Substitution,,SUB: Horford FOR Green,,
+381,2,PT00M01.00S,1439.0,1610612744,202710,Free Throw,Free Throw 2 of 2,Butler III Free Throw 2 of 2 (17 PTS),54,55
+382,2,PT00M00.00S,1440.0,0,0,period,end,End of 2nd Period (11:28 PM EST),54,55
+387,3,PT12M00.00S,1440.0,0,0,period,start,Start of 3rd Period (11:44 PM EST),54,55
+388,3,PT11M47.00S,1453.0,1610612744,1630228,Made Shot,Jump Shot,Kuminga 26' 3PT Jump Shot (7 PTS) (Green 3 AST),54,58
+390,3,PT11M31.00S,1469.0,1610612747,1629029,Made Shot,Driving Floating Jump Shot,Doncic 13' Driving Floating Jump Shot (24 PTS) (Reaves 5 AST),56,58
+392,3,PT11M31.00S,1469.0,1610612744,201939,Foul,Shooting,Curry S.FOUL (P2.T1) (J.DeRosa),,
+394,3,PT11M31.00S,1469.0,1610612747,1629029,Free Throw,Free Throw 1 of 1,MISS Doncic Free Throw 1 of 1,,
+395,3,PT11M28.00S,1472.0,1610612744,1641764,Rebound,Unknown,Podziemski REBOUND (Off:1 Def:2),,
+396,3,PT11M15.00S,1485.0,1610612744,1630228,Made Shot,Cutting Layup Shot,Kuminga 1' Cutting Layup Shot (9 PTS) (Green 4 AST),56,60
+398,3,PT11M04.00S,1496.0,1610612747,1630559,Turnover,Bad Pass,Reaves Bad Pass Turnover (P4.T16),,
+398,3,PT11M04.00S,1496.0,1610612744,1630228,,,Kuminga STEAL (1 STL),,
+400,3,PT10M58.00S,1502.0,1610612744,202710,Made Shot,Running Layup Shot,Butler III 1' Running Layup (19 PTS) (Curry 2 AST),56,62
+402,3,PT10M47.00S,1513.0,1610612747,1629029,Made Shot,Driving Floating Bank Jump Shot,Doncic 4' Driving Floating Bank Jump Shot (26 PTS) (Reaves 6 AST),58,62
+404,3,PT10M47.00S,1513.0,1610612744,1630228,Foul,Shooting,Kuminga S.FOUL (P2.T2) (P.Ransom),,
+406,3,PT10M47.00S,1513.0,1610612747,1629029,Free Throw,Free Throw 1 of 1,MISS Doncic Free Throw 1 of 1,,
+407,3,PT10M44.00S,1516.0,1610612744,1630228,Rebound,Unknown,Kuminga REBOUND (Off:2 Def:4),,
+408,3,PT10M23.00S,1537.0,1610612744,1630228,Made Shot,Jump Shot,Kuminga 24' 3PT Jump Shot (12 PTS) (Green 5 AST),58,65
+410,3,PT10M03.00S,1557.0,1610612747,1629216,Missed Shot,Jump Shot,MISS Vincent 28' 3PT Jump Shot,,
+411,3,PT10M00.00S,1560.0,1610612744,1641764,Rebound,Unknown,Podziemski REBOUND (Off:1 Def:3),,
+412,3,PT09M51.00S,1569.0,1610612744,202710,Made Shot,Pullup Jump shot,Butler III 9' Pullup Jump Shot (21 PTS),58,67
+413,3,PT09M33.00S,1587.0,1610612747,1629060,Missed Shot,Jump Shot,MISS Hachimura 25' 3PT Jump Shot,,
+414,3,PT09M30.00S,1590.0,1610612744,1641764,Rebound,Unknown,Podziemski REBOUND (Off:1 Def:4),,
+415,3,PT09M25.00S,1595.0,1610612747,1629216,Foul,Shooting,Vincent S.FOUL (P2.T1) (J.DeRosa),,
+417,3,PT09M25.00S,1595.0,1610612744,202710,Free Throw,Free Throw 1 of 2,Butler III Free Throw 1 of 2 (22 PTS),58,68
+418,3,PT09M25.00S,1595.0,1610612744,202710,Free Throw,Free Throw 2 of 2,Butler III Free Throw 2 of 2 (23 PTS),58,69
+419,3,PT09M05.00S,1615.0,1610612747,1629028,Missed Shot,Turnaround Hook Shot,MISS Ayton 6' Turnaround Hook Shot,,
+420,3,PT09M01.00S,1619.0,1610612744,201939,Rebound,Unknown,Curry REBOUND (Off:0 Def:1),,
+421,3,PT08M50.00S,1630.0,1610612747,1630559,Foul,Shooting,Reaves S.FOUL (P4.T2) (P.Ransom),,
+423,3,PT08M50.00S,1630.0,1610612744,201939,Free Throw,Free Throw 1 of 2,Curry Free Throw 1 of 2 (15 PTS),58,70
+424,3,PT08M50.00S,1630.0,1610612744,201939,Free Throw,Free Throw 2 of 2,Curry Free Throw 2 of 2 (16 PTS),58,71
+425,3,PT08M45.00S,1635.0,0,1610612747,Timeout,Regular,LAKERS Timeout: Regular (Full 4 Short 0),,
+426,3,PT08M28.00S,1652.0,1610612747,1629029,Missed Shot,Jump Shot,MISS Doncic 25' 3PT Jump Shot,,
+427,3,PT08M25.00S,1655.0,1610612744,203110,Rebound,Unknown,Green REBOUND (Off:1 Def:6),,
+428,3,PT08M10.00S,1670.0,1610612744,202710,Missed Shot,Turnaround Bank shot,MISS Butler III 7' Turnaround Bank Shot,,
+429,3,PT08M06.00S,1674.0,1610612744,202710,Rebound,Unknown,Butler III REBOUND (Off:2 Def:1),,
+430,3,PT08M01.00S,1679.0,1610612744,1641764,Missed Shot,Jump Shot,MISS Podziemski 28' 3PT Jump Shot,,
+431,3,PT07M58.00S,1682.0,1610612747,1629029,Rebound,Unknown,Doncic REBOUND (Off:0 Def:8),,
+432,3,PT07M48.00S,1692.0,1610612747,1629028,Foul,Offensive,Ayton OFF.Foul (P3) (P.Ransom),,
+434,3,PT07M48.00S,1692.0,1610612747,1629028,Turnover,Offensive Foul Turnover,Ayton Offensive Foul Turnover (P4.T17),,
+435,3,PT07M36.00S,1704.0,1610612744,202710,Missed Shot,Pullup Jump shot,MISS Butler III 17' Pullup Jump Shot,,
+436,3,PT07M34.00S,1706.0,1610612747,1629029,Rebound,Unknown,Doncic REBOUND (Off:0 Def:9),,
+437,3,PT07M26.00S,1714.0,1610612747,1629028,Missed Shot,Turnaround Jump Shot,MISS Ayton 15' Turnaround Jump Shot,,
+438,3,PT07M24.00S,1716.0,1610612744,1641764,Rebound,Unknown,Podziemski REBOUND (Off:1 Def:5),,
+439,3,PT07M17.00S,1723.0,1610612744,201939,Made Shot,Cutting Layup Shot,Curry 3' Cutting Layup Shot (18 PTS) (Green 6 AST),58,73
+441,3,PT07M06.00S,1734.0,1610612747,1630559,Missed Shot,Step Back Jump shot,MISS Reaves 17' Step Back Jump Shot,,
+442,3,PT07M02.00S,1738.0,1610612747,1629028,Rebound,Unknown,Ayton REBOUND (Off:2 Def:4),,
+443,3,PT06M57.00S,1743.0,1610612747,1629029,Made Shot,Fadeaway Jump Shot,Doncic 15' Fadeaway Jumper (28 PTS),60,73
+444,3,PT06M57.00S,1743.0,1610612744,1641764,Foul,Shooting,Podziemski S.FOUL (P2.T3) (T.Ford),,
+446,3,PT06M57.00S,1743.0,1610612744,1641764,Substitution,,SUB: Payton II FOR Podziemski,,
+447,3,PT06M57.00S,1743.0,1610612744,202710,Substitution,,SUB: Hield FOR Butler III,,
+450,3,PT06M57.00S,1743.0,1610612747,1629029,Free Throw,Free Throw 1 of 1,Doncic Free Throw 1 of 1 (29 PTS),61,73
+451,3,PT06M41.00S,1759.0,1610612744,1627780,Made Shot,Cutting Dunk Shot,Payton II 4' Cutting Dunk Shot (4 PTS) (Green 7 AST),61,75
+453,3,PT06M21.00S,1779.0,1610612747,1630559,Missed Shot,Jump Shot,MISS Reaves 27' 3PT Jump Shot,,
+454,3,PT06M19.00S,1781.0,1610612744,1630228,Rebound,Unknown,Kuminga REBOUND (Off:2 Def:5),,
+455,3,PT06M04.00S,1796.0,1610612744,1630228,Made Shot,Jump Shot,Kuminga 24' 3PT Jump Shot (15 PTS) (Curry 3 AST),61,78
+457,3,PT05M56.00S,1804.0,1610612744,1630228,Foul,Personal,Kuminga P.FOUL (P3.T4) (P.Ransom),,
+459,3,PT05M56.00S,1804.0,1610612747,1629216,Substitution,,SUB: Smart FOR Vincent,,
+460,3,PT05M56.00S,1804.0,1610612744,203110,Substitution,,SUB: Horford FOR Green,,
+463,3,PT05M48.00S,1812.0,1610612747,1629029,Made Shot,Driving Layup Shot,Doncic 3' Driving Layup (31 PTS),63,78
+464,3,PT05M39.00S,1821.0,1610612744,1627780,Missed Shot,Jump Shot,MISS Payton II 24' 3PT Jump Shot,,
+465,3,PT05M36.00S,1824.0,1610612747,1629029,Rebound,Unknown,Doncic REBOUND (Off:0 Def:10),,
+466,3,PT05M29.00S,1831.0,1610612747,1629029,Missed Shot,Pullup Jump shot,MISS Doncic 27' 3PT Pullup Jump Shot,,
+467,3,PT05M29.00S,1831.0,0,1610612747,Rebound,Unknown,LAKERS Rebound,,
+468,3,PT05M29.00S,1831.0,1610612744,201939,Foul,Loose Ball,Curry L.B.FOUL (P3.PN) (T.Ford),,
+470,3,PT05M29.00S,1831.0,1610612747,203935,Free Throw,Free Throw 1 of 2,Smart Free Throw 1 of 2 (6 PTS),64,78
+471,3,PT05M29.00S,1831.0,0,1610612744,Timeout,Regular,Warriors Timeout: Regular (Reg.3 Short 0),,
+472,3,PT05M29.00S,1831.0,1610612747,203935,Free Throw,Free Throw 2 of 2,Smart Free Throw 2 of 2 (7 PTS),65,78
+473,3,PT05M16.00S,1844.0,1610612744,1627780,Turnover,Bad Pass,Payton II Bad Pass Turnover (P2.T14),,
+473,3,PT05M16.00S,1844.0,1610612747,1629029,,,Doncic STEAL (2 STL),,
+475,3,PT05M05.00S,1855.0,1610612747,1630559,Missed Shot,Step Back Jump shot,MISS Reaves 14' Step Back Jump Shot,,
+476,3,PT05M00.00S,1860.0,1610612744,1630228,Rebound,Unknown,Kuminga REBOUND (Off:2 Def:6),,
+477,3,PT04M44.00S,1876.0,1610612744,1627780,Turnover,Double Dribble,Payton II Double Dribble Turnover (P3.T15),,
+478,3,PT04M30.00S,1890.0,1610612747,1629028,Made Shot,Turnaround Jump Shot,Ayton 14' Turnaround Jump Shot (6 PTS) (Reaves 7 AST),67,78
+480,3,PT04M09.00S,1911.0,1610612744,201143,Missed Shot,Jump Shot,MISS Horford 27' 3PT Jump Shot,,
+481,3,PT04M05.00S,1915.0,1610612747,1630559,Rebound,Unknown,Reaves REBOUND (Off:1 Def:3),,
+482,3,PT03M59.00S,1921.0,1610612744,201143,Foul,Shooting,Horford S.FOUL (P3.PN) (J.DeRosa),,
+484,3,PT03M59.00S,1921.0,0,1610612744,Violation,Delay Of Game,Warriors Violation: Delay of game Violation,,
+485,3,PT03M59.00S,1921.0,1610612747,1630559,Free Throw,Free Throw 1 of 2,Reaves Free Throw 1 of 2 (13 PTS),68,78
+486,3,PT03M59.00S,1921.0,1610612744,1627780,Substitution,,SUB: Podziemski FOR Payton II,,
+487,3,PT03M59.00S,1921.0,1610612744,201939,Substitution,,SUB: Butler III FOR Curry,,
+490,3,PT03M59.00S,1921.0,1610612747,1630559,Free Throw,Free Throw 2 of 2,MISS Reaves Free Throw 2 of 2,,
+491,3,PT03M55.00S,1925.0,1610612744,1627741,Rebound,Unknown,Hield REBOUND (Off:0 Def:1),,
+492,3,PT03M48.00S,1932.0,1610612744,1627741,Made Shot,Jump Shot,Hield 27' 3PT Jump Shot (8 PTS) (Horford 1 AST),68,81
+494,3,PT03M33.00S,1947.0,1610612747,1629029,Made Shot,Fadeaway Jump Shot,Doncic 10' Fadeaway Jumper (33 PTS),70,81
+495,3,PT03M08.00S,1972.0,1610612744,1630228,Made Shot,Driving Floating Jump Shot,Kuminga 4' Driving Floating Jump Shot (17 PTS),70,83
+496,3,PT02M41.00S,1999.0,1610612747,1629029,Turnover,Out of Bounds - Bad Pass Turnover,Doncic Out of Bounds - Bad Pass Turnover Turnover (P3.T18),,
+497,3,PT02M41.00S,1999.0,1610612747,1629028,Substitution,,SUB: Hayes FOR Ayton,,
+498,3,PT02M41.00S,1999.0,1610612747,1629060,Substitution,,SUB: Vanderbilt FOR Hachimura,,
+499,3,PT02M41.00S,1999.0,1610612744,1630228,Substitution,,SUB: Richard FOR Kuminga,,
+503,3,PT02M23.00S,2017.0,1610612747,1630559,Foul,Shooting,Reaves S.FOUL (P5.T3) (J.DeRosa),,
+505,3,PT02M23.00S,2017.0,1610612744,202710,Free Throw,Free Throw 1 of 2,Butler III Free Throw 1 of 2 (24 PTS),70,84
+506,3,PT02M23.00S,2017.0,1610612747,1630559,Substitution,,SUB: LaRavia FOR Reaves,,
+508,3,PT02M23.00S,2017.0,1610612744,202710,Free Throw,Free Throw 2 of 2,Butler III Free Throw 2 of 2 (25 PTS),70,85
+509,3,PT02M12.00S,2028.0,1610612747,1631222,Made Shot,Jump Shot,LaRavia 26' 3PT Jump Shot (3 PTS) (Hayes 1 AST),73,85
+511,3,PT01M57.00S,2043.0,1610612744,1627741,Made Shot,Jump Shot,Hield 27' 3PT Jump Shot (11 PTS) (Podziemski 2 AST),73,88
+514,3,PT01M40.00S,2060.0,1610612747,1629029,Made Shot,Driving Floating Bank Jump Shot,Doncic 3' Driving Floating Bank Jump Shot (35 PTS),75,88
+516,3,PT01M18.00S,2082.0,1610612744,201143,Missed Shot,Driving Hook Shot,MISS Horford 9' Driving Hook Shot,,
+517,3,PT01M17.00S,2083.0,1610612747,1631222,Rebound,Unknown,LaRavia REBOUND (Off:1 Def:1),,
+518,3,PT01M00.00S,2100.0,1610612747,1629637,Made Shot,Alley Oop Dunk Shot,Hayes 4' Alley Oop Dunk (4 PTS) (Doncic 5 AST),77,88
+520,3,PT00M39.20S,2120.8,1610612744,1627741,Missed Shot,Jump Shot,MISS Hield 34' 3PT Jump Shot,,
+521,3,PT00M37.50S,2122.5,1610612744,1642954,Rebound,Unknown,Richard REBOUND (Off:1 Def:0),,
+522,3,PT00M37.00S,2123.0,1610612744,1642954,Made Shot,Turnaround Hook Shot,Richard 5' Turnaround Hook Shot (2 PTS),77,90
+523,3,PT00M28.60S,2131.4,1610612747,1629029,Missed Shot,Step Back Jump shot,MISS Doncic 27' 3PT Step Back Jump Shot,,
+524,3,PT00M27.70S,2132.3,1610612747,1631222,Rebound,Unknown,LaRavia REBOUND (Off:2 Def:1),,
+525,3,PT00M27.70S,2132.3,1610612747,1631222,Made Shot,Putback Layup Shot,LaRavia 3' Putback Layup (5 PTS),79,90
+526,3,PT00M01.50S,2158.5,1610612744,1641764,Missed Shot,Pullup Jump shot,MISS Podziemski 24' 3PT Pullup Jump Shot,,
+527,3,PT00M01.50S,2158.5,1610612747,1629020,Rebound,Unknown,Vanderbilt REBOUND (Off:0 Def:2),,
+528,3,PT00M00.30S,2159.7,0,0,Heave,Team Field Goal Attempt,LAKERS Heave,,
+529,3,PT00M00.10S,2159.9,0,1610612747,Rebound,Unknown,LAKERS Rebound,,
+530,3,PT00M00.00S,2160.0,0,0,period,end,End of 3rd Period (12:12 AM EST),79,90
+535,4,PT12M00.00S,2160.0,0,0,period,start,Start of 4th Period (12:15 AM EST),79,90
+536,4,PT11M47.00S,2173.0,1610612747,1631222,Missed Shot,Jump Shot,MISS LaRavia 3PT Jump Shot,,
+537,4,PT11M44.00S,2176.0,1610612747,1629637,Rebound,Unknown,Hayes REBOUND (Off:1 Def:2),,
+538,4,PT11M35.00S,2185.0,1610612747,203935,Made Shot,Driving Floating Jump Shot,Smart 2' Driving Floating Jump Shot (9 PTS) (Doncic 6 AST),81,90
+539,4,PT11M27.00S,2193.0,1610612744,1627741,Made Shot,Jump Shot,Hield 26' 3PT Jump Shot (14 PTS) (Green 8 AST),81,93
+542,4,PT11M05.00S,2215.0,1610612747,203935,Missed Shot,Jump Shot,MISS Smart 27' 3PT Jump Shot,,
+543,4,PT11M01.00S,2219.0,1610612744,1642366,Rebound,Unknown,Post REBOUND (Off:0 Def:1),,
+544,4,PT10M50.00S,2230.0,1610612744,1627741,Missed Shot,Jump Shot,MISS Hield 25' 3PT Jump Shot,,
+545,4,PT10M47.00S,2233.0,1610612747,1629020,Rebound,Unknown,Vanderbilt REBOUND (Off:0 Def:3),,
+546,4,PT10M46.00S,2234.0,1610612747,1629020,Turnover,Lost Ball,Vanderbilt Lost Ball Turnover (P2.T19),,
+546,4,PT10M46.00S,2234.0,1610612744,1641764,,,Podziemski STEAL (1 STL),,
+548,4,PT10M44.00S,2236.0,1610612744,1627741,Missed Shot,Pullup Jump shot,MISS Hield 27' 3PT Pullup Jump Shot,,
+549,4,PT10M43.00S,2237.0,1610612747,1629029,Rebound,Unknown,Doncic REBOUND (Off:0 Def:11),,
+550,4,PT10M21.00S,2259.0,1610612747,1629020,Missed Shot,Driving Floating Jump Shot,MISS Vanderbilt 5' Driving Floating Jump Shot,,
+550,4,PT10M21.00S,2259.0,1610612744,203110,,,Green BLOCK (1 BLK),,
+552,4,PT10M19.00S,2261.0,1610612744,202710,Rebound,Unknown,Butler III REBOUND (Off:2 Def:2),,
+553,4,PT10M04.00S,2276.0,1610612744,202710,Missed Shot,Driving Floating Jump Shot,MISS Butler III 7' Driving Floating Jump Shot,,
+554,4,PT10M03.00S,2277.0,1610612747,1629637,Rebound,Unknown,Hayes REBOUND (Off:1 Def:3),,
+555,4,PT09M54.00S,2286.0,1610612747,1629020,Missed Shot,Jump Shot,MISS Vanderbilt 25' 3PT Jump Shot,,
+556,4,PT09M51.00S,2289.0,1610612744,1642366,Rebound,Unknown,Post REBOUND (Off:0 Def:2),,
+557,4,PT09M48.00S,2292.0,1610612744,203110,Made Shot,Running Layup Shot,Green 1' Running Layup (5 PTS),81,95
+558,4,PT09M48.00S,2292.0,1610612747,1629637,Foul,Shooting,Hayes S.FOUL (P2.T1) (P.Ransom),,
+560,4,PT09M48.00S,2292.0,1610612747,1629020,Substitution,,SUB: Reaves FOR Vanderbilt,,
+561,4,PT09M48.00S,2292.0,1610612747,1629029,Substitution,,SUB: Hachimura FOR Doncic,,
+564,4,PT09M48.00S,2292.0,1610612744,203110,Free Throw,Free Throw 1 of 1,MISS Green Free Throw 1 of 1,,
+565,4,PT09M46.00S,2294.0,1610612747,1629637,Rebound,Unknown,Hayes REBOUND (Off:1 Def:4),,
+566,4,PT09M32.00S,2308.0,1610612744,203110,Foul,Loose Ball,Green L.B.FOUL (P4.T1) (J.DeRosa),,
+568,4,PT09M25.00S,2315.0,1610612747,1630559,Made Shot,Driving Layup Shot,Reaves 2' Driving Layup (15 PTS),83,95
+569,4,PT09M25.00S,2315.0,1610612744,1642366,Foul,Shooting,Post S.FOUL (P1.T2) (P.Ransom),,
+571,4,PT09M25.00S,2315.0,1610612747,1630559,Free Throw,Free Throw 1 of 1,Reaves Free Throw 1 of 1 (16 PTS),84,95
+572,4,PT09M01.00S,2339.0,1610612744,1627741,Made Shot,Step Back Jump shot,Hield 24' 3PT Step Back Jump Shot (17 PTS) (Green 9 AST),84,98
+574,4,PT08M41.00S,2359.0,1610612744,202710,Foul,Personal,Butler III P.FOUL (P3.T3) (P.Ransom),,
+576,4,PT08M41.00S,2359.0,1610612747,203935,Substitution,,SUB: Vincent FOR Smart,,
+578,4,PT08M27.00S,2373.0,1610612747,1631222,Missed Shot,Driving Floating Bank Jump Shot,MISS LaRavia 5' Driving Floating Bank Jump Shot,,
+579,4,PT08M26.00S,2374.0,1610612747,1629637,Rebound,Unknown,Hayes REBOUND (Off:2 Def:4),,
+580,4,PT08M22.00S,2378.0,1610612747,1629637,Missed Shot,Dunk Shot,MISS Hayes 4' Dunk,,
+580,4,PT08M22.00S,2378.0,1610612744,203110,,,Green BLOCK (2 BLK),,
+581,4,PT08M19.00S,2381.0,1610612744,202710,Rebound,Unknown,Butler III REBOUND (Off:2 Def:3),,
+582,4,PT08M09.00S,2391.0,1610612744,202710,Made Shot,Turnaround Bank Hook Shot,Butler III 4' Turnaround Bank Hook Shot (27 PTS),84,100
+583,4,PT07M54.00S,2406.0,1610612747,1629060,Missed Shot,Jump Shot,MISS Hachimura 25' 3PT Jump Shot,,
+584,4,PT07M53.00S,2407.0,1610612744,1641764,Rebound,Unknown,Podziemski REBOUND (Off:1 Def:6),,
+585,4,PT07M50.00S,2410.0,0,1610612744,Timeout,Regular,Warriors Timeout: Regular (Reg.4 Short 0),,
+587,4,PT07M50.00S,2410.0,1610612747,1629637,Substitution,,SUB: Doncic FOR Hayes,,
+588,4,PT07M50.00S,2410.0,1610612747,1631222,Substitution,,SUB: Ayton FOR LaRavia,,
+589,4,PT07M50.00S,2410.0,1610612744,1641764,Substitution,,SUB: Richard FOR Podziemski,,
+590,4,PT07M50.00S,2410.0,1610612744,202710,Substitution,,SUB: Curry FOR Butler III,,
+591,4,PT07M50.00S,2410.0,1610612744,1642366,Substitution,,SUB: Kuminga FOR Post,,
+592,4,PT07M50.00S,2410.0,1610612744,203110,Substitution,,SUB: Horford FOR Green,,
+599,4,PT07M41.00S,2419.0,1610612744,201939,Turnover,Bad Pass,Curry Bad Pass Turnover (P2.T16),,
+599,4,PT07M41.00S,2419.0,1610612747,1630559,,,Reaves STEAL (1 STL),,
+601,4,PT07M39.00S,2421.0,1610612744,1642954,Foul,Loose Ball,Richard L.B.FOUL (P2.T4) (T.Ford),,
+603,4,PT07M16.00S,2444.0,1610612747,1629029,Made Shot,Fadeaway Bank shot,Doncic 6' Fadeaway Bank Shot (37 PTS) (Hachimura 2 AST),86,100
+604,4,PT07M00.00S,2460.0,1610612744,201143,Missed Shot,Jump Shot,MISS Horford 26' 3PT Jump Shot,,
+605,4,PT06M57.00S,2463.0,1610612747,1629029,Rebound,Unknown,Doncic REBOUND (Off:0 Def:12),,
+606,4,PT06M51.00S,2469.0,1610612747,1630559,Turnover,Step Out of Bounds Turnover,Reaves Step Out of Bounds Turnover (P5.T20),,
+608,4,PT06M39.00S,2481.0,1610612744,201143,Made Shot,Layup Shot,Horford 2' Layup (5 PTS) (Kuminga 6 AST),86,102
+610,4,PT06M24.00S,2496.0,1610612747,1629028,Made Shot,Floating Jump shot,Ayton 7' Floating Jump Shot (8 PTS) (Doncic 7 AST),88,102
+612,4,PT06M02.00S,2518.0,1610612744,1627741,Missed Shot,Jump Shot,MISS Hield 27' 3PT Jump Shot,,
+613,4,PT05M59.00S,2521.0,1610612747,1630559,Rebound,Unknown,Reaves REBOUND (Off:1 Def:4),,
+614,4,PT05M56.00S,2524.0,1610612747,1629029,Made Shot,Driving Floating Jump Shot,Doncic 4' Driving Floating Jump Shot (39 PTS) (Reaves 8 AST),90,102
+616,4,PT05M56.00S,2524.0,0,1610612744,Timeout,Regular,Warriors Timeout: Regular (Reg.5 Short 0),,
+617,4,PT05M56.00S,2524.0,1610612744,1627741,Substitution,,SUB: Podziemski FOR Hield,,
+619,4,PT05M40.00S,2540.0,1610612744,1642954,Made Shot,Jump Shot,Richard 25' 3PT Jump Shot (5 PTS) (Curry 4 AST),90,105
+621,4,PT05M22.00S,2558.0,1610612747,1629060,Made Shot,Jump Shot,Hachimura 29' 3PT Jump Shot (9 PTS) (Doncic 8 AST),93,105
+623,4,PT05M07.00S,2573.0,1610612744,201143,Foul,Offensive,Horford OFF.Foul (P4) (T.Ford),,
+625,4,PT05M07.00S,2573.0,1610612744,201143,Turnover,Offensive Foul Turnover,Horford Offensive Foul Turnover (P1.T17),,
+626,4,PT04M50.00S,2590.0,1610612747,1629029,Made Shot,Pullup Jump shot,Doncic 3' Pullup Jump Shot (41 PTS),95,105
+627,4,PT04M34.00S,2606.0,1610612744,201143,Turnover,Bad Pass,Horford Bad Pass Turnover (P2.T18),,
+627,4,PT04M34.00S,2606.0,1610612747,1630559,,,Reaves STEAL (2 STL),,
+629,4,PT04M26.00S,2614.0,1610612747,1629028,Made Shot,Running Layup Shot,Ayton 4' Running Layup (10 PTS) (Reaves 9 AST),97,105
+631,4,PT04M09.00S,2631.0,1610612744,201939,Missed Shot,Step Back Jump shot,MISS Curry 27' 3PT Step Back Jump Shot,,
+632,4,PT04M06.00S,2634.0,1610612747,1629060,Rebound,Unknown,Hachimura REBOUND (Off:0 Def:3),,
+633,4,PT03M59.00S,2641.0,1610612747,1630559,Made Shot,Driving Reverse Layup Shot,Reaves 3' Driving Reverse Layup (18 PTS),99,105
+634,4,PT03M59.00S,2641.0,0,1610612744,Timeout,Regular,Warriors Timeout: Regular (Reg.6 Short 0),,
+635,4,PT03M59.00S,2641.0,1610612744,1642954,Substitution,,SUB: Green FOR Richard,,
+636,4,PT03M59.00S,2641.0,1610612744,201143,Substitution,,SUB: Butler III FOR Horford,,
+641,4,PT03M34.00S,2666.0,1610612744,203110,Made Shot,Jump Shot,Green 3PT Jump Shot (8 PTS) (Butler III 3 AST),99,108
+644,4,PT03M16.00S,2684.0,1610612744,203110,Foul,Shooting,Green S.FOUL (P5.PN) (T.Ford),,
+646,4,PT03M16.00S,2684.0,1610612747,1630559,Free Throw,Free Throw 1 of 2,MISS Reaves Free Throw 1 of 2,,
+647,4,PT03M16.00S,2684.0,0,1610612747,Rebound,Normal Rebound,LAKERS Rebound,,
+648,4,PT03M16.00S,2684.0,1610612747,1630559,Free Throw,Free Throw 2 of 2,Reaves Free Throw 2 of 2 (19 PTS),100,108
+649,4,PT02M57.00S,2703.0,1610612744,201939,Missed Shot,Step Back Jump shot,MISS Curry 26' 3PT Step Back Jump Shot,,
+650,4,PT02M51.00S,2709.0,1610612747,1629060,Rebound,Unknown,Hachimura REBOUND (Off:0 Def:4),,
+651,4,PT02M39.00S,2721.0,1610612747,1629216,Missed Shot,Jump Shot,MISS Vincent 27' 3PT Jump Shot,,
+651,4,PT02M39.00S,2721.0,1610612744,201939,,,Curry BLOCK (1 BLK),,
+653,4,PT02M39.00S,2721.0,0,1610612744,Rebound,Unknown,Warriors Rebound,,
+655,4,PT02M29.00S,2731.0,1610612744,202710,Made Shot,Driving Reverse Layup Shot,Butler III 2' Driving Reverse Layup (29 PTS),100,110
+656,4,PT02M17.00S,2743.0,1610612744,202710,Foul,Shooting,Butler III S.FOUL (P4.PN) (P.Ransom),,
+658,4,PT02M17.00S,2743.0,1610612747,1630559,Free Throw,Free Throw 1 of 2,Reaves Free Throw 1 of 2 (20 PTS),101,110
+659,4,PT02M17.00S,2743.0,1610612747,1630559,Free Throw,Free Throw 2 of 2,Reaves Free Throw 2 of 2 (21 PTS),102,110
+660,4,PT02M03.00S,2757.0,1610612747,1629060,Foul,Shooting,Hachimura S.FOUL (P2.T2) (P.Ransom),,
+662,4,PT02M03.00S,2757.0,1610612744,202710,Free Throw,Free Throw 1 of 2,Butler III Free Throw 1 of 2 (30 PTS),102,111
+663,4,PT02M03.00S,2757.0,1610612744,1641764,Substitution,,SUB: Payton II FOR Podziemski,,
+665,4,PT02M03.00S,2757.0,1610612744,202710,Free Throw,Free Throw 2 of 2,Butler III Free Throw 2 of 2 (31 PTS),102,112
+666,4,PT01M52.00S,2768.0,1610612747,1630559,Made Shot,Pullup Jump shot,Reaves 27' 3PT Pullup Jump Shot (24 PTS) (Doncic 9 AST),105,112
+667,4,PT01M35.00S,2785.0,1610612744,1627780,Made Shot,Cutting Finger Roll Layup Shot,Payton II 4' Cutting Finger Roll Layup Shot (6 PTS) (Butler III 4 AST),105,114
+669,4,PT01M22.00S,2798.0,1610612747,1629029,Made Shot,Driving Floating Jump Shot,Doncic 5' Driving Floating Jump Shot (43 PTS) (Hachimura 3 AST),107,114
+671,4,PT01M16.00S,2804.0,1610612747,1629029,Foul,Personal,Doncic P.FOUL (P1.T3) (J.DeRosa),,
+673,4,PT01M03.00S,2817.0,1610612744,202710,Missed Shot,Jump Shot,MISS Butler III 28' 3PT Jump Shot,,
+674,4,PT01M00.00S,2820.0,1610612744,1630228,Rebound,Unknown,Kuminga REBOUND (Off:3 Def:6),,
+675,4,PT00M51.20S,2828.8,1610612744,201939,Made Shot,Jump Shot,Curry 36' 3PT Jump Shot (21 PTS) (Payton II 1 AST),107,117
+677,4,PT00M43.50S,2836.5,1610612747,1630559,Made Shot,Driving Layup Shot,Reaves 1' Driving Layup (26 PTS),109,117
+678,4,PT00M39.10S,2840.9,1610612747,1629216,Foul,Personal Take,Vincent Personal Take Foul (P3.PN) (J.DeRosa),,
+680,4,PT00M39.10S,2840.9,1610612744,201939,Free Throw,Free Throw 1 of 2,Curry Free Throw 1 of 2 (22 PTS),109,118
+681,4,PT00M39.10S,2840.9,1610612744,201939,Free Throw,Free Throw 2 of 2,Curry Free Throw 2 of 2 (23 PTS),109,119
+682,4,PT00M39.10S,2840.9,0,1610612747,Timeout,Regular,LAKERS Timeout: Regular (Full 5 Short 0),,
+683,4,PT00M39.10S,2840.9,1610612747,1629060,Substitution,,SUB: Smart FOR Hachimura,,
+685,4,PT00M35.50S,2844.5,1610612747,1629029,Missed Shot,Fadeaway Jump Shot,MISS Doncic 3PT Fadeaway Jumper,,
+686,4,PT00M33.30S,2846.7,1610612744,1627780,Rebound,Unknown,Payton II REBOUND (Off:1 Def:1),,
+688,4,PT00M12.00S,2868.0,0,1610612744,Turnover,Shot Clock Turnover,Warriors Turnover: Shot Clock (T#19),,
+689,4,PT00M00.00S,2880.0,0,0,period,end,End of 4th Period (12:44 AM EST),109,119

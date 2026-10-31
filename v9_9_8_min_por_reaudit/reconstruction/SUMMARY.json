@@ -1,0 +1,27 @@
+{
+  "version": "9.9.3",
+  "game_id": "0022500089",
+  "teams": [
+    "MIN",
+    "POR"
+  ],
+  "source_actions": 544,
+  "substitutions_in_source": 56,
+  "substitutions_parsed": 54,
+  "substitutions_applied": 41,
+  "substitution_groups_valid": 27,
+  "substitution_groups_blocked": 10,
+  "intervals_total": 332,
+  "intervals_with_both_lineups": 223,
+  "unresolved_openings": 0,
+  "issue_count": 12,
+  "verified_stints": 0,
+  "publication_gate": "BLOCKED_UNVERIFIED_RECONSTRUCTION",
+  "database_modified": false,
+  "notes": [
+    "Q2+ openings are inference candidates, not established facts.",
+    "No plus/minus fitting or certification.",
+    "Unknown openings remain missing rather than invented.",
+    "This output is not production-ready."
+  ]
+}

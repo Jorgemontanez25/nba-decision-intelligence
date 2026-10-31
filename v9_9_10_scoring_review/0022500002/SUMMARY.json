@@ -1,0 +1,42 @@
+{
+  "version": "9.9.10",
+  "game_id": "0022500002",
+  "status": "AUDIT_COMPLETED_UNVERIFIED",
+  "teams": {
+    "home": "LAL",
+    "away": "GSW"
+  },
+  "score_events": 123,
+  "scoring_boundary_events": 24,
+  "unassigned_scoring_events": 0,
+  "score_anomalies": 0,
+  "final_score_from_pbp": {
+    "home": 109,
+    "away": 119
+  },
+  "scenarios": {
+    "recorded": {
+      "comparable_players": 25,
+      "matching_players": 14,
+      "sum_absolute_pm_error": 26
+    },
+    "before": {
+      "comparable_players": 25,
+      "matching_players": 25,
+      "sum_absolute_pm_error": 0
+    },
+    "after": {
+      "comparable_players": 25,
+      "matching_players": 8,
+      "sum_absolute_pm_error": 54
+    }
+  },
+  "score_totals_reconciled_to_pbp": true,
+  "score_totals_independently_verified": false,
+  "scoring_boundary_attribution": "UNRESOLVED",
+  "scenario_selected": null,
+  "verified_stints": 0,
+  "production_certified": false,
+  "database_modified": false,
+  "warning": "Recorded-order scenario switches each substitution group at its first action. These are diagnostics, not certified effective-time semantics. Official plus/minus never selects or modifies lineups."
+}

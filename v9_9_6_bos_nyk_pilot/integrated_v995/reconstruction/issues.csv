@@ -1,0 +1,7 @@
+type,period,team,action_number,detail
+UNRESOLVED_OPENING,4,NYK,,UNRESOLVED_OPENING
+UNKNOWN_PRIOR_LINEUP,4,NYK,568,Cannot apply substitutions without a valid opening
+UNKNOWN_PRIOR_LINEUP,4,NYK,593,Cannot apply substitutions without a valid opening
+UNKNOWN_PRIOR_LINEUP,4,NYK,"622,623",Cannot apply substitutions without a valid opening
+UNKNOWN_PRIOR_LINEUP,4,NYK,"634,635",Cannot apply substitutions without a valid opening
+UNKNOWN_PRIOR_LINEUP,4,NYK,702,Cannot apply substitutions without a valid opening

@@ -1,0 +1,27 @@
+{
+  "version": "9.9.3",
+  "game_id": "0022500002",
+  "teams": [
+    "GSW",
+    "LAL"
+  ],
+  "source_actions": 495,
+  "substitutions_in_source": 55,
+  "substitutions_parsed": 55,
+  "substitutions_applied": 39,
+  "substitution_groups_valid": 20,
+  "substitution_groups_blocked": 10,
+  "intervals_total": 313,
+  "intervals_with_both_lineups": 231,
+  "unresolved_openings": 2,
+  "issue_count": 14,
+  "verified_stints": 0,
+  "publication_gate": "BLOCKED_UNVERIFIED_RECONSTRUCTION",
+  "database_modified": false,
+  "notes": [
+    "Q2+ openings are inference candidates, not established facts.",
+    "No plus/minus fitting or certification.",
+    "Unknown openings remain missing rather than invented.",
+    "This output is not production-ready."
+  ]
+}

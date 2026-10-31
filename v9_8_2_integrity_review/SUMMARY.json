@@ -1,0 +1,47 @@
+{
+  "version": "9.8.2",
+  "game_id": "0022500002",
+  "mode": "READ_ONLY_INDEPENDENT_REPLAY",
+  "source_actions": 495,
+  "scoring_events": 123,
+  "scoring_boundary_events": 24,
+  "boundary_events_with_changed_lineups": 12,
+  "scenario_totals_identical": false,
+  "final_score": {
+    "LAL": 109,
+    "GSW": 119
+  },
+  "official_players": 25,
+  "issues": 225,
+  "issues_by_type": {
+    "INCOMING_ALREADY_ON_COURT": 43,
+    "OUTGOING_NOT_ON_COURT": 12,
+    "ILLEGAL_LINEUP_SIZE": 17,
+    "SCORER_ABSENT": 153
+  },
+  "scenario_results": {
+    "recorded": {
+      "matched_players": 6,
+      "mismatched_players": 19,
+      "absolute_pm_error": 175
+    },
+    "before": {
+      "matched_players": 7,
+      "mismatched_players": 18,
+      "absolute_pm_error": 167
+    },
+    "after": {
+      "matched_players": 5,
+      "mismatched_players": 20,
+      "absolute_pm_error": 175
+    }
+  },
+  "verified_stints": 0,
+  "publication_gate": "BLOCKED_UNVERIFIED_QUARTER_OPENINGS_AND_SUBSTITUTION_EFFECTIVE_TIMES",
+  "notes": [
+    "All scenarios replay substitution actions and expose the assigned player IDs.",
+    "Before/after are sensitivity tests; recorded order is not independent evidence of effective-time rules.",
+    "Do not select scenarios to fit official plus/minus.",
+    "Never accesses or changes DuckDB."
+  ]
+}

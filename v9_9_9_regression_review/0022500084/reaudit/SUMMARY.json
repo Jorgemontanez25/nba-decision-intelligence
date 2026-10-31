@@ -1,0 +1,61 @@
+{
+  "version": "9.9.6.1",
+  "game_id": "0022500084",
+  "teams": [
+    "CHI",
+    "DET"
+  ],
+  "periods": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "openings_integrated": 6,
+  "expected_openings": 6,
+  "blocked_reasons": [],
+  "production_certified": false,
+  "verified_stints": 0,
+  "database_modified": false,
+  "publication_gate": "BLOCKED_UNVERIFIED_CONDITIONAL_OPENINGS_AND_BOUNDARY_ATTRIBUTION",
+  "status": "AUDIT_COMPLETED_UNVERIFIED",
+  "reconstruction": {
+    "version": "9.9.8.1",
+    "game_id": "0022500084",
+    "teams": [
+      "CHI",
+      "DET"
+    ],
+    "source_actions": 559,
+    "substitutions_in_source": 62,
+    "substitutions_parsed": 62,
+    "substitutions_applied": 62,
+    "substitution_groups_valid": 39,
+    "substitution_groups_blocked": 0,
+    "intervals_total": 324,
+    "intervals_with_both_lineups": 324,
+    "unresolved_openings": 0,
+    "issue_count": 0,
+    "verified_stints": 0,
+    "publication_gate": "BLOCKED_UNVERIFIED_RECONSTRUCTION",
+    "database_modified": false,
+    "notes": [
+      "Q2+ openings are inference candidates, not established facts.",
+      "No plus/minus fitting or certification.",
+      "Unknown openings remain missing rather than invented.",
+      "This output is not production-ready."
+    ]
+  },
+  "previous_issues": null,
+  "current_issues": 0,
+  "max_player_minutes_difference_seconds": 0.2,
+  "minutes_players_with_official": 20,
+  "all_substitutions_applied": true,
+  "all_intervals_complete": true,
+  "pass_internal_replay": true,
+  "notes": [
+    "Official minutes are comparison-only; neither minutes nor +/- selected the opening candidates.",
+    "Substitution timestamp boundary attribution remains unresolved.",
+    "This script does not publish to production or modify any database."
+  ]
+}

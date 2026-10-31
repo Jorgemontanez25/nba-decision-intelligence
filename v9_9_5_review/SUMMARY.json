@@ -1,0 +1,35 @@
+{
+  "version": "9.9.5",
+  "game_id": "0022500002",
+  "mode": "READ_ONLY_CONDITIONAL_FULL_GAME_INTEGRATION",
+  "status": "AUDIT_COMPLETED_UNVERIFIED",
+  "teams": [
+    "GSW",
+    "LAL"
+  ],
+  "q2_candidates_integrated": 2,
+  "source_actions": 495,
+  "substitutions_in_source": 55,
+  "substitutions_parsed": 55,
+  "substitutions_applied": 55,
+  "substitution_groups_valid": 30,
+  "substitution_groups_blocked": 0,
+  "unresolved_openings": 0,
+  "intervals_total": 313,
+  "intervals_with_both_lineups": 313,
+  "diagnostic_scoring_events": 123,
+  "scoring_with_unknown_both_states": 0,
+  "nonboundary_scorer_absent_or_unknown": 0,
+  "boundary_scoring_events": 24,
+  "minutes_players_with_official": 20,
+  "issue_count": 0,
+  "verified_stints": 0,
+  "publication_gate": "BLOCKED_CONDITIONAL_OPENINGS_AND_BOUNDARY_ATTRIBUTION",
+  "database_modified": false,
+  "limitations": [
+    "Q2 candidates come from V9.9.4 constraint inference, not independent lineup certification.",
+    "Q3/Q4 candidates remain conditional, and scorer presence is not a legal substitution-time proof.",
+    "Event-based intervals may contain many rows; those are not independently verified stints.",
+    "Official minutes are comparison-only; plus/minus is not used to select lineups."
+  ]
+}

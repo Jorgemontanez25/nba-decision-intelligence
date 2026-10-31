@@ -1,0 +1,30 @@
+{
+  "version": "9.9",
+  "mode": "READ_ONLY_MULTIGAME_ORCHESTRATOR",
+  "created_utc": "2026-10-24T19:56:48.532007+00:00",
+  "games_requested": 1,
+  "games_completed": 1,
+  "games_failed_or_missing": 0,
+  "games_with_publication_gate_blocked": 1,
+  "scenarios_aggregated_without_selecting_winner": {
+    "recorded": {
+      "games_with_metrics": 1,
+      "matched_player_entries": 14,
+      "sum_absolute_pm_error": 26
+    },
+    "before": {
+      "games_with_metrics": 1,
+      "matched_player_entries": 25,
+      "sum_absolute_pm_error": 0
+    },
+    "after": {
+      "games_with_metrics": 1,
+      "matched_player_entries": 8,
+      "sum_absolute_pm_error": 54
+    }
+  },
+  "independent_stint_certification": false,
+  "production_ready": false,
+  "disclaimer": "Reuses V9.8.5; no independent source verification or scenario selection. A zero PM error is not stint certification.",
+  "database_modified_by_runner": false
+}
