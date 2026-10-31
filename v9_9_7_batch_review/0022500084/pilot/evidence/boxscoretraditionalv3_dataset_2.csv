@@ -1,3 +1,0 @@
-﻿gameId,teamId,teamCity,teamName,teamTricode,teamSlug,minutes,fieldGoalsMade,fieldGoalsAttempted,fieldGoalsPercentage,threePointersMade,threePointersAttempted,threePointersPercentage,freeThrowsMade,freeThrowsAttempted,freeThrowsPercentage,reboundsOffensive,reboundsDefensive,reboundsTotal,assists,steals,blocks,turnovers,foulsPersonal,points,plusMinusPoints
-0022500084,1610612741,Chicago,Bulls,CHI,bulls,240:00,39,87,0.448,11,30,0.367,26,32,0.813,12,38,50,29,6,8,17,23,115,4.0
-0022500084,1610612765,Detroit,Pistons,DET,pistons,240:00,43,97,0.443,7,24,0.292,18,26,0.692,13,33,46,29,8,10,10,29,111,-4.0

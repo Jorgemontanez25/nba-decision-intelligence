@@ -1,9 +1,0 @@
-period,team,status,identified_players,player_ids,player_names,first_sub_elapsed
-1,MEM,BOX_SCORE_Q1_STARTERS,5,1628991|1629111|1629630|1642377|203484,Jaren Jackson Jr. | Jock Landale | Ja Morant | Jaylen Wells | Kentavious Caldwell-Pope,
-1,NOP,BOX_SCORE_Q1_STARTERS,5,1629627|1629673|1630529|1630530|1642274,Zion Williamson | Jordan Poole | Herbert Jones | Trey Murphy III | Yves Missi,
-2,MEM,USER_SUPPLIED_CONDITIONAL,5,1629111|1629630|1641765|1642285|1642377,Jock Landale | Ja Morant | Olivier-Maxence Prosper | Cam Spencer | Jaylen Wells,
-2,NOP,USER_SUPPLIED_CONDITIONAL,5,1629627|1630529|1641722|1642274|1642847,Zion Williamson | Herbert Jones | Jordan Hawkins | Yves Missi | Jeremiah Fears,
-3,MEM,USER_SUPPLIED_CONDITIONAL,5,1628991|1629111|1629630|1642377|203484,Jaren Jackson Jr. | Jock Landale | Ja Morant | Jaylen Wells | Kentavious Caldwell-Pope,
-3,NOP,USER_SUPPLIED_CONDITIONAL,5,1629627|1629673|1630529|1630530|1642274,Zion Williamson | Jordan Poole | Herbert Jones | Trey Murphy III | Yves Missi,
-4,MEM,USER_SUPPLIED_CONDITIONAL,5,1629111|1629630|1630583|1642285|1642377,Jock Landale | Ja Morant | Santi Aldama | Cam Spencer | Jaylen Wells,
-4,NOP,USER_SUPPLIED_CONDITIONAL,5,1629627|1630529|1641722|1642847|1642852,Zion Williamson | Herbert Jones | Jordan Hawkins | Jeremiah Fears | Derik Queen,

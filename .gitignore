@@ -38,3 +38,20 @@ Thumbs.db
 # Misc
 *.tmp
 *.bak
+
+# Generated research and validation outputs
+v*_review/
+v*_test/
+v*_pilot/
+v*_reaudit/
+validation_*/
+
+# Local database files
+*.duckdb
+*.duckdb.wal
+*.duckdb.tmp
+
+# Credentials
+.env
+.env.*
+.streamlit/secrets.toml

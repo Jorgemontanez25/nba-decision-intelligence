@@ -1,3 +1,0 @@
-period,team,first_sub_elapsed,required_count,required_ids,forbidden_count,forbidden_ids,initial_combinations,candidates_surviving,candidates_rejected,status,first_rejection
-3,BOS,281.0,5,1627759|1628401|1629674|1630202|1630573,2,1629014|1630214,1,1,0,UNIQUE_CONDITIONAL,
-3,NYK,441.0,5,1626157|1628384|1628969|1628973|1630540,1,1629013,1,1,0,UNIQUE_CONDITIONAL,

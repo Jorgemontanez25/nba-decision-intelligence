@@ -1,2 +1,0 @@
-game_id,period,start_seconds,end_seconds,duration_seconds,home_team_id,away_team_id,home_lineup_ids,away_lineup_ids,home_score_change,away_score_change,status,stop_reason
-0022500002,1,0.0,297.0,297.0,1610612747,1610612744,1629028|1629029|1629060|1629216|1630559,201939|202710|203110|1630228|1641764,11,12,UNVERIFIED_PERIOD_STARTERS,substitution

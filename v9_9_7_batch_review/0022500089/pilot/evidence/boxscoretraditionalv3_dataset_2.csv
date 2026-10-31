@@ -1,3 +1,0 @@
-﻿gameId,teamId,teamCity,teamName,teamTricode,teamSlug,minutes,fieldGoalsMade,fieldGoalsAttempted,fieldGoalsPercentage,threePointersMade,threePointersAttempted,threePointersPercentage,freeThrowsMade,freeThrowsAttempted,freeThrowsPercentage,reboundsOffensive,reboundsDefensive,reboundsTotal,assists,steals,blocks,turnovers,foulsPersonal,points,plusMinusPoints
-0022500089,1610612757,Portland,Trail Blazers,POR,blazers,240:00,36,90,0.4,13,42,0.31,29,35,0.829,7,32,39,25,10,3,15,17,114,-4.0
-0022500089,1610612750,Minnesota,Timberwolves,MIN,timberwolves,240:00,42,86,0.488,15,30,0.5,19,24,0.792,10,35,45,21,10,10,19,29,118,4.0

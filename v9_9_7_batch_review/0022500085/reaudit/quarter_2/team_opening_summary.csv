@@ -1,3 +1,0 @@
-period,team,first_sub_elapsed,required_count,required_ids,forbidden_count,forbidden_ids,initial_combinations,candidates_surviving,candidates_rejected,status,first_rejection
-2,MEM,140.0,3,1629111|1629630|1641765,1,1628991,36,1,35,UNIQUE_CONDITIONAL,INVALID_SUB_GROUP at 173.0
-2,NOP,173.0,4,1629627|1641722|1642274|1642847,1,1642852,8,1,7,UNIQUE_CONDITIONAL,INVALID_SUB_GROUP at 215.0

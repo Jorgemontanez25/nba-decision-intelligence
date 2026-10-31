@@ -1,3 +1,0 @@
-period,team,first_sub_elapsed,required_count,required_ids,forbidden_count,forbidden_ids,initial_combinations,candidates_surviving,candidates_rejected,status,first_rejection
-3,MIN,123.0,4,1628978|1630162|1630183|203497,1,1630545,10,1,9,UNIQUE_CONDITIONAL,INVALID_SUB_GROUP at 361.0 actions=453
-3,POR,270.0,5,1630166|1631101|1641739|1642270|201950,2,1629680|203924,1,1,0,UNIQUE_CONDITIONAL,

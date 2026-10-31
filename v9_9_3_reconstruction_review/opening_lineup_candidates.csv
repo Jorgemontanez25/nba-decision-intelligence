@@ -1,9 +1,0 @@
-period,team,status,identified_players,player_ids,player_names,first_sub_elapsed
-1,GSW,BOX_SCORE_Q1_STARTERS,5,1630228|1641764|201939|202710|203110,Jonathan Kuminga | Brandin Podziemski | Stephen Curry | Jimmy Butler III | Draymond Green,
-1,LAL,BOX_SCORE_Q1_STARTERS,5,1629028|1629029|1629060|1629216|1630559,Deandre Ayton | Luka Dončić | Rui Hachimura | Gabe Vincent | Austin Reaves,
-2,GSW,UNRESOLVED_OPENING,0,,,233.0
-2,LAL,UNRESOLVED_OPENING,0,,,189.0
-3,GSW,PARTICIPATION_DERIVED_CONDITIONAL,5,1630228|1641764|201939|202710|203110,Jonathan Kuminga | Brandin Podziemski | Stephen Curry | Jimmy Butler III | Draymond Green,303.0
-3,LAL,PARTICIPATION_DERIVED_CONDITIONAL,5,1629028|1629029|1629060|1629216|1630559,Deandre Ayton | Luka Dončić | Rui Hachimura | Gabe Vincent | Austin Reaves,364.0
-4,GSW,PARTICIPATION_DERIVED_CONDITIONAL,5,1627741|1641764|1642366|202710|203110,Buddy Hield | Brandin Podziemski | Quinten Post | Jimmy Butler III | Draymond Green,250.0
-4,LAL,PARTICIPATION_DERIVED_CONDITIONAL,5,1629020|1629029|1629637|1631222|203935,Jarred Vanderbilt | Luka Dončić | Jaxson Hayes | Jake LaRavia | Marcus Smart,132.0

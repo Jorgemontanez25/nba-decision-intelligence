@@ -1,3 +1,0 @@
-period,team,first_sub_elapsed,required_count,required_ids,forbidden_count,forbidden_ids,initial_combinations,candidates_surviving,candidates_rejected,status,first_rejection
-3,CHI,247.0,5,1630171|1630200|1630581|1641824|202696,2,1628989|1630172,1,1,0,UNIQUE_CONDITIONAL,
-3,DET,163.0,5,1629130|1630595|1631105|1641709|202699,1,1641842,1,1,0,UNIQUE_CONDITIONAL,

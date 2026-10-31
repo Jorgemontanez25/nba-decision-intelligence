@@ -1,9 +1,0 @@
-period,team,status,identified_players,player_ids,player_names,first_sub_elapsed
-1,BOS,BOX_SCORE_Q1_STARTERS,5,1627759|1628401|1629674|1630202|1630573,Jaylen Brown | Derrick White | Neemias Queta | Payton Pritchard | Sam Hauser,
-1,NYK,BOX_SCORE_Q1_STARTERS,5,1626157|1628384|1628969|1628973|1630540,Karl-Anthony Towns | OG Anunoby | Mikal Bridges | Jalen Brunson | Miles McBride,
-2,BOS,USER_SUPPLIED_CONDITIONAL,5,1627759|1628401|1628449|1629014|1641775,Jaylen Brown | Derrick White | Chris Boucher | Anfernee Simons | Jordan Walsh,
-2,NYK,USER_SUPPLIED_CONDITIONAL,5,1626157|1628384|1629013|1642278|203903,Karl-Anthony Towns | OG Anunoby | Landry Shamet | Tyler Kolek | Jordan Clarkson,
-3,BOS,USER_SUPPLIED_CONDITIONAL,5,1627759|1628401|1629674|1630202|1630573,Jaylen Brown | Derrick White | Neemias Queta | Payton Pritchard | Sam Hauser,
-3,NYK,USER_SUPPLIED_CONDITIONAL,5,1626157|1628384|1628969|1628973|1630540,Karl-Anthony Towns | OG Anunoby | Mikal Bridges | Jalen Brunson | Miles McBride,
-4,BOS,USER_SUPPLIED_CONDITIONAL,5,1628401|1628449|1629014|1630202|1642864,Derrick White | Chris Boucher | Anfernee Simons | Payton Pritchard | Hugo González,
-4,NYK,USER_SUPPLIED_CONDITIONAL,5,1626157|1628969|1630540|1642278|203903,Karl-Anthony Towns | Mikal Bridges | Miles McBride | Tyler Kolek | Jordan Clarkson,
