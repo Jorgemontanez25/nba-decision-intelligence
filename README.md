@@ -12,7 +12,12 @@
 
 </div>
 
+<details>
+<summary><strong>How the platform works — data architecture</strong></summary>
+
 ![Project architecture](assets/architecture.svg)
+
+</details>
 
 ## Overview
 
@@ -22,31 +27,48 @@ NBA Decision Intelligence is an independently developed **sports analytics portf
 
 > **Research status:** The 5v5 rankings are experimental, based primarily on historical box-score proxies. The lineup-reconstruction audits are internal consistency checks, **not independent certification** of historical stints, matchup impact, or real-time substitution recommendations.
 
-## Product walkthrough
+## Explore the dashboard
 
-### 🧑‍💻 Player Analysis
+### Player Analysis
 
-Explore career production and game logs for a selected roster player **across previous teams**. The profile includes an NBA 2K27-inspired card and sourced OVR values where present in the local cache. The OVR is *not* inferred from box scores.
+Unified player profiles combine career box scores, performance trends and a **2K27-inspired roster card** with an externally sourced OVR where available. Player records are matched by NBA player ID across franchises.
 
-![Player profile with sourced OVR](assets/player-analysis.png)
+![NBA Decision Intelligence player analysis](assets/player-analysis.png)
 
-### 🎯 Historical Shooting
+### 5v5 Decision Center
 
-Inspect available individual shot attempts, court charts, and spatial shooting patterns. **Shot-event coverage can differ from box-score coverage**; the app explicitly marks uncollected seasons instead of treating missing attempts as misses.
+Compare hypothetical five-player units with a full-court portrait visualization. The relative indexes and radar graphics are **experimental box-score heuristics**, not verified matchup predictions.
 
-![Historical shooting example](assets/shooting-analysis.png)
+![5v5 lineup recommendations and full-court formation](assets/decision-center.png)
 
-### 🏟️ 5v5 Decision Center
+<details>
+<summary><strong>Explore more visuals — shooting, team comparison, and roster</strong></summary>
 
-Select a team and opponent, review ranked candidate five-player units, and visualize both lineups on a court with player portraits and side-by-side offense/defense indicators. Recommendations are relative **decision-support heuristics**, not verified predictive win probabilities.
+#### Shot density heatmap
 
-![Five-on-five decision visualization](assets/decision-center.png)
+Brighter regions indicate **more shot attempts**, not higher shooting accuracy.
 
-### 📋 Roster Manager
+![Historical shooting density heatmap](assets/shooting-heatmap.png)
 
-Browse the 2026–27 roster snapshot, player headshots, and sortable box-score summaries (minutes, points, rebounds, assists). Membership and availability should be checked against current official sources before using a lineup recommendation.
+#### Shot location chart
+
+Makes and misses plotted on the basketball court for available player shot events.
+
+![Historical player shot chart](assets/shooting-shot-chart.png)
+
+#### Team offense and defense comparisons
+
+Descriptive team-level comparisons using box-score production and defensive-activity proxies.
+
+![Offense and defense comparison between teams](assets/team-comparison.png)
+
+#### 2026–27 Roster Manager
+
+Explore roster snapshots and sortable player statistics (minutes, points, rebounds, assists). The roster is not a live availability or injury feed.
 
 ![Roster manager](assets/roster-manager.png)
+
+</details>
 
 ## Tech stack
 
