@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="310" viewBox="0 0 1000 310">
+<rect width="1000" height="310" rx="20" fill="#0c1423"/>
+<g font-family="Arial,sans-serif" text-anchor="middle"><text x="500" y="40" fill="white" font-size="23" font-weight="700">NBA Decision Intelligence · Architecture</text></g>
+<g stroke="#4c6888" stroke-width="2" fill="none"><path d="M250 156H315"/><path d="M555 156H620"/><path d="M740 196V232"/></g>
+<g font-family="Arial,sans-serif" text-anchor="middle">
+<rect x="24" y="95" width="226" height="122" rx="16" fill="#173451" stroke="#4279b4"/><text x="137" y="128" fill="#c9e0ff" font-size="17" font-weight="bold">NBA data ingestion</text><text x="137" y="154" fill="#e0e9f5" font-size="14">Box scores · shot events</text><text x="137" y="176" fill="#e0e9f5" font-size="14">Roster snapshots</text><text x="137" y="198" fill="#e0e9f5" font-size="14">Refresh scripts</text>
+<rect x="315" y="95" width="240" height="122" rx="16" fill="#1b3850" stroke="#4fbfb6"/><text x="435" y="128" fill="#d4fff3" font-size="19" font-weight="bold">DuckDB</text><text x="435" y="154" fill="#ebf6fb" font-size="14">player_games · team_games</text><text x="435" y="176" fill="#ebf6fb" font-size="14">shot_events</text><text x="435" y="198" fill="#ebf6fb" font-size="14">Historical coverage</text>
+<rect x="620" y="95" width="355" height="122" rx="16" fill="#253351" stroke="#a37cf6"/><text x="797" y="128" fill="#f3e9ff" font-size="19" font-weight="bold">Streamlit dashboard</text><text x="797" y="154" fill="#edf1fb" font-size="14">Player Analysis · Shooting</text><text x="797" y="176" fill="#edf1fb" font-size="14">5v5 Decision Center</text><text x="797" y="198" fill="#edf1fb" font-size="14">Roster Manager · Data QA</text>
+<rect x="620" y="234" width="355" height="52" rx="12" fill="#2d284b" stroke="#a37cf6"/><text x="797" y="255" fill="#e9dfff" font-size="15" font-weight="bold">Experimental lineup recommendations</text><text x="797" y="273" fill="#ddd3ff" font-size="12">Not independently certified or live connected</text>
+</g></svg>

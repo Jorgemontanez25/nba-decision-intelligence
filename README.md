@@ -1,141 +1,129 @@
-# NBA Decision Intelligence — Player & Lineup Analysis
+<div align="center">
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
-![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
-![DuckDB](https://img.shields.io/badge/DuckDB-Analytics-gold)
-![Status](https://img.shields.io/badge/Status-Active-success)
-![Sports Analytics](https://img.shields.io/badge/Focus-Sports%20Analytics-orange)
+# 🏀 NBA Decision Intelligence
+### Player & Lineup Analysis · Basketball Decision Support
 
-A local **NBA analytics platform** built with **Streamlit**, **DuckDB**, and custom data pipelines to support:
+[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![DuckDB](https://img.shields.io/badge/DuckDB-Analytics-F5C518)](https://duckdb.org/)
+![Status](https://img.shields.io/badge/Status-Research%20prototype-56627A)
 
-- **player career analysis**
-- **historical shooting analysis**
-- **5v5 decision support**
-- **roster exploration**
-- **daily/current-season refresh workflows**
+*A multi-season NBA research dashboard combining player history, shot-location visualization, roster exploration, and experimental 5-on-5 matchup recommendations.*
 
-The goal of this project is to create an interactive basketball decision-support environment that combines **box score history**, **shot-location analysis**, **roster context**, and **lineup recommendations** into one application.
+</div>
 
----
+![Project architecture](assets/architecture.svg)
 
-## Project Overview
+## Overview
 
-This application was designed as an evolving **NBA Decision Intelligence** tool focused on both:
+NBA Decision Intelligence is an independently developed **sports analytics portfolio project** built with Python, Streamlit, and DuckDB. It aims to help analysts explore player production across franchises and seasons, visualize on-court shooting profiles, and compare hypothetical five-player units against opponents.
 
-1. **Player-level analysis**
-2. **Lineup / matchup-level decision support**
+**Supported analysis window:** **2023–24, 2024–25, 2025–26, and 2026–27**, subject to local data availability. Roster snapshots are not live injury or availability feeds.
 
-It currently includes:
+> **Research status:** The 5v5 rankings are experimental, based primarily on historical box-score proxies. The lineup-reconstruction audits are internal consistency checks, **not independent certification** of historical stints, matchup impact, or real-time substitution recommendations.
 
-- Unified **Player Analysis** view
-- **Historical shooting** and shot-chart support
-- **5v5 Decision Center** with recommended formations
-- **2026–27 Roster Manager**
-- Data coverage / health visibility
-- Support for multiple historical seasons stored locally in DuckDB
+## Product walkthrough
 
----
+### 🧑‍💻 Player Analysis
 
-## Main Features
+Explore career production and game logs for a selected roster player **across previous teams**. The profile includes an NBA 2K27-inspired card and sourced OVR values where present in the local cache. The OVR is *not* inferred from box scores.
 
-### 1) Unified Player Analysis
-Analyze one player across all locally collected seasons.
+![Player profile with sourced OVR](assets/player-analysis.png)
 
-Includes:
-- player portrait
-- sourced **NBA 2K27 OVR**
-- role tag (e.g. rotation, star, developing)
-- career sample overview
-- multi-season production
-- game logs
-- season trend visibility
+### 🎯 Historical Shooting
 
-![Player Analysis](assets/player_analysis.png)
+Inspect available individual shot attempts, court charts, and spatial shooting patterns. **Shot-event coverage can differ from box-score coverage**; the app explicitly marks uncollected seasons instead of treating missing attempts as misses.
 
----
+![Historical shooting example](assets/shooting-analysis.png)
 
-### 2) Historical Shooting
-Shot-location analysis based on collected shot coordinates.
+### 🏟️ 5v5 Decision Center
 
-Includes:
-- shot chart
-- density/heatmap support
-- efficiency context
-- season-aware shooting coverage
-- warning states when box scores exist but shot events are missing
+Select a team and opponent, review ranked candidate five-player units, and visualize both lineups on a court with player portraits and side-by-side offense/defense indicators. Recommendations are relative **decision-support heuristics**, not verified predictive win probabilities.
 
-![Historical Shooting](assets/historical_shooting.png)
+![Five-on-five decision visualization](assets/decision-center.png)
 
----
+### 📋 Roster Manager
 
-### 3) 5v5 Decision Center
-A decision-support page that compares team context and recommended candidate lineups.
+Browse the 2026–27 roster snapshot, player headshots, and sortable box-score summaries (minutes, points, rebounds, assists). Membership and availability should be checked against current official sources before using a lineup recommendation.
 
-Includes:
-- top candidate lineups
-- interactive selected-lineup visualization
-- offense/defense radar comparisons
-- full-court lineup visual
-- player portraits on the court
+![Roster manager](assets/roster-manager.png)
 
-![5v5 Decision Center](assets/decision_center.png)
+## Tech stack
 
----
+| Layer | Technology | Purpose |
+|---|---|---|
+| Application | Streamlit | Interactive filters, navigation, and dashboard |
+| Data and ETL | Python, Pandas, NumPy | Collection, cleaning, and statistical aggregation |
+| Analytics storage | DuckDB | Local historical box scores and shot events |
+| Visualization | Plotly | Game trends, shooting charts, comparison graphics |
+| Reference ratings | Local NBA 2K27 ratings cache | Sourced OVR display; not a predictive feature by default |
 
-### 4) 2026–27 Roster Manager
-An ESPN-style roster exploration page for the selected team.
+## Data model and limitations
 
-Includes:
-- sortable roster view
-- player portraits
-- minutes / points / rebounds / assists
-- cleaner roster UX for quick review
+The local database currently uses `player_games`, `team_games`, and `shot_events` tables. Player matching uses NBA player IDs, allowing historical records from previous franchises to contribute to player-level analysis.
 
-![Roster Manager](assets/roster_manager.png)
+- The **box-score** window is broader than complete shot-location coverage.
+- Current-season refresh is driven by local scripts; a fully managed 24/7 agent is not yet deployed.
+- The lineup recommendation engine ranks **hypothetical** units and does not currently provide a certified live NBA feed.
+- Player headshots, team logos, and 2K27 ratings are third-party or league assets and are not owned by this project.
+- Local DuckDB files, credentials, API keys, and generated research outputs are **not included** in a normal source-code deployment.
 
----
+## Run locally
 
-## Tech Stack
+> The complete app requires a compatible local DuckDB database and supporting source modules. A fresh clone is **not yet a fully reproducible, populated demo**. Sample/demo data and deployment configuration are on the roadmap.
 
-- **Python**
-- **Streamlit**
-- **DuckDB**
-- **Pandas**
-- **NumPy**
-- **Plotly**
+```powershell
+python -m venv .venv
+```
 
----
+```powershell
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+```
 
-## Data Notes
+```powershell
+.\.venv\Scripts\python.exe -m streamlit run .\app_decision_v491.py
+```
 
-This app depends on locally collected NBA data.
+The primary local entry point in the latest tested project iteration is `app_decision_v491.py`. When `requirements.txt` is not yet synchronized with the active environment, export and review dependencies before deployment.
 
-Current architecture uses:
-- **player_games**
-- **team_games**
-- **shot_events**
-- locally stored roster snapshots
-- locally sourced **NBA 2K27 OVR** cache
-
-### Important
-- Box score data and shot-location data are different layers.
-- A season may appear in player history even if full shot coordinates for that season have not yet been collected.
-- Current-season data is intended to be refreshed frequently/daily.
-
----
-
-## Project Structure
+## Project structure (target)
 
 ```text
-.
-├── assets/
-├── app_decision_v491.py
-├── decision_center_v481.py
-├── v47_visuals.py
-├── analysis.py
-├── lineup_engine.py
-├── roster_2026_27.py
-├── collect_shots.py
-├── team_branding.py
+nba-decision-intelligence/
+├── assets/                      # Documentation screenshots and diagrams
+├── app_decision_v491.py         # Current Streamlit entry point
+├── decision_center_v481.py      # Candidate lineup visualizations
+├── v47_visuals.py               # Profile and graphics components
+├── analysis.py                  # Analytics queries and transformations
+├── lineup_engine.py             # Lineup analysis helpers
+├── roster_2026_27.py            # Local roster utilities
+├── team_branding.py             # Team branding helpers
+├── requirements.txt             # App dependencies
 ├── README.md
-└── requirements.txt
+└── .gitignore
+```
+
+*The public repository may temporarily contain additional legacy modules and validation scripts. This tree describes the intended production-focused organization, not a verified complete inventory.*
+
+## Development roadmap
+
+- [x] Unified player analysis and career trends
+- [x] 5v5 recommendation prototype with court visualization
+- [x] Current-season roster exploration
+- [ ] Backfill missing historical shot events
+- [ ] Improve matchup-adjusted lineup evaluation using verified lineup data
+- [ ] Automated daily refresh with retries and monitoring
+- [ ] Reproducible sample database and deployment guide
+- [ ] Hosted Streamlit demo
+
+## Responsible use
+
+This project is **not affiliated with or endorsed by the NBA, NBA teams, 2K Sports, ESPN, or Streamlit**. It is an educational/research portfolio application. Displayed player ratings are sourced when available; matchup recommendations are experimental and should not be treated as verified coaching instructions.
+
+---
+
+<div align="center">
+
+**Developed by Jorge Montañez** · Sports Analytics · Data Science · Decision Intelligence
+
+</div>
