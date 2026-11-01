@@ -1,5 +1,0 @@
-﻿gameId,teamId,teamCity,teamName,teamTricode,teamSlug,minutes,fieldGoalsMade,fieldGoalsAttempted,fieldGoalsPercentage,threePointersMade,threePointersAttempted,threePointersPercentage,freeThrowsMade,freeThrowsAttempted,freeThrowsPercentage,reboundsOffensive,reboundsDefensive,reboundsTotal,assists,steals,blocks,turnovers,foulsPersonal,points,startersBench
-0022500002,1610612747,Los Angeles,Lakers,LAL,lakers,175:21,35,60,0.583,7,25,0.28,14,22,0.636,3,24,27,22,5,2,13,14,91,Starters
-0022500002,1610612747,Los Angeles,Lakers,LAL,lakers,175:21,7,17,0.412,1,7,0.143,3,6,0.5,4,8,12,1,2,0,6,7,18,Bench
-0022500002,1610612744,Golden State,Warriors,GSW,warriors,160:38,25,52,0.481,10,24,0.417,26,29,0.897,7,22,29,25,7,3,10,17,86,Starters
-0022500002,1610612744,Golden State,Warriors,GSW,warriors,160:38,13,26,0.5,7,16,0.438,0,0,0.0,2,9,11,4,3,1,8,10,33,Bench

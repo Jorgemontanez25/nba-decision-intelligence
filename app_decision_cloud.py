@@ -12,7 +12,7 @@ from analysis import player_summary
 from lineup_engine import initialize, matchup_rankings, data_quality
 from team_branding import TEAMS, render_team_brand
 from collect_shots import DDL as SHOT_DDL
-from decision_center_v481 import render_decision_center
+from decision_center_v492 import render_decision_center
 from roster_2026_27 import roster_for_team
 from v47_visuals import render_player_snapshot, render_fantasy_roster, show_refresh_health
 
@@ -274,10 +274,8 @@ def zone_efficiency_figure(summary: pd.DataFrame, player_label: str, min_attempt
 
 st.set_page_config(page_title='NBA Decision Intelligence', layout='wide')
 st.title('NBA Decision Intelligence — Player & Lineup Analysis')
-db = st.sidebar.text_input('DuckDB file', 'nba_current.duckdb')
-seasons = st.sidebar.multiselect(
-    'Seasons', ['2023-24', '2024-25', '2025-26', '2026-27'],
-    default=['2023-24', '2024-25', '2025-26', '2026-27'])
+db = str(Path(__file__).resolve().parent / 'deployment' / 'nba_demo.duckdb')
+seasons = ['2023-24', '2024-25', '2025-26', '2026-27']
 season_types = st.sidebar.multiselect(
     'Game types', ['Regular Season', 'Playoffs'], default=['Regular Season'])
 team = st.sidebar.selectbox('Team', list(TEAMS), index=list(TEAMS).index('LAL'),
@@ -305,26 +303,21 @@ if not seasons or not season_types:
     st.info('Choose at least one season and one game type.')
     st.stop()
 
-with duckdb.connect(db) as con:
-    initialize(con)
-    con.execute(SHOT_DDL)
+with duckdb.connect(db, read_only=True) as con:
     tab_players, tab_decision, tab_roster, tab_coverage = st.tabs(
         ['Player Analysis', '5v5 Decision Center', '2026–27 Rosters', 'Data coverage'])
     selected_opponent = None if opponent == 'ALL' else opponent
 
     with tab_players:
         st.subheader('Player Analysis')
-        available_profile_seasons = [str(v[0]) for v in con.execute("SELECT DISTINCT season FROM player_games WHERE season >= '2023-24' ORDER BY season").fetchall()]
-        st.caption('One player across career performance, historical shooting, game logs, and season trends. Previous franchises are included.')
+        available_profile_seasons = [str(v[0]) for v in con.execute("SELECT DISTINCT season FROM player_games WHERE season IN ('2023-24','2024-25','2025-26','2026-27') ORDER BY season").fetchall()]
         historical_seasons = available_profile_seasons
-        st.caption('Automatically using every historical season currently stored in DuckDB: ' + (', '.join(historical_seasons) if historical_seasons else 'none'))
         if not historical_seasons:
             st.info('No historical box-score seasons are available.')
         else:
             current_roster = roster_for_team(team)
             if not current_roster.empty:
                 roster_choices = {f"{r.player_name} ({r.player_id})":str(r.player_id) for r in current_roster.itertuples(index=False)}
-                st.caption(f'Current roster: {len(roster_choices)} players, including players who previously played elsewhere.')
             else:
                 historical_players=con.execute('SELECT CAST(player_id AS VARCHAR) AS player_id, MAX_BY(player_name, game_date) AS player_name FROM player_games WHERE team_abbr=? GROUP BY player_id ORDER BY player_name',[team]).df()
                 roster_choices={f"{r.player_name} ({r.player_id})":str(r.player_id) for r in historical_players.itertuples(index=False)}
@@ -334,37 +327,37 @@ with duckdb.connect(db) as con:
             else:
                 selected_label=st.selectbox('Player', list(roster_choices), key='profile_player_pick')
                 player_id=roster_choices[selected_label]
+                # Shared career data: includes ALL supported seasons and previous franchises.
+                stype_filter = list(season_types)
+                ss=','.join('?' for _ in historical_seasons)
+                tt=','.join('?' for _ in stype_filter)
+                if stype_filter:
+                    career=con.execute(f"""SELECT p.game_date,p.game_id,p.season,p.season_type,p.team_abbr,
+                         p.points,p.rebounds,p.assists,p.minutes,p.fgm,p.fga,p.fg3m,p.fg3a,p.ftm,p.fta,
+                         p.steals,p.blocks,p.turnovers,p.plus_minus,p.starter
+                         FROM player_games p WHERE p.player_id=? AND p.season IN ({ss})
+                         AND p.season_type IN ({tt}) AND p.minutes>0
+                         ORDER BY p.game_date,p.game_id""",
+                         [int(player_id),*historical_seasons,*stype_filter]).df()
+                else:
+                    career=pd.DataFrame()
+                # Persistent player photo/OVR sits above the nested tabs.
+                if career.empty:
+                    st.info('No box-score records for this player and the selected game types.')
+                else:
+                    render_player_snapshot(career, selected_label, player_id)
                 ov_tab, shoot_tab, logs_tab, trends_tab = st.tabs(
                     ['Overview', 'Shooting', 'Game Logs', 'Career Trends'])
-                career = pd.DataFrame()
-                stype_filter = list(season_types)
                 with ov_tab:
-                    stype_filter=st.multiselect('Game types for player analysis',['Regular Season','Playoffs'],default=list(season_types),key='profile_game_types')
-                    career_teams=st.checkbox('Include past teams (career history)',value=True,key='profile_all_teams')
-                    matchup_only=st.checkbox('Restrict analysis to sidebar opponent',value=False,key='profile_matchup_only',disabled=selected_opponent is None)
-                    ss=','.join('?' for _ in historical_seasons)
-                    tt=','.join('?' for _ in stype_filter)
-                    if not stype_filter:
-                        st.info('Select a game type.')
+                    if career.empty:
+                        st.info('Player overview will appear when box-score records are available.')
                     else:
-                        extra=' AND p.team_abbr=?' if not career_teams else ''
-                        matchup_clause=' AND EXISTS (SELECT 1 FROM team_games opp WHERE opp.game_id=p.game_id AND opp.team_abbr=?)' if matchup_only and selected_opponent else ''
-                        args=[int(player_id),*historical_seasons,*stype_filter]
-                        if not career_teams: args.append(team)
-                        if matchup_clause: args.append(selected_opponent)
-                        career=con.execute(f"""SELECT p.game_date,p.game_id,p.season,p.season_type,p.team_abbr,
-                             p.points,p.rebounds,p.assists,p.minutes,p.fgm,p.fga,p.fg3m,p.fg3a,p.ftm,p.fta,
-                             p.steals,p.blocks,p.turnovers,p.plus_minus,p.starter
-                             FROM player_games p WHERE p.player_id=? AND p.season IN ({ss})
-                             AND p.season_type IN ({tt}) AND p.minutes>0 {extra} {matchup_clause}
-                             ORDER BY p.game_date,p.game_id""",args).df()
-                        if career.empty:
-                            st.info('No box scores found for this player in the selected historical seasons. This is a data-coverage gap, not a zero-performance season.')
-                        else:
-                            render_player_snapshot(career, selected_label, player_id)
+                        by_season=career.groupby(['season','team_abbr'],as_index=False).agg(
+                            games=('game_id','nunique'),ppg=('points','mean'),
+                            rpg=('rebounds','mean'),apg=('assists','mean'),mpg=('minutes','mean'))
+                        st.dataframe(by_season.round(1),hide_index=True,use_container_width=True)
                 with shoot_tab:
                     st.markdown('#### Historical shooting')
-                    st.caption('Shot locations follow the selected player across franchises; missing seasons are explicitly flagged.')
                     pick=selected_label
                     pid=int(player_id)
                     # Same four-season window as Player Profiles. Shot attempts may still be absent.
@@ -542,7 +535,7 @@ with duckdb.connect(db) as con:
 
     with tab_roster:
         st.subheader('2026–27 Roster Manager')
-        st.caption('ESPN-style roster explorer, not an ESPN-connected fantasy account or availability feed. Current NBA roster membership is a dated snapshot.')
+        st.caption('Interactive NBA roster explorer with historical player statistics. Roster membership is based on dated snapshots; live player availability and injuries are not included.')
         snapshot=roster_for_team(team)
         if snapshot.empty:
             st.warning('No current roster snapshot. Refresh with roster_2026_27.py; historical team lists are not a valid current-roster substitute.')

@@ -1,3 +1,0 @@
-﻿gameId,teamId,teamCity,teamName,teamTricode,teamSlug,minutes,fieldGoalsMade,fieldGoalsAttempted,fieldGoalsPercentage,threePointersMade,threePointersAttempted,threePointersPercentage,freeThrowsMade,freeThrowsAttempted,freeThrowsPercentage,reboundsOffensive,reboundsDefensive,reboundsTotal,assists,steals,blocks,turnovers,foulsPersonal,points,plusMinusPoints
-0022500002,1610612747,Los Angeles,Lakers,LAL,lakers,240:00,42,77,0.545,8,32,0.25,17,28,0.607,7,32,39,23,7,2,19,21,109,-10.0
-0022500002,1610612744,Golden State,Warriors,GSW,warriors,240:00,38,78,0.487,17,40,0.425,26,29,0.897,9,31,40,29,10,4,18,27,119,10.0
