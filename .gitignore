@@ -55,3 +55,18 @@ validation_*/
 .env
 .env.*
 .streamlit/secrets.toml
+
+# Generated research outputs
+backfill_*.log
+coverage_*.csv
+league_*.csv
+lakers_*.csv
+v8_*.csv
+v9_9_*.csv
+review_jabari_0022500792/
+v9_4c_diagnostic/
+v9_4e_official_evidence/
+v9_9_1_prepared/
+deployment/
+*.duckdb
+*.duckdb.wal
