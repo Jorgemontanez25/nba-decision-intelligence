@@ -5,12 +5,14 @@ empirically validated lineup win-probability or certified five-player impact mod
 """
 from __future__ import annotations
 from itertools import combinations
+import re
 from pathlib import Path
 import pandas as pd
 import numpy as np
 import streamlit as st
 import plotly.graph_objects as go
 from roster_2026_27 import roster_for_team
+from v45_visuals import add_face_markers
 
 
 def roster_profiles(con, team, seasons, types):
@@ -22,12 +24,12 @@ def roster_profiles(con, team, seasons, types):
              MAX_BY(player_name,game_date) AS player_name,
              COUNT(DISTINCT game_id) AS games,
              ROUND(SUM(minutes)/NULLIF(COUNT(DISTINCT game_id),0),2) AS mpg,
-             ROUND(SUM(points)/NULLIF(SUM(minutes),0)*36,2) AS pts36,
-             ROUND(SUM(rebounds)/NULLIF(SUM(minutes),0)*36,2) AS reb36,
-             ROUND(SUM(assists)/NULLIF(SUM(minutes),0)*36,2) AS ast36,
-             ROUND(SUM(steals+blocks)/NULLIF(SUM(minutes),0)*36,2) AS stocks36,
-             ROUND(SUM(turnovers)/NULLIF(SUM(minutes),0)*36,2) AS tov36,
-             ROUND(100*SUM(points)/NULLIF(2*(SUM(fga)+0.44*SUM(fta)),0),1) AS ts_pct,
+             ROUND(SUM(points * (CASE season WHEN '2026-27' THEN 1.0 WHEN '2025-26' THEN 0.85 WHEN '2024-25' THEN 0.60 WHEN '2023-24' THEN 0.35 ELSE 0.20 END))/NULLIF(SUM(minutes * (CASE season WHEN '2026-27' THEN 1.0 WHEN '2025-26' THEN 0.85 WHEN '2024-25' THEN 0.60 WHEN '2023-24' THEN 0.35 ELSE 0.20 END)),0)*36,2) AS pts36,
+             ROUND(SUM((rebounds) * (CASE season WHEN '2026-27' THEN 1.0 WHEN '2025-26' THEN 0.85 WHEN '2024-25' THEN 0.60 WHEN '2023-24' THEN 0.35 ELSE 0.20 END))/NULLIF(SUM(minutes * (CASE season WHEN '2026-27' THEN 1.0 WHEN '2025-26' THEN 0.85 WHEN '2024-25' THEN 0.60 WHEN '2023-24' THEN 0.35 ELSE 0.20 END)),0)*36,2) AS reb36,
+             ROUND(SUM((assists) * (CASE season WHEN '2026-27' THEN 1.0 WHEN '2025-26' THEN 0.85 WHEN '2024-25' THEN 0.60 WHEN '2023-24' THEN 0.35 ELSE 0.20 END))/NULLIF(SUM(minutes * (CASE season WHEN '2026-27' THEN 1.0 WHEN '2025-26' THEN 0.85 WHEN '2024-25' THEN 0.60 WHEN '2023-24' THEN 0.35 ELSE 0.20 END)),0)*36,2) AS ast36,
+             ROUND(SUM((steals+blocks) * (CASE season WHEN '2026-27' THEN 1.0 WHEN '2025-26' THEN 0.85 WHEN '2024-25' THEN 0.60 WHEN '2023-24' THEN 0.35 ELSE 0.20 END))/NULLIF(SUM(minutes * (CASE season WHEN '2026-27' THEN 1.0 WHEN '2025-26' THEN 0.85 WHEN '2024-25' THEN 0.60 WHEN '2023-24' THEN 0.35 ELSE 0.20 END)),0)*36,2) AS stocks36,
+             ROUND(SUM((turnovers) * (CASE season WHEN '2026-27' THEN 1.0 WHEN '2025-26' THEN 0.85 WHEN '2024-25' THEN 0.60 WHEN '2023-24' THEN 0.35 ELSE 0.20 END))/NULLIF(SUM(minutes * (CASE season WHEN '2026-27' THEN 1.0 WHEN '2025-26' THEN 0.85 WHEN '2024-25' THEN 0.60 WHEN '2023-24' THEN 0.35 ELSE 0.20 END)),0)*36,2) AS tov36,
+             ROUND(100*SUM(points*(CASE season WHEN '2026-27' THEN 1.0 WHEN '2025-26' THEN 0.85 WHEN '2024-25' THEN 0.60 WHEN '2023-24' THEN 0.35 ELSE 0.20 END))/NULLIF(2*(SUM(fga*(CASE season WHEN '2026-27' THEN 1.0 WHEN '2025-26' THEN 0.85 WHEN '2024-25' THEN 0.60 WHEN '2023-24' THEN 0.35 ELSE 0.20 END))+0.44*SUM(fta*(CASE season WHEN '2026-27' THEN 1.0 WHEN '2025-26' THEN 0.85 WHEN '2024-25' THEN 0.60 WHEN '2023-24' THEN 0.35 ELSE 0.20 END))),0),1) AS ts_pct,
              SUM(CASE WHEN starter THEN 1 ELSE 0 END) AS starts,
              STRING_AGG(DISTINCT team_abbr, ', ' ORDER BY team_abbr) AS historical_teams,
              STRING_AGG(DISTINCT season, ', ' ORDER BY season) AS history_seasons
@@ -127,54 +129,127 @@ def render_team_comparison_chart(home_team, away_team, home_profile, away_profil
     }), hide_index=True, use_container_width=True)
 
 
+def role_flags(position):
+    """Approximate roster labels; these are not tracking-based defensive assignments."""
+    p=str(position or '').upper()
+    if p in ('', 'NAN', 'NONE'):
+        return set()
+    tokens=set(re.findall(r'PG|SG|SF|PF|C|G|F', p))
+    roles=set()
+    if tokens & {'PG','SG','G'}: roles.add('guard')
+    if tokens & {'SG','SF','F'}: roles.add('wing')
+    if tokens & {'PF','C'}: roles.add('big')
+    if not roles and ('GUARD' in p): roles.add('guard')
+    if not roles and ('FORWARD' in p): roles.add('wing')
+    if 'CENTER' in p: roles.add('big')
+    return roles
+
+
+def norm_name(s):
+    import unicodedata
+    return ''.join(c for c in unicodedata.normalize('NFKD', str(s)).casefold() if c.isalnum())
+
+
+def load_ovr_cache(path='nba_2k27_ratings.csv'):
+    """Sourced 2K OVR is an optional weak prior, never an estimated rating."""
+    file=Path(path)
+    if not file.exists(): return {}
+    try:
+        pass  # norm_name defined in this module
+        ratings=pd.read_csv(file)
+        if not {'name_key','overall'} <= set(ratings.columns): return {}
+        ratings['overall']=pd.to_numeric(ratings['overall'],errors='coerce')
+        valid=ratings.dropna(subset=['name_key','overall'])
+        unique=valid.groupby('name_key')['overall'].agg(['size','first'])
+        return {str(k):float(v['first']) for k,v in unique.iterrows() if v['size']==1 and 25<=v['first']<=99}
+    except Exception:
+        return {}
+
+
+def player_components(row, weights, ovr=None):
+    def n(k,default=0):
+        v=row.get(k,default)
+        return float(v) if pd.notna(v) else default
+    # Less rebound dominance; scoring and creation matter more. Coefficients are unvalidated heuristics.
+    offense=0.92*n('pts36')+1.50*n('ast36')+0.22*(n('ts_pct',54)-54)-1.25*n('tov36')
+    defense=0.48*n('reb36')+1.65*n('stocks36')
+    box=float(weights[0]*offense+weights[1]*defense)
+    # OVR maximum effect is deliberately small: 0..5 points, neutral if not sourced.
+    prior=0.0 if ovr is None else 0.20*(float(ovr)-75)
+    # Small-sample shrinkage to avoid overpromoting players on a handful of games.
+    games=n('games')
+    confidence=min(1.0,max(0.0,games)/20.0)
+    box=box*(0.65+0.35*confidence)
+    return {'offense':round(offense,2),'defense':round(defense,2),'ovr_prior':round(prior,2),'score':box+prior}
+
+
+def lineup_fit(group, rows):
+    roles=[role_flags(rows[i].get('position')) for i in group]
+    guards=sum('guard' in x for x in roles)
+    wings=sum('wing' in x for x in roles)
+    bigs=sum('big' in x for x in roles)
+    # Flexible balance: at least two backcourt-capable, one wing, one frontcourt-capable.
+    # Unknown roles are not automatically banned, but carry a mild uncertainty penalty.
+    penalty=0.0
+    penalty+=max(0,2-guards)*12.0
+    penalty+=max(0,1-wings)*8.0
+    penalty+=max(0,1-bigs)*8.0
+    penalty+=max(0,bigs-2)*7.0
+    penalty+=sum(not r for r in roles)*2.0
+    return -penalty
+
+
 def player_score(row, weights):
-    def n(k):
-        v=row.get(k,0)
-        return float(v) if pd.notna(v) else 0.0
-    # Fixed, interpretable heuristic: per-36 box score contributions, not model predictions.
-    off=0.9*n('pts36') + 1.2*n('ast36') + 0.13*(n('ts_pct')-54) - 1.4*n('tov36')
-    defense=1.2*n('reb36') + 2.4*n('stocks36')
-    return weights[0]*off + weights[1]*defense
+    """Compatibility wrapper for existing callers; OVR is optional."""
+    return player_components(row,weights)['score']
+
+
+@st.cache_data(show_spinner=False, ttl=86400)
+def court_headshot_data(player_id):
+    """Embed portrait data to avoid Plotly/browser cross-origin image failures."""
+    import base64
+    from io import BytesIO
+    from urllib.request import Request, urlopen
+    try:
+        from PIL import Image
+        url = f'https://cdn.nba.com/headshots/nba/latest/1040x760/{int(player_id)}.png'
+        with urlopen(Request(url,headers={'User-Agent':'Mozilla/5.0'}),timeout=5) as response:
+            raw=response.read(1_500_000)
+        with Image.open(BytesIO(raw)) as im:
+            im.thumbnail((150,110))
+            buff=BytesIO()
+            im.convert('RGBA').save(buff,format='PNG',optimize=True)
+            return 'data:image/png;base64,'+base64.b64encode(buff.getvalue()).decode('ascii')
+    except Exception:
+        return None
 
 
 def show_full_court(our_ids, opp_ids, our_names, opp_names, home, away):
-    """Full regulation-proportion basketball court; markers are illustrative slots."""
-    fig = go.Figure()
-    court='#b98a55'; floor='#132934'
-    fig.add_shape(type='rect', x0=0,y0=0,x1=94,y1=50,line=dict(color=court,width=3),fillcolor=floor)
-    fig.add_shape(type='line',x0=47,y0=0,x1=47,y1=50,line=dict(color=court,width=2))
-    fig.add_shape(type='circle',x0=41,y0=19,x1=53,y1=31,line=dict(color=court,width=2))
-    for flipped in (False,True):
-        xbase=0 if not flipped else 94
-        sign=1 if not flipped else -1
-        x=lambda v:xbase+sign*v
-        fig.add_shape(type='rect',x0=min(x(0),x(19)),y0=17,x1=max(x(0),x(19)),y1=33,line=dict(color=court,width=2))
-        fig.add_shape(type='circle',x0=x(19)-6,y0=19,x1=x(19)+6,y1=31,line=dict(color=court,width=1))
-        fig.add_shape(type='circle',x0=x(4)-4,y0=21,x1=x(4)+4,y1=29,line=dict(color=court,width=2))
-        fig.add_shape(type='line',x0=x(4),y0=22,x1=x(4),y1=28,line=dict(color=court,width=3))
-        fig.add_shape(type='line',x0=x(0),y0=3,x1=x(14),y1=3,line=dict(color=court,width=2))
-        fig.add_shape(type='line',x0=x(0),y0=47,x1=x(14),y1=47,line=dict(color=court,width=2))
-        import numpy as np
-        theta=np.linspace(-1.18,1.18,120)
-        xarc=x(4)+sign*23.75*np.cos(theta)
-        yarc=25+23.75*np.sin(theta)
-        fig.add_trace(go.Scatter(x=xarc,y=yarc,mode='lines',line=dict(color=court,width=2),showlegend=False,hoverinfo='skip'))
-    # 2-1-2 spacing is illustrative only; positions are not claimed from tracking.
-    left=[(12,12),(12,38),(26,25),(37,13),(37,37)]
-    right=[(94-a,b) for a,b in left]
-    for ids,names,coords,color,label in [(our_ids,our_names,left,'#9b75eb',home),(opp_ids,opp_names,right,'#39b6b2',away)]:
-        for i,(pid,(x,y)) in enumerate(zip(ids,coords),1):
-            full=names.get(str(pid),str(pid))
-            parts=full.split()
-            short=parts[-1] if parts else full
-            if len(short)>13: short=short[:12]+'…'
-            fig.add_trace(go.Scatter(x=[x],y=[y],mode='markers+text',marker=dict(size=38,color=color,line=dict(color='white',width=2)),text=[str(i)],textposition='middle center',textfont=dict(color='white',size=14),name=label,legendgroup=label,showlegend=(i==1),hovertemplate=full+'<extra>'+label+'</extra>'))
-            fig.add_annotation(x=x,y=y+4.7,text=short,showarrow=False,font=dict(size=11,color='white'),bgcolor='rgba(10,20,32,.84)',borderpad=3)
-    fig.update_xaxes(range=[-3,97],visible=False,scaleanchor='y',scaleratio=1)
-    fig.update_yaxes(range=[-5,56],visible=False)
-    fig.update_layout(height=570,margin=dict(l=10,r=10,t=28,b=8),paper_bgcolor='rgba(0,0,0,0)',plot_bgcolor='rgba(0,0,0,0)',legend=dict(orientation='h',y=1.05,x=0))
-    st.plotly_chart(fig,use_container_width=True)
-    st.caption('Both teams are shown on one regulation-proportion court. Placement is illustrative, not a measured assignment or tracking formation.')
+    """Self-contained SVG court; player photos are inline data URIs, not Plotly image overlays."""
+    import html
+    import streamlit.components.v1 as components
+    def esc(v): return html.escape(str(v), quote=True)
+    left=[(120,138),(120,362),(267,245),(392,140),(392,360)]
+    right=[(940-x,y) for x,y in left]
+    pieces=['<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 500" role="img" aria-label="Both teams on the basketball court" style="width:100%;height:auto;min-height:480px;display:block;background:#102631;border-radius:12px">']
+    pieces += ['<rect x="8" y="8" width="924" height="484" rx="8" fill="#122A36" stroke="#C99A5D" stroke-width="4"/>','<path d="M470 8V492" stroke="#C99A5D" stroke-width="2"/>','<circle cx="470" cy="250" r="65" fill="none" stroke="#C99A5D" stroke-width="2"/>','<rect x="8" y="156" width="180" height="188" fill="none" stroke="#C99A5D" stroke-width="2"/>','<rect x="752" y="156" width="180" height="188" fill="none" stroke="#C99A5D" stroke-width="2"/>','<circle cx="188" cy="250" r="60" fill="none" stroke="#C99A5D" stroke-width="2"/>','<circle cx="752" cy="250" r="60" fill="none" stroke="#C99A5D" stroke-width="2"/>','<path d="M8 66H92 A185 185 0 0 1 92 434H8 M932 66H848 A185 185 0 0 0 848 434H932" fill="none" stroke="#C99A5D" stroke-width="2"/>']
+    images=0
+    for ids,names,positions,color in ((our_ids,our_names,left,'#9872eb'),(opp_ids,opp_names,right,'#30b8b4')):
+        for index,(pid,(x,y)) in enumerate(zip(ids,positions),1):
+            nm=names.get(str(pid),str(pid)); short=nm.split()[-1]
+            src=court_headshot_data(pid)
+            pieces.append(f'<circle cx="{x}" cy="{y}" r="42" fill="{color}" stroke="white" stroke-width="3"/>')
+            if src and src.startswith('data:image/png;base64,'):
+                images+=1
+                clipid=f'face_{esc(pid)}_{index}_{x}'
+                pieces.append(f'<defs><clipPath id="{clipid}"><circle cx="{x}" cy="{y}" r="39"/></clipPath></defs>')
+                pieces.append(f'<image href="{src}" x="{x-42}" y="{y-42}" width="84" height="84" preserveAspectRatio="xMidYMid slice" clip-path="url(#{clipid})"/>')
+            else: pieces.append(f'<text x="{x}" y="{y+10}" fill="white" text-anchor="middle" font-size="28" font-weight="bold">{index}</text>')
+            pieces.append(f'<rect x="{x-65}" y="{y+46}" width="130" height="26" rx="7" fill="#07121C" opacity=".96"/>')
+            pieces.append(f'<text x="{x}" y="{y+64}" fill="white" text-anchor="middle" font-size="16" font-weight="bold">{esc(short[:17])}</text>')
+    pieces.append('</svg>')
+    components.html(''.join(pieces),height=680,scrolling=False)
+    st.caption(f'Illustrative full-court positions · {home} vs {away} · {images}/10 portraits loaded. Not tracking-based or defensive assignments.')
 
 
 def attach_current_roster(roster, profiles):
@@ -263,12 +338,13 @@ def render_decision_center(con, default_team, default_opponent, seasons, season_
         return
     away = default_opponent
     latest=sorted(seasons)[-1] if seasons else ''
-    available_seasons=[str(x[0]) for x in con.execute('SELECT DISTINCT season FROM player_games ORDER BY season').fetchall()]
+    available_seasons=[str(x[0]) for x in con.execute("SELECT DISTINCT season FROM player_games WHERE season >= '2023-24' ORDER BY season").fetchall()]
     st.caption('Historical seasons currently present in DuckDB: '+(', '.join(available_seasons) if available_seasons else 'none'))
-    seasons=st.multiselect('Historical seasons used for 5v5 player profiles',available_seasons,default=available_seasons,key='dc_historical_seasons',help='Independent of the sidebar season filter. Current roster always remains 2026-27. Historical stats are pooled by player ID even if the player switched teams.')
+    seasons=available_seasons
+    st.caption('Using all box-score seasons present in DuckDB: '+(', '.join(seasons) if seasons else 'none'))
     if not seasons:
         st.warning('Select one or more available historical seasons for lineup rankings.'); return
-    missing_seasons=[x for x in ['2022-23','2023-24','2024-25','2025-26','2026-27'] if x not in available_seasons]
+    missing_seasons=[x for x in ['2023-24','2024-25','2025-26','2026-27'] if x not in available_seasons]
     if missing_seasons: st.info('Historical data not collected locally for: '+', '.join(missing_seasons)+'. Select seasons in the sidebar only after importing those box scores. The roster fetch does not backfill historical statistics.')
     hcol, acol = st.columns(2)
     with hcol:
@@ -356,11 +432,16 @@ def render_decision_center(con, default_team, default_opponent, seasons, season_
     st.caption(f'Heuristic weights: offense {off_weight:.0%}, defense {def_weight:.0%}; opponent individual scoring profile {threat:.1f} pts/36 on average. No opponent-specific five-on-five outcome data used.')
     records=[]
     rows={str(r['player_id']):r for _,r in pool.iterrows()}
+    ovr_cache=load_ovr_cache()
+    # norm_name defined in this module
+    ovr_by_id={i:ovr_cache.get(norm_name(str(row['player_name']))) for i,row in rows.items()}
+    player_details={i:player_components(row,(off_weight,def_weight),ovr_by_id[i]) for i,row in rows.items()}
+    st.caption('v492: recency-weighted box scores, reduced rebounding dominance, lineup role-balance penalties, optional sourced 2K OVR prior. Still an unvalidated research heuristic.')
     for group in combinations(pool.player_id.astype(str).tolist(),5):
         swaps=len(set(group)-set(own_five)) if own_five else 0
         if swaps>max_swaps:continue
         samples=sum(float(rows[i]['games']) for i in group)
-        base=sum(player_score(rows[i],(off_weight,def_weight)) for i in group)
+        base=sum(player_details[i]['score'] for i in group)+lineup_fit(group,rows)
         # Small penalty only for simultaneous substitutions in in-game mode.
         score=base-0.6*swaps
         records.append(dict(ids=group,score=score,swaps=swaps,sample_games=int(samples)))
@@ -376,15 +457,31 @@ def render_decision_center(con, default_team, default_opponent, seasons, season_
     st.subheader('Top 5 candidate lineups')
     st.dataframe(pd.DataFrame(display),hide_index=True,use_container_width=True)
     selected_rank=st.selectbox('Visualize recommended lineup',list(range(1,len(ranked)+1)),format_func=lambda i:f'#{i} — '+', '.join(full_home_names[p] for p in ranked[i-1]['ids']),key='dc_rank_view')
+    st.caption('Changing this selection redraws the five on-court portraits and both offensive and defensive radars.')
     chosen=ranked[selected_rank-1]
+    with st.expander('Why these five? — player score breakdown',expanded=False):
+        breakdown=[]
+        for pid in chosen['ids']:
+            r=rows[pid]; d=player_details[pid]
+            breakdown.append({'Player':full_home_names[pid], 'Position':str(r.get('position','')),
+                'Games':int(r['games']), 'PTS/36':r['pts36'],'AST/36':r['ast36'],
+                'REB/36':r['reb36'],'OVR':ovr_by_id.get(pid),
+                'Offense proxy':d['offense'],'Defense proxy':d['defense'],
+                'OVR prior':d['ovr_prior'],'Player score':round(d['score'],2)})
+        st.dataframe(pd.DataFrame(breakdown),hide_index=True,use_container_width=True)
+        comparison=[]
+        for pid,row in rows.items():
+            if 'REAVES' in str(row['player_name']).upper() or 'LOONEY' in str(row['player_name']).upper():
+                d=player_details[pid]
+                comparison.append({'Player':row['player_name'],'Position':row.get('position'),
+                  'PTS/36':row['pts36'],'AST/36':row['ast36'],'REB/36':row['reb36'],
+                  'OVR':ovr_by_id.get(pid),'Model score':round(d['score'],2)})
+        if comparison:
+            st.markdown('**Reaves vs Looney — same-model comparison**')
+            st.dataframe(pd.DataFrame(comparison),hide_index=True,use_container_width=True)
+        st.caption('Per-player scoring is not lineup impact. Role penalties are applied to the combination; 2K OVR is an external, optional, small prior.')
     st.subheader('Recommended formation')
     render_matchup_triptych(chosen['ids'],opponent_five,home_df,away_df,full_home_names,full_away_names,home,away)
-    with st.expander('Selected players · NBA headshots',expanded=False):
-        portraits=st.columns(5)
-        for i,pid in enumerate(chosen['ids']):
-            with portraits[i]:
-                st.image(f'https://cdn.nba.com/headshots/nba/latest/1040x760/{pid}.png',use_container_width=True)
-                st.caption(full_home_names[pid])
     best=chosen
     c1,c2,c3=st.columns(3)
     c1.metric('Candidate combinations evaluated',f'{len(records):,}')
