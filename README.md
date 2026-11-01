@@ -1,7 +1,7 @@
-<div align="center">
+﻿<div align="center">
 
-# 🏀 NBA Decision Intelligence
-### Player & Lineup Analysis · Basketball Decision Support
+# ðŸ€ NBA Decision Intelligence
+### Player & Lineup Analysis Â· Basketball Decision Support
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
@@ -13,7 +13,7 @@
 </div>
 
 <details>
-<summary><strong>How the platform works — data architecture</strong></summary>
+<summary><strong>How the platform works â€” data architecture</strong></summary>
 
 ![Project architecture](assets/architecture.svg)
 
@@ -23,7 +23,7 @@
 
 NBA Decision Intelligence is an independently developed **sports analytics portfolio project** built with Python, Streamlit, and DuckDB. It aims to help analysts explore player production across franchises and seasons, visualize on-court shooting profiles, and compare hypothetical five-player units against opponents.
 
-**Supported analysis window:** **2023–24, 2024–25, 2025–26, and 2026–27**, subject to local data availability. Roster snapshots are not live injury or availability feeds.
+**Supported analysis window:** **2023â€“24, 2024â€“25, 2025â€“26, and 2026â€“27**, subject to local data availability. Roster snapshots are not live injury or availability feeds.
 
 > **Research status:** The 5v5 rankings are experimental, based primarily on historical box-score proxies. The lineup-reconstruction audits are internal consistency checks, **not independent certification** of historical stints, matchup impact, or real-time substitution recommendations.
 
@@ -42,7 +42,7 @@ Compare hypothetical five-player units with a full-court portrait visualization.
 ![5v5 lineup recommendations and full-court formation](assets/decision-center.png)
 
 <details>
-<summary><strong>Explore more visuals — shooting, team comparison, and roster</strong></summary>
+<summary><strong>Explore more visuals â€” shooting, team comparison, and roster</strong></summary>
 
 #### Shot density heatmap
 
@@ -62,7 +62,7 @@ Descriptive team-level comparisons using box-score production and defensive-acti
 
 ![Offense and defense comparison between teams](assets/team-comparison.png)
 
-#### 2026–27 Roster Manager
+#### 2026â€“27 Roster Manager
 
 Explore roster snapshots and sortable player statistics (minutes, points, rebounds, assists). The roster is not a live availability or injury feed.
 
@@ -103,26 +103,26 @@ python -m venv .venv
 ```
 
 ```powershell
-.\.venv\Scripts\python.exe -m streamlit run .\app_decision_v491.py
+.\.venv\Scripts\python.exe -m streamlit run .\app_decision_v492.py
 ```
 
-The primary local entry point in the latest tested project iteration is `app_decision_v491.py`. When `requirements.txt` is not yet synchronized with the active environment, export and review dependencies before deployment.
+The primary local entry point in the latest tested project iteration is `app_decision_v492.py`. When `requirements.txt` is not yet synchronized with the active environment, export and review dependencies before deployment.
 
 ## Project structure (target)
 
 ```text
 nba-decision-intelligence/
-├── assets/                      # Documentation screenshots and diagrams
-├── app_decision_v491.py         # Current Streamlit entry point
-├── decision_center_v481.py      # Candidate lineup visualizations
-├── v47_visuals.py               # Profile and graphics components
-├── analysis.py                  # Analytics queries and transformations
-├── lineup_engine.py             # Lineup analysis helpers
-├── roster_2026_27.py            # Local roster utilities
-├── team_branding.py             # Team branding helpers
-├── requirements.txt             # App dependencies
-├── README.md
-└── .gitignore
+â”œâ”€â”€ assets/                      # Documentation screenshots and diagrams
+â”œâ”€â”€ app_decision_v492.py         # Current Streamlit entry point
+â”œâ”€â”€ decision_center_v492.py      # Candidate lineup visualizations
+â”œâ”€â”€ v47_visuals.py               # Profile and graphics components
+â”œâ”€â”€ analysis.py                  # Analytics queries and transformations
+â”œâ”€â”€ lineup_engine.py             # Lineup analysis helpers
+â”œâ”€â”€ roster_2026_27.py            # Local roster utilities
+â”œâ”€â”€ team_branding.py             # Team branding helpers
+â”œâ”€â”€ requirements.txt             # App dependencies
+â”œâ”€â”€ README.md
+â””â”€â”€ .gitignore
 ```
 
 *The public repository may temporarily contain additional legacy modules and validation scripts. This tree describes the intended production-focused organization, not a verified complete inventory.*
@@ -146,6 +146,7 @@ This project is **not affiliated with or endorsed by the NBA, NBA teams, 2K Spor
 
 <div align="center">
 
-**Developed by Jorge Montañez** · Sports Analytics · Data Science · Decision Intelligence
+**Developed by Jorge MontaÃ±ez** Â· Sports Analytics Â· Data Science Â· Decision Intelligence
 
 </div>
+
