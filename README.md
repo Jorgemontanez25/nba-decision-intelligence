@@ -103,7 +103,7 @@ python -m venv .venv
 ```
 
 ```powershell
-.\.venv\Scripts\python.exe -m streamlit run .\app_decision_v491.py
+.\.venv\Scripts\python.exe -m streamlit run .\app_decision_v492.py
 ```
 
 The primary local entry point in the latest tested project iteration is `app_decision_v491.py`. When `requirements.txt` is not yet synchronized with the active environment, export and review dependencies before deployment.
