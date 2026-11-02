@@ -6,3 +6,4 @@ plotly>=5.20,<7
 Pillow>=10,<13
 requests>=2.31,<3
 nba_api>=1.5,<2
+huggingface_hub>=0.30,<2

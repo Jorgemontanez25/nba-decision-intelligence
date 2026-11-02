@@ -1,3 +1,4 @@
+from cloud_data import resolve_cloud_db
 """NBA Decision Intelligence: player analysis, shot charts, density heatmaps, zone efficiency, and lineups."""
 from pathlib import Path
 
@@ -274,7 +275,7 @@ def zone_efficiency_figure(summary: pd.DataFrame, player_label: str, min_attempt
 
 st.set_page_config(page_title='NBA Decision Intelligence', layout='wide')
 st.title('NBA Decision Intelligence — Player & Lineup Analysis')
-db = str(Path(__file__).resolve().parent / 'deployment' / 'nba_demo.duckdb')
+db = resolve_cloud_db()
 seasons = ['2023-24', '2024-25', '2025-26', '2026-27']
 season_types = st.sidebar.multiselect(
     'Game types', ['Regular Season', 'Playoffs'], default=['Regular Season'])
