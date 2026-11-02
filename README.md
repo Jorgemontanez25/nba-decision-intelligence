@@ -53,6 +53,52 @@ Box-score proxies, not opponent-adjusted defensive efficiency.
 ![Architecture](assets/architecture.svg)
 </details>
 
+<!-- CLOUD_SHOWCASE_STATUS_START -->
+## Hosted portfolio and shooting-data status (November 2026)
+
+**Live app:** https://nba-decision-intelligence.streamlit.app/  
+**Deployment branch:** `release/streamlit-cloud`  
+**Entrypoint:** `app_decision_cloud.py`
+
+The original Streamlit dashboard has been launched online. With a compatible,
+authorized `.duckdb` file supplied through the session uploader, its player-game
+analytics and box-score-based decision-support views can be explored. **A freshly
+opened session does not automatically have a populated database**: the cloud
+loader expects an authorized private snapshot or a compatible file supplied by
+an authorized user. The session upload is temporary, not a persistent public
+dataset. The public link alone does not guarantee populated data for visitors.
+
+### Shooting showcase
+
+The original research environment includes actual NBA.com-derived shot-event
+coordinates, makes/misses and shot distances, used for shot charts, density
+heatmaps and zone-efficiency maps. The currently tested cloud-compatible
+game-log snapshot has **no `shot_events`**, so these visuals are unavailable
+when that snapshot is selected. No shot coordinates are simulated.
+
+`build_shooting_showcase.py` creates a **local-only** extract of selected player
+shot events and their corresponding game/box-score records from an existing
+local DuckDB database. Example:
+
+```powershell
+.\.venv\Scripts\python.exe .\build_shooting_showcase.py --source nba_current.duckdb --out nba_shooting_showcase_LOCAL_ONLY.duckdb --seasons 2025-26 2026-27
+```
+
+This file must **not** be committed to a public repository or uploaded to
+third-party hosting without confirming the necessary rights. A noncommercial
+portfolio purpose, crediting the source, or extracting a small sample does not
+alone confer rights to republish NBA-derived event-level records or charts.
+
+The 5v5 Decision Center includes *experimental box-score-based rankings*;
+it is not a validated lineup win-probability or certified historical lineup
+impact model. Verified stint coverage and the availability of roster snapshots
+are separately reported in the app.
+
+**Deployment next steps:** establish an authorized source for persistent cloud
+player-game and shot-event data; verify row counts, missing coverage and feature
+rendering after deployment; keep secrets and raw research databases out of Git.
+<!-- CLOUD_SHOWCASE_STATUS_END -->
+
 ## Technology
 
 | Layer | Technology |
@@ -84,14 +130,14 @@ For a read-only deployment-entrypoint test, first provide an authorized snapshot
 .\.venv\Scripts\python.exe -m streamlit run .\app_decision_cloud.py
 ```
 
-**Streamlit Community Cloud is not deployed yet.** The planned entrypoint is `app_decision_cloud.py`, branch `release/streamlit-cloud`, with dependencies from `requirements.txt`. Deploying the code without an approved dataset source will not populate the dashboard. Do not publicly redistribute NBA-derived records without appropriate rights.
+**Streamlit Community Cloud deployment exists.** The planned entrypoint is `app_decision_cloud.py`, branch `release/streamlit-cloud`, with dependencies from `requirements.txt`. Deploying the code without an approved dataset source will not populate the dashboard. Do not publicly redistribute NBA-derived records without appropriate rights.
 
 ## Roadmap
 
 - [x] Player history, shooting charts, and roster exploration
 - [x] Experimental 5v5 decision-support interface
 - [ ] Reproducible, authorized public demonstration dataset
-- [ ] Hosted Streamlit dashboard
+- [x] Hosted Streamlit app deployed (authorized data must be supplied separately)
 - [ ] Validated lineup impact model and monitored refreshes
 
 ## Responsible use
