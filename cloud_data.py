@@ -13,6 +13,8 @@ import streamlit as st
 
 ROOT = Path(__file__).resolve().parent
 LOCAL_DB = ROOT / 'deployment' / 'nba_demo.duckdb'
+# Only place a snapshot here if third-party cloud storage and public display are authorized.
+AUTO_PORTFOLIO_DB = ROOT / 'deployment' / 'portfolio_public.duckdb'
 REQUIRED_TABLES = {'player_games', 'team_games', 'shot_events'}
 
 
@@ -81,6 +83,15 @@ def _session_upload() -> str | None:
 
 
 def resolve_cloud_db() -> str:
+    # Public portfolio: load a separately authorized snapshot automatically.
+    # Never bundle the original local research database by default.
+    if AUTO_PORTFOLIO_DB.is_file():
+        try:
+            _validate_database(str(AUTO_PORTFOLIO_DB))
+        except Exception as exc:
+            st.error(f'Bundled portfolio database is invalid: {type(exc).__name__}: {exc}')
+            st.stop()
+        return str(AUTO_PORTFOLIO_DB)
     uploaded = _session_upload()
     if uploaded:
         st.sidebar.success('Research snapshot loaded for this session.')
