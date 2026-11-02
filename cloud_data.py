@@ -107,6 +107,13 @@ def resolve_cloud_db() -> str:
                 if not target.is_file():
                     build_portfolio_db(target)
                 _validate_database(str(target))
+                # SHOOTING_OVERLAY_V1: optional, authorized three-player events.
+                try:
+                    from shooting_overlay import merge_authorized_shots
+                    merge_authorized_shots(str(target))
+                except Exception as shooting_exc:
+                    st.warning('Shooting showcase data unavailable; player game logs remain available.')
+                    st.caption(f'Shooting integration status: {type(shooting_exc).__name__}')
                 return str(target)
             return _auto_portfolio()
         except Exception as exc:
