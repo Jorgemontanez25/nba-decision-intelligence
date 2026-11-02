@@ -92,6 +92,26 @@ def resolve_cloud_db() -> str:
             st.error(f'Bundled portfolio database is invalid: {type(exc).__name__}: {exc}')
             st.stop()
         return str(AUTO_PORTFOLIO_DB)
+    # AUTO_GAMELOGS_BOOTSTRAP_V1: free source-attributed regular-season player logs.
+    # No shot events or verified lineup stints are generated.
+    try:
+        _auto = st.secrets.get('AUTO_BUILD_PORTFOLIO', True)
+    except (FileNotFoundError, KeyError):
+        _auto = True
+    if _auto:
+        try:
+            from portfolio_bootstrap import build_portfolio_db
+            @st.cache_resource(show_spinner='Preparing real player game logs for this session...')
+            def _auto_portfolio():
+                target = Path(tempfile.gettempdir()) / 'nba_portfolio_gamelogs_auto.duckdb'
+                if not target.is_file():
+                    build_portfolio_db(target)
+                _validate_database(str(target))
+                return str(target)
+            return _auto_portfolio()
+        except Exception as exc:
+            st.warning('Automatic game-log snapshot unavailable; optional database upload is still supported.')
+            st.caption(f'Data source status: {type(exc).__name__}')
     uploaded = _session_upload()
     if uploaded:
         st.sidebar.success('Research snapshot loaded for this session.')
