@@ -89,14 +89,32 @@ third-party hosting without confirming the necessary rights. A noncommercial
 portfolio purpose, crediting the source, or extracting a small sample does not
 alone confer rights to republish NBA-derived event-level records or charts.
 
+### Shooting showcase validation — 2 November 2026
+
+A separate **local-only** integration test merged existing real shot-event
+records with the portfolio game-log database. **3,680 of 3,703 shot events**
+matched a portfolio player-game record (99.4%); the remaining **23 events**
+were excluded because corresponding player-game records were unavailable.
+The original dashboard successfully rendered player statistics, shot charts,
+shot-density heatmaps and zone-efficiency maps for **Stephen Curry, Luka Dončić,
+and Nikola Jokić** using the combined local snapshot. These counts reflect
+available records, not proof of complete season coverage or coordinate accuracy.
+
+**This is a technical compatibility validation, not a permission determination.**
+The combined research dataset remains local and is not a public download.
+Public display or third-party hosting of NBA.com-derived shot records and
+visualizations requires a confirmed permission basis or an appropriately
+licensed alternative source. No fabricated shot events are used.
+
 The 5v5 Decision Center includes *experimental box-score-based rankings*;
 it is not a validated lineup win-probability or certified historical lineup
 impact model. Verified stint coverage and the availability of roster snapshots
 are separately reported in the app.
 
-**Deployment next steps:** establish an authorized source for persistent cloud
-player-game and shot-event data; verify row counts, missing coverage and feature
-rendering after deployment; keep secrets and raw research databases out of Git.
+**Deployment next steps:** establish authorized persistent hosting for player
+and shooting data, verify the cloud dashboard in a fresh browser session, and
+keep secrets and raw research datasets out of Git. The current public app URL
+alone does not guarantee populated data for new visitors.
 <!-- CLOUD_SHOWCASE_STATUS_END -->
 
 ## Technology
@@ -130,12 +148,13 @@ For a read-only deployment-entrypoint test, first provide an authorized snapshot
 .\.venv\Scripts\python.exe -m streamlit run .\app_decision_cloud.py
 ```
 
-**Streamlit Community Cloud deployment exists.** The planned entrypoint is `app_decision_cloud.py`, branch `release/streamlit-cloud`, with dependencies from `requirements.txt`. Deploying the code without an approved dataset source will not populate the dashboard. Do not publicly redistribute NBA-derived records without appropriate rights.
+**Streamlit Community Cloud deployment exists.** The deployed entrypoint is `app_decision_cloud.py`, branch `release/streamlit-cloud`, with dependencies from `requirements.txt`. Deploying the code without an approved dataset source will not populate the dashboard. Do not publicly redistribute NBA-derived records without appropriate rights.
 
 ## Roadmap
 
 - [x] Player history, shooting charts, and roster exploration
 - [x] Experimental 5v5 decision-support interface
+- [x] Local shooting showcase integration test (3,680 matched events)
 - [ ] Reproducible, authorized public demonstration dataset
 - [x] Hosted Streamlit app deployed (authorized data must be supplied separately)
 - [ ] Validated lineup impact model and monitored refreshes
