@@ -1,15 +1,20 @@
-"""Resolve an authorized private research database for Streamlit Cloud.
+"""Cloud database selector for NBA Decision Intelligence.
 
-No data is shipped inside the public Git repository. This helper uses a private
-Hugging Face dataset repository requiring the owner's token, or an existing
-local snapshot for development. The app must be kept private until the operator
-has confirmed the rights required for its data usage and publication.
+Optional bring-your-own DuckDB file in a Streamlit session, or authorized private
+Hugging Face snapshot. Never publish a local research database automatically.
 """
 from pathlib import Path
+import os
+import tempfile
+import uuid
+
+import duckdb
 import streamlit as st
 
 ROOT = Path(__file__).resolve().parent
 LOCAL_DB = ROOT / 'deployment' / 'nba_demo.duckdb'
+REQUIRED_TABLES = {'player_games', 'team_games', 'shot_events'}
+
 
 @st.cache_resource(show_spinner='Connecting to private research data...')
 def _download_private_database(repo_id: str, token: str) -> str:
@@ -17,34 +22,95 @@ def _download_private_database(repo_id: str, token: str) -> str:
     api = HfApi(token=token)
     info = api.repo_info(repo_id=repo_id, repo_type='dataset', token=token)
     if not info.private:
-        raise RuntimeError('Refusing to load dataset: Hugging Face repository is PUBLIC. Make it private first.')
-    return hf_hub_download(repo_id=repo_id, filename='nba_demo.duckdb', repo_type='dataset', token=token)
+        raise RuntimeError('The dataset repository must be private.')
+    return hf_hub_download(
+        repo_id=repo_id, filename='nba_demo.duckdb',
+        repo_type='dataset', token=token,
+    )
+
+
+def _validate_database(path: str) -> None:
+    with duckdb.connect(path, read_only=True) as con:
+        rows = con.execute(
+            'SELECT table_name FROM information_schema.tables '
+            "WHERE table_schema = 'main'"
+        ).fetchall()
+    present = {row[0] for row in rows}
+    missing = REQUIRED_TABLES - present
+    if missing:
+        raise ValueError('Missing expected tables: ' + ', '.join(sorted(missing)))
+
+
+def _session_upload() -> str | None:
+    st.sidebar.markdown('### Online research data')
+    st.sidebar.caption('Optional: open your own DuckDB snapshot in this browser session. The file is transferred to Streamlit hosting, not added to GitHub or Hugging Face.')
+    upload = st.sidebar.file_uploader('Choose DuckDB snapshot', type=['duckdb'], key='research_db_upload')
+    if upload is None:
+        # Preserve the temporary file during normal Streamlit widget reruns.
+        existing = st.session_state.get('_research_db_path')
+        return existing if existing and Path(existing).is_file() else None
+
+    identity = (upload.name, upload.size, upload.file_id)
+    if (identity == st.session_state.get('_research_db_identity')
+            and Path(st.session_state.get('_research_db_path', '')).is_file()):
+        return st.session_state['_research_db_path']
+
+    path = os.path.join(tempfile.gettempdir(), 'nba_research_' + uuid.uuid4().hex + '.duckdb')
+    try:
+        with open(path, 'wb') as output:
+            while chunk := upload.read(1024 * 1024):
+                output.write(chunk)
+        _validate_database(path)
+    except Exception as exc:
+        try:
+            os.remove(path)
+        except OSError:
+            pass
+        st.sidebar.error(f'Invalid or incompatible DuckDB snapshot: {type(exc).__name__}: {exc}')
+        st.stop()
+
+    previous = st.session_state.get('_research_db_path')
+    st.session_state['_research_db_path'] = path
+    st.session_state['_research_db_identity'] = identity
+    if previous and previous != path:
+        try:
+            os.remove(previous)
+        except OSError:
+            pass
+    return path
 
 
 def resolve_cloud_db() -> str:
-    """Use private cloud data when configured, otherwise the local snapshot.
+    uploaded = _session_upload()
+    if uploaded:
+        st.sidebar.success('Research snapshot loaded for this session.')
+        return uploaded
 
-    The token is never printed. The private repo ID is provided via Streamlit
-    Cloud secrets and is not hard-coded. Public visitors must be disabled in
-    Streamlit's sharing settings for this research deployment.
-    """
     try:
         repo_id = st.secrets.get('HF_DATASET_REPO', '')
         token = st.secrets.get('HF_TOKEN', '')
-    except FileNotFoundError:
+    except (FileNotFoundError, KeyError):
         repo_id, token = '', ''
-    if repo_id or token:
-        if not repo_id or not token:
-            st.error('Private research data credentials are incomplete in Streamlit secrets.')
-            st.stop()
+
+    if repo_id and token:
         try:
-            path = Path(_download_private_database(str(repo_id), str(token)))
+            path = _download_private_database(str(repo_id), str(token))
+            _validate_database(path)
+            return path
         except Exception as exc:
-            st.error('Could not access the private research database. Check repository privacy, access permissions, and Streamlit secrets.')
-            st.caption(f'Technical category: {type(exc).__name__}')
-            st.stop()
-        return str(path)
+            st.warning('The private research snapshot is not available yet. Use the upload control in the sidebar to open your own permitted dataset.')
+            st.caption(f'Private database status: {type(exc).__name__}')
+    elif repo_id or token:
+        st.warning('Private research database configuration is incomplete. You can use the upload control instead.')
+
     if LOCAL_DB.is_file():
-        return str(LOCAL_DB)
-    st.error('Research database unavailable. Set HF_DATASET_REPO and HF_TOKEN in Streamlit secrets.')
+        try:
+            _validate_database(str(LOCAL_DB))
+            return str(LOCAL_DB)
+        except (duckdb.Error, ValueError) as exc:
+            st.error(f'Bundled database is incompatible: {exc}')
+            st.stop()
+
+    st.info('To open the full NBA Decision Intelligence dashboard, upload a compatible .duckdb snapshot using the sidebar. The original application and its analytics have not been changed.')
+    st.caption('Only upload data you are authorized to transfer to a third-party cloud server. This session-upload option does not provide a permanent public data source.')
     st.stop()
