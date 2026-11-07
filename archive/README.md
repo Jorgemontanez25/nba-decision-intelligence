@@ -16,13 +16,15 @@ is still tracked in Git, and full history is preserved — use
   `decision_center_v481.py` (replaced by `decision_center_v492.py`), and
   the separate `nba_web_mvp/` app.
 - `legacy-scripts/` — v45/v46/v47 refresh, coverage, visuals, and audit
-  scripts that the live app no longer imports (`v45_daily_refresh.py`,
-  `v46_coverage_and_backfill.py`, `v46_visuals.py`, `v47_2k27_refresh.py`,
+  scripts that the live app no longer imports (`v46_coverage_and_backfill.py`, `v46_visuals.py`, `v47_2k27_refresh.py`,
   `v47_history_audit.py`, `v47_history_audit_fixed.py`). The live app
   uses `v45_visuals.py` and `v47_visuals.py` at the root.
 - `notes/gitignore-duplicate.txt` — the stray file formerly named
   `gitignore` at the root. It duplicated `.gitignore` and was not itself
   a gitignore file. `.gitignore` at the root is the real one.
+
+
+> Note: `v45_daily_refresh.py` was initially moved here and then restored to the repository root on 2026-11-07 — it is the live current-season updater (default season 2026–27) and sets `ROOT` from its own location, so it must stay at the root to find `roster_2026_27.py`, `collect_schedule_v7.py`, and `nba_current.duckdb`.
 
 ## What was untracked, not moved
 

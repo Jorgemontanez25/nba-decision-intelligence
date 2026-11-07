@@ -233,7 +233,7 @@ def show_refresh_health():
     path=Path('data_refresh_v45')/'latest.json'
     with st.expander('Data refresh status',expanded=False):
         if not path.exists():
-            st.info('No local daily refresh report yet. Run archive/legacy-scripts/v45_daily_refresh.py after configuring collection.')
+            st.info('No local daily refresh report yet. Run v45_daily_refresh.py after configuring collection.')
             return
         try:
             r=json.loads(path.read_text(encoding='utf-8'))
