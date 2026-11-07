@@ -28,6 +28,10 @@ NBA Decision Intelligence is an independent sports analytics portfolio project b
 
 See [Limitations & scope](#limitations--scope) for what is experimental, local-only, or still pending permission.
 
+## Repository layout
+
+The live app is at the root: `app_decision_cloud.py` (hosted) and `app_decision_v492.py` (local), plus the modules they import. Historical audit scripts, superseded app versions, and unused refresh/audit scripts were moved to `archive/` — moved, not deleted, with full Git history preserved. See `archive/README.md` for what went where and how to restore a file. Generated logs and coverage files are not tracked; local DuckDB databases are never committed.
+
 ## Explore the dashboard
 
 ### Player Analysis
